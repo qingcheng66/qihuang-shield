@@ -1,29 +1,31 @@
 @echo off
-chcp 65001 >nul
+title HerbShield Microservices Launcher
+cd /d "%~dp0"
+
 echo ========================================================
-echo        岐黄盾 (HerbShield) - 微服务一键联调启动脚本
+echo        HerbShield (Qihuang-Shield) Launcher
 echo ========================================================
 echo.
 
-echo [1/3] 启动 Python AI 计算中枢 (:8000)...
-start "HerbShield - Python AI Service" cmd /k "cd /d %~dp0backend-python && python main.py"
+echo [1/3] Starting Python AI Service (Port 8000)...
+start "HerbShield - Python AI Service (:8000)" /D "%~dp0backend-python" cmd /k "python main.py"
 
-echo [2/3] 启动 Java 业务中枢与规则引擎 (:8080)...
-start "HerbShield - Java Core & Rule Engine" cmd /k "cd /d %~dp0backend-java && mvn spring-boot:run"
+echo [2/3] Starting Java Core and Rule Engine (Port 8080)...
+start "HerbShield - Java Core (:8080)" /D "%~dp0backend-java" cmd /k "mvn spring-boot:run"
 
-echo [3/3] 启动 Vue 3 PWA 前端服务 (:3000)...
-start "HerbShield - Vue 3 Frontend" cmd /k "cd /d %~dp0frontend && npm run dev -- --host 0.0.0.0 --port 3000"
+echo [3/3] Starting Vue 3 Frontend (Port 3000)...
+start "HerbShield - Vue 3 Frontend (:3000)" /D "%~dp0frontend" cmd /k "npm run dev -- --host 0.0.0.0 --port 3000"
 
 echo.
-echo 正在等待服务就绪，3 秒后自动呼出浏览器工作台页面...
-timeout /t 3 /nobreak >nul
+echo Waiting for services to initialize...
+ping -n 5 127.0.0.1 >nul
 start http://127.0.0.1:3000
 
 echo ========================================================
-echo  所有微服务已在独立窗口中并发运行:
-echo   - 前端工作台: http://127.0.0.1:3000 (或 http://localhost:3000)
-echo   - Java 网关中枢: http://127.0.0.1:8080/api/health
-echo   - Python AI 算力: http://127.0.0.1:8000/health
+echo  All microservices launched in separate windows:
+echo   - Frontend: http://127.0.0.1:3000
+echo   - Java Gateway: http://127.0.0.1:8080/api/health
+echo   - Python AI: http://127.0.0.1:8000/health
 echo ========================================================
 echo.
 pause
