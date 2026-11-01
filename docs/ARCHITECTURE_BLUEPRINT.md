@@ -17,9 +17,13 @@
 
 ---
 
-## 二、 整体分层系统架构
+## 二、 整体分层系统架构与神经-符号双脑协同 (Neuro-Symbolic)
 
-系统采用 **“端-网-边-芯”现代异构微服务解耦设计**：
+系统采用 **“端-网-边-芯”现代异构微服务解耦** 与 **“神经-符号双脑协同 (Neuro-Symbolic Dual-Engine)”** 深度融合设计：
+
+*   **感知与认知脑 (AI - PaddleOCR + LLM + RAG)**：负责非结构化图像字符识别、中医药手写 OCR 错别字智能纠偏、传统衡制转换，以及深度君臣佐使方解推演（AI 影响率约 85%~90%）；
+*   **守底戒尺 (Rule Engine - Java In-Memory)**：负责《中国药典》法定十八反、十九畏、极量红线的绝对确定性拦截（**生命安全一票否决权 100% 归属规则引擎，零医学幻觉误报**）。
+*   详细论证请参阅核心文献：[《神经-符号双脑协同架构与 AI 决策权责分层论证报告》](file:///D:/work/ai/qihuang-shield/docs/NEURO_SYMBOLIC_AI_AND_DECISION_MATRIX.md)。
 
 ```mermaid
 flowchart TD
