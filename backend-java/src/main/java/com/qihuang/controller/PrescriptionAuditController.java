@@ -1,21 +1,23 @@
 package com.qihuang.controller;
 
+import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONArray;
 import com.alibaba.fastjson2.JSONObject;
+import com.qihuang.entity.PrescriptionAuditEntity;
 import com.qihuang.model.AuditRequest;
 import com.qihuang.model.AuditResult;
 import com.qihuang.model.HerbItem;
+import com.qihuang.repository.PrescriptionAuditRepository;
 import com.qihuang.service.AiServiceClient;
 import com.qihuang.service.RuleEngineService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 中药处方配伍安全质检与跨微服务调度控制器
@@ -29,6 +31,7 @@ public class PrescriptionAuditController {
 
     private final RuleEngineService ruleEngineService;
     private final AiServiceClient aiServiceClient;
+    private final PrescriptionAuditRepository auditRepository;
 
     /**
      * 处方文本结构化列表直接审查接口
@@ -36,10 +39,43 @@ public class PrescriptionAuditController {
     @PostMapping("/prescription-text")
     public Map<String, Object> auditPrescriptionText(@RequestBody AuditRequest request) {
         AuditResult result = ruleEngineService.auditPrescription(request);
+
+        // 异步/自动持久化到数据库
+        String serialNo = "HS-" + System.currentTimeMillis() + "-" + UUID.randomUUID().toString().substring(0, 4).toUpperCase();
+        try {
+            PrescriptionAuditEntity record = PrescriptionAuditEntity.builder()
+                    .auditSerialNo(serialNo)
+                    .rawText("结构化文本输入: " + (request.getHerbs() != null ? request.getHerbs().size() + "味药材" : ""))
+                    .detectedHerbs(JSON.toJSONString(request.getHerbs()))
+                    .safetyStatus(result.getStatus())
+                    .contraindications(JSON.toJSONString(result.getFatalWarnings()))
+                    .build();
+            auditRepository.save(record);
+        } catch (Exception e) {
+            log.warn("保存处方审查流水日志失败: {}", e.getMessage());
+        }
+
         Map<String, Object> response = new HashMap<>();
         response.put("code", 200);
         response.put("message", "success");
+        response.put("serialNo", serialNo);
         response.put("data", result);
+        return response;
+    }
+
+    /**
+     * 获取历史处方质检留痕记录 (医疗合规审计溯源)
+     */
+    @GetMapping("/history")
+    public Map<String, Object> getAuditHistory(@RequestParam(defaultValue = "10") int limit) {
+        int pageSize = Math.min(Math.max(limit, 1), 50);
+        var page = auditRepository.findAll(PageRequest.of(0, pageSize, Sort.by(Sort.Direction.DESC, "createdAt")));
+
+        Map<String, Object> response = new HashMap<>();
+        response.put("code", 200);
+        response.put("message", "success");
+        response.put("total", page.getTotalElements());
+        response.put("data", page.getContent());
         return response;
     }
 

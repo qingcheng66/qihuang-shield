@@ -1,0 +1,16 @@
+# 生产环境配置 (腾讯云 Ubuntu 24.04 + PostgreSQL 16 + pgvector)
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/qihuang_shield}
+    username: ${SPRING_DATASOURCE_USERNAME:qihuang}
+    password: ${SPRING_DATASOURCE_PASSWORD:qihuang_secret}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: false
+    properties:
+      hibernate:
+        default_schema: public

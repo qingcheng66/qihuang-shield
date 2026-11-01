@@ -8,6 +8,8 @@ server:
 spring:
   application:
     name: herb-shield-backend
+  profiles:
+    active: dev
 
 # AI 计算节点配置
 ai-service:
