@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+
+spring:
+  application:
+    name: herb-shield-backend
+
+# AI 计算节点配置
+ai-service:
+  base-url: http://127.0.0.1:8000
