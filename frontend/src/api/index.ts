@@ -136,6 +136,18 @@ export const api = {
     return res.data.data
   },
 
+  // 大模型 + RAG 深度方解推演
+  getAiFormulaAnalysis: async (herbs: HerbItem[], auditResult: AuditResult): Promise<any> => {
+    const res = await apiClient.post('/audit/ai-formula-analysis', { herbs, auditResult })
+    return res.data.data
+  },
+
+  // 岐黄 AI 用药安全助手智能问答伴聊
+  chatWithAi: async (question: string, contextHerbs?: string[]): Promise<string> => {
+    const res = await apiClient.post('/ai/chat', { question, contextHerbs })
+    return res.data.data.reply
+  },
+
   // 服务心跳状态探活
   getHealth: async (): Promise<boolean> => {
     try {

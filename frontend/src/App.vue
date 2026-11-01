@@ -138,6 +138,9 @@
     <footer class="bg-stone-900 text-stone-500 py-3 text-center text-[11px] border-t border-stone-800">
       南京中医药大学第十九届“挑战杯”大学生课外学术科技作品竞赛 · 科技发明制作 B 类 · 岐黄盾 (HerbShield)
     </footer>
+
+    <!-- 岐黄 AI 智能用药与调养问答助手抽屉 -->
+    <AiChatDrawer />
   </div>
 </template>
 
@@ -147,6 +150,7 @@ import PrescriptionAudit from '@/components/PrescriptionAudit.vue'
 import TongueDiagnosis from '@/components/TongueDiagnosis.vue'
 import KnowledgeGraph from '@/components/KnowledgeGraph.vue'
 import RuleDictionary from '@/components/RuleDictionary.vue'
+import AiChatDrawer from '@/components/AiChatDrawer.vue'
 import { api } from '@/api'
 
 const viewMode = ref<'desktop' | 'mobile'>('desktop')

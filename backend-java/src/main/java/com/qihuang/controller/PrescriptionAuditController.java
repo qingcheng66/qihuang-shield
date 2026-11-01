@@ -99,6 +99,22 @@ public class PrescriptionAuditController {
     }
 
     /**
+     * 大模型 + RAG 深度方解推演接口（君臣佐使与古籍病机剖析）
+     */
+    @PostMapping("/ai-formula-analysis")
+    public Map<String, Object> getAiFormulaAnalysis(@RequestBody Map<String, Object> request) {
+        List<?> herbs = (List<?>) request.get("herbs");
+        Object auditResult = request.get("auditResult");
+        JSONObject analysis = aiServiceClient.getFormulaDeepAnalysis(herbs, auditResult);
+
+        Map<String, Object> response = new HashMap<>();
+        response.put("code", 200);
+        response.put("message", "success");
+        response.put("data", analysis);
+        return response;
+    }
+
+    /**
      * 获取系统内置规则库概要统计（供看板展示）
      */
     @GetMapping("/rules/summary")

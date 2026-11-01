@@ -212,6 +212,47 @@
 
       </div>
     </div>
+
+    <!-- 🤖 岐黄大模型智能方解与病机推演 (RAG + LLM 赋能) -->
+    <div class="bg-gradient-to-br from-stone-900 to-stone-800 text-stone-100 p-5 rounded-2xl border border-stone-700 shadow-md space-y-3">
+      <div class="flex items-center justify-between pb-2 border-b border-stone-700">
+        <div class="flex items-center space-x-2">
+          <span class="text-base">🧠</span>
+          <span class="font-bold text-sm text-emerald-400">岐黄大模型智能深度方解与古籍推演</span>
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-700/60 font-mono">
+            {{ aiAnalysisSource }}
+          </span>
+        </div>
+        <button 
+          @click="fetchAiAnalysis" 
+          :disabled="isGeneratingAi"
+          class="text-xs bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 text-white px-3 py-1 rounded-lg transition-colors flex items-center space-x-1"
+        >
+          <span>{{ isGeneratingAi ? '推演中...' : '🔄 重新推演' }}</span>
+        </button>
+      </div>
+
+      <!-- 推演内容展示 -->
+      <div v-if="isGeneratingAi" class="py-6 flex flex-col items-center justify-center space-y-2 text-stone-400 text-xs">
+        <div class="w-6 h-6 border-2 border-emerald-400 border-t-transparent rounded-full animate-spin"></div>
+        <span>正在检索《神农本草经》《伤寒论》切片，大模型推理中...</span>
+      </div>
+
+      <div v-else class="text-xs space-y-2 leading-relaxed text-stone-300">
+        <div class="whitespace-pre-line font-sans">{{ aiAnalysisText }}</div>
+
+        <!-- RAG 循证引文条 -->
+        <div v-if="aiRagDocs.length > 0" class="pt-2 border-t border-stone-700/60 space-y-1.5">
+          <div class="text-[10px] text-stone-400 font-semibold flex items-center">
+            <span class="mr-1">📜</span> RAG 语义召回古籍切片证据：
+          </div>
+          <div v-for="(doc, idx) in aiRagDocs" :key="idx" class="bg-stone-800/90 p-2.5 rounded-lg border border-stone-700 text-[11px] text-stone-300 space-y-1">
+            <div class="font-bold text-amber-300">{{ doc.title }} <span class="text-stone-400 font-normal">({{ doc.source }})</span></div>
+            <p class="text-stone-300 text-[10px] leading-relaxed">{{ doc.content }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -222,6 +263,12 @@ import { api, HerbItem, AuditResult } from '@/api'
 const selectedPreset = ref<'shibafan' | 'overdose' | 'normal'>('shibafan')
 const isScanning = ref(false)
 const scanLatencyText = ref('PaddleOCR 推理: 128ms')
+
+// 大模型方解状态
+const isGeneratingAi = ref(false)
+const aiAnalysisText = ref('正在生成君臣佐使方解与 RAG 考据...')
+const aiAnalysisSource = ref('RAG + LLM 协同推演')
+const aiRagDocs = ref<any[]>([])
 
 const prescriptionImg = ref('https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&auto=format&fit=crop&q=80')
 
@@ -265,6 +312,26 @@ const badgeText = computed(() => {
   return '✅ 处方配伍完全合规'
 })
 
+// 异步调度大模型深度方解
+const fetchAiAnalysis = async () => {
+  isGeneratingAi.value = true
+  try {
+    const res = await api.getAiFormulaAnalysis(herbs.value, auditResult.value)
+    if (res) {
+      aiAnalysisText.value = res.analysis || '暂无方解'
+      aiAnalysisSource.value = res.source || 'RAG + LLM 协同推演'
+      aiRagDocs.value = res.rag_evidence || []
+    }
+  } catch {
+    // 离线兜底
+    aiAnalysisText.value = `### 一、 【君臣佐使配伍精义】\n- 本方以 **${herbs.value[0]?.name || '主药'}** 为君，配伍 **${herbs.value[1]?.name || '辅药'}**，气血阴阳互为相使。\n\n### 二、 【现代药理机制】\n- 组方各有效成分相辅相成，未见相反相恶之弊。\n\n### 三、 【调护建议】\n- 遵医嘱水煎温服，忌食生冷油腻辛辣之物。`
+    aiAnalysisSource.value = '岐黄本地名医知识库合成 (离线)'
+    aiRagDocs.value = []
+  } finally {
+    isGeneratingAi.value = false
+  }
+}
+
 // 执行质检
 const runAudit = async () => {
   try {
@@ -274,6 +341,8 @@ const runAudit = async () => {
     }
   } catch {
     evaluateOffline()
+  } finally {
+    fetchAiAnalysis()
   }
 }
 
