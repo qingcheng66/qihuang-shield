@@ -1,0 +1,5489 @@
+[
+  {
+    "herb_name": "麻黄",
+    "pinyin": "Mahuang",
+    "aliases": [
+      "草麻黄",
+      "中麻黄",
+      "炙麻黄",
+      "麻黄绒"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛、微苦",
+    "meridians": "归肺、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 9.0,
+    "dosage_range": "2~9g",
+    "efficacy": "发汗解表，宣肺平喘，利水消肿",
+    "contraindications": "体虚自汗、盗汗及虚喘者禁服。高血压、失眠患者慎服。",
+    "decoction_method": "常规水煎，解表宜生用，止咳平喘多炙用"
+  },
+  {
+    "herb_name": "桂枝",
+    "pinyin": "Guizhi",
+    "aliases": [
+      "柳桂",
+      "嫩桂枝",
+      "肉桂枝",
+      "炒桂枝"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛、甘",
+    "meridians": "归心、肺、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "发汗解肌，温通经脉，助阳化气，平冲降逆",
+    "contraindications": "温热病、阴虚阳亢及出血证禁服。孕妇慎用。",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "紫苏叶",
+    "pinyin": "Zisuye",
+    "aliases": [
+      "苏叶",
+      "赤苏",
+      "紫苏"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肺、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "解表散寒，行气和胃",
+    "contraindications": "温病表虚者慎服",
+    "decoction_method": "常规水煎，不宜久煎"
+  },
+  {
+    "herb_name": "生姜",
+    "pinyin": "Shengjiang",
+    "aliases": [
+      "鲜生姜",
+      "姜皮",
+      "姜汁"
+    ],
+    "category": "发散风寒药",
+    "nature": "微温",
+    "flavor": "辛",
+    "meridians": "归肺、脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "解表散寒，温中止呕，化痰止咳，解鱼蟹毒",
+    "contraindications": "阴虚内热及实热证忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "香薷",
+    "pinyin": "Xiangru",
+    "aliases": [
+      "香茹",
+      "青香薷",
+      "江香薷"
+    ],
+    "category": "发散风寒药",
+    "nature": "微温",
+    "flavor": "辛",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "发汗解表，化湿和中，利水消肿",
+    "contraindications": "表虚自汗及阴虚有热者忌服",
+    "decoction_method": "常规水煎，利水退肿多浓煎"
+  },
+  {
+    "herb_name": "荆芥",
+    "pinyin": "Jingjie",
+    "aliases": [
+      "香荆芥",
+      "炒荆芥",
+      "荆芥炭"
+    ],
+    "category": "发散风寒药",
+    "nature": "微温",
+    "flavor": "辛",
+    "meridians": "归肺、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "解表散风，透疹，消疮，止血",
+    "contraindications": "表虚自汗、阴虚头痛忌服",
+    "decoction_method": "常规水煎，止血宜用荆芥炭"
+  },
+  {
+    "herb_name": "防风",
+    "pinyin": "Fangfeng",
+    "aliases": [
+      "关防风",
+      "东防风",
+      "炒防风"
+    ],
+    "category": "发散风寒药",
+    "nature": "微温",
+    "flavor": "辛、甘",
+    "meridians": "归膀胱、肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "祛风解表，胜湿止痛，止痉",
+    "contraindications": "血虚发痉、阴虚火旺者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "羌活",
+    "pinyin": "Qianghuo",
+    "aliases": [
+      "西羌活",
+      "川羌活",
+      "蚕羌"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归膀胱、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "散寒祛风，胜湿止痛",
+    "contraindications": "阴虚血亏之头痛、身痛慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "白芷",
+    "pinyin": "Baizhi",
+    "aliases": [
+      "香白芷",
+      "川白芷",
+      "杭白芷"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归胃、大肠、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "解表散寒，祛风止痛，宣通鼻窍，燥湿止带，消肿排脓",
+    "contraindications": "阴虚血热者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "细辛",
+    "pinyin": "Xixin",
+    "aliases": [
+      "辽细辛",
+      "华细辛",
+      "北细辛"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归心、肺、肾经",
+    "toxicity_level": "有毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1~3g",
+    "efficacy": "祛风散寒，通窍止痛，温肺化饮",
+    "contraindications": "【药典极量3g】十八反：反藜芦！气虚多汗、阴虚阳亢头痛禁服",
+    "decoction_method": "常规入煎剂不可过3g，散剂每次0.5~1g"
+  },
+  {
+    "herb_name": "藁本",
+    "pinyin": "Gaoben",
+    "aliases": [
+      "西藁本",
+      "辽藁本"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "祛风，散寒，胜湿，止痛",
+    "contraindications": "血虚头痛忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "苍耳子",
+    "pinyin": "Cangerzi",
+    "aliases": [
+      "炒苍耳子",
+      "老苍子"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归肺经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "散风除湿，通鼻窍",
+    "contraindications": "血虚头痛忌服，过量易中毒",
+    "decoction_method": "常规水煎，需炒去刺用"
+  },
+  {
+    "herb_name": "辛夷",
+    "pinyin": "Xinyi",
+    "aliases": [
+      "木笔花",
+      "望春花",
+      "辛夷花"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "散风寒，通鼻窍",
+    "contraindications": "阴虚火旺者忌用",
+    "decoction_method": "【特殊煎法】有毛刺，需包煎"
+  },
+  {
+    "herb_name": "葱白",
+    "pinyin": "Congbai",
+    "aliases": [
+      "大葱白",
+      "葱头"
+    ],
+    "category": "发散风寒药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "5~15g",
+    "efficacy": "发汗解表，通阳散结",
+    "contraindications": "表虚多汗者忌用",
+    "decoction_method": "常规水煎，不宜久煎"
+  },
+  {
+    "herb_name": "薄荷",
+    "pinyin": "Bohe",
+    "aliases": [
+      "苏薄荷",
+      "鲜薄荷"
+    ],
+    "category": "发散风热药",
+    "nature": "凉",
+    "flavor": "辛",
+    "meridians": "归肺、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "疏散风热，清利头目，利咽透疹，疏肝行气",
+    "contraindications": "阴虚血燥、表虚多汗者慎服",
+    "decoction_method": "【特殊煎法】芳香易挥发，需后下"
+  },
+  {
+    "herb_name": "牛蒡子",
+    "pinyin": "Niubangzi",
+    "aliases": [
+      "大力子",
+      "炒牛蒡子"
+    ],
+    "category": "发散风热药",
+    "nature": "寒",
+    "flavor": "辛、苦",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "6~10g",
+    "efficacy": "疏散风热，宣肺透疹，解毒消肿",
+    "contraindications": "气虚便溏者慎服",
+    "decoction_method": "常规水煎，捣碎入煎"
+  },
+  {
+    "herb_name": "蝉蜕",
+    "pinyin": "Chantui",
+    "aliases": [
+      "蝉壳",
+      "蝉退",
+      "金蝉衣"
+    ],
+    "category": "发散风热药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归肺、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "疏散风热，利咽开音，透疹，明目退翳，息风止痉",
+    "contraindications": "孕妇慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "桑叶",
+    "pinyin": "Sangye",
+    "aliases": [
+      "霜桑叶",
+      "冬桑叶",
+      "炙桑叶"
+    ],
+    "category": "发散风热药",
+    "nature": "寒",
+    "flavor": "甘、苦",
+    "meridians": "归肺、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "疏散风热，清肺润燥，清肝明目",
+    "contraindications": "脾胃虚寒泄泻者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "菊花",
+    "pinyin": "Juhua",
+    "aliases": [
+      "杭白菊",
+      "贡菊",
+      "滁菊",
+      "黄菊花"
+    ],
+    "category": "发散风热药",
+    "nature": "微寒",
+    "flavor": "甘、苦",
+    "meridians": "归肺、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "疏散风热，平抑肝阳，清肝明目，清热解毒",
+    "contraindications": "脾胃虚寒者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "蔓荆子",
+    "pinyin": "Manjingzi",
+    "aliases": [
+      "炒蔓荆子"
+    ],
+    "category": "发散风热药",
+    "nature": "微寒",
+    "flavor": "辛、苦",
+    "meridians": "归膀胱、肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "疏散风热，清利头目",
+    "contraindications": "胃虚胃寒、血虚头痛者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "柴胡",
+    "pinyin": "Chaihu",
+    "aliases": [
+      "北柴胡",
+      "南柴胡",
+      "醋柴胡"
+    ],
+    "category": "发散风热药",
+    "nature": "微寒",
+    "flavor": "苦、辛",
+    "meridians": "归肝、胆、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "疏散退热，疏肝解郁，升举阳气",
+    "contraindications": "真阴亏损、肝阳上亢及气机上逆者忌服",
+    "decoction_method": "升阳解表多生用，疏肝解郁多醋炙"
+  },
+  {
+    "herb_name": "升麻",
+    "pinyin": "Shengma",
+    "aliases": [
+      "川升麻",
+      "北升麻",
+      "蜜升麻"
+    ],
+    "category": "发散风热药",
+    "nature": "微寒",
+    "flavor": "辛、微甘",
+    "meridians": "归肺、脾、胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "发表透疹，清热解毒，升举阳气",
+    "contraindications": "阴虚火旺及麻疹已透者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "葛根",
+    "pinyin": "Gegen",
+    "aliases": [
+      "野葛根",
+      "粉葛",
+      "葛麻"
+    ],
+    "category": "发散风热药",
+    "nature": "凉",
+    "flavor": "甘、辛",
+    "meridians": "归脾、胃、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "10~15g",
+    "efficacy": "解肌退热，生津止渴，透疹，升阳止泻，通经活络，解酒毒",
+    "contraindications": "脾胃虚寒者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "石膏",
+    "pinyin": "Shigao",
+    "aliases": [
+      "生石膏",
+      "煅石膏",
+      "熟石膏"
+    ],
+    "category": "清热泻火药",
+    "nature": "大寒",
+    "flavor": "辛、甘",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 60.0,
+    "dosage_range": "15~60g",
+    "efficacy": "清热泻火，除烦止渴",
+    "contraindications": "脾胃虚寒及阴虚内热者忌服",
+    "decoction_method": "【特殊煎法】矿物类质地坚硬，需打碎先煎 20~30 分钟"
+  },
+  {
+    "herb_name": "知母",
+    "pinyin": "Zhimu",
+    "aliases": [
+      "生知母",
+      "盐知母"
+    ],
+    "category": "清热泻火药",
+    "nature": "寒",
+    "flavor": "苦、甘",
+    "meridians": "归肺、胃、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "清热泻火，滋阴润燥",
+    "contraindications": "脾虚便溏及阴寒内盛者忌服",
+    "decoction_method": "常规水煎，滋阴多盐水炙"
+  },
+  {
+    "herb_name": "芦根",
+    "pinyin": "Lugen",
+    "aliases": [
+      "鲜芦根",
+      "苇根"
+    ],
+    "category": "清热泻火药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "清热清胃，生津止渴，止呕，除烦",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "常规水煎，鲜品量加倍"
+  },
+  {
+    "herb_name": "天花粉",
+    "pinyin": "Tianhuafen",
+    "aliases": [
+      "天花粉",
+      "栝楼根",
+      "花粉"
+    ],
+    "category": "清热泻火药",
+    "nature": "微寒",
+    "flavor": "甘、微苦",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "10~15g",
+    "efficacy": "清热泻火，生津止渴，排脓消肿",
+    "contraindications": "【十八反】瓜蒌根（天花粉）反乌头！脾胃虚寒、便溏者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "竹叶",
+    "pinyin": "Zhuye",
+    "aliases": [
+      "淡竹叶",
+      "竹叶卷心"
+    ],
+    "category": "清热泻火药",
+    "nature": "寒",
+    "flavor": "甘、淡",
+    "meridians": "归心、胃、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "清热泻火，除烦止渴，利尿",
+    "contraindications": "阴虚火旺者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "栀子",
+    "pinyin": "Zhizi",
+    "aliases": [
+      "山栀子",
+      "炒栀子",
+      "焦栀子"
+    ],
+    "category": "清热泻火药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归心、肺、三焦经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "6~10g",
+    "efficacy": "泻火除烦，清热利湿，凉血解毒；外用消肿止痛",
+    "contraindications": "脾虚便溏者慎服",
+    "decoction_method": "泻火多生用，止血多炒炭用"
+  },
+  {
+    "herb_name": "夏枯草",
+    "pinyin": "Xiakucao",
+    "aliases": [
+      "棒槌草",
+      "夏枯球"
+    ],
+    "category": "清热泻火药",
+    "nature": "寒",
+    "flavor": "辛、苦",
+    "meridians": "归肝、胆经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清火明目，散结消肿",
+    "contraindications": "脾胃虚寒者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "决明子",
+    "pinyin": "Juemingzi",
+    "aliases": [
+      "炒决明子",
+      "草决明"
+    ],
+    "category": "清热泻火药",
+    "nature": "微寒",
+    "flavor": "甘、苦、咸",
+    "meridians": "归肝、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热明目，润肠通便",
+    "contraindications": "脾胃虚寒及便溏者慎用",
+    "decoction_method": "常规水煎，捣碎"
+  },
+  {
+    "herb_name": "黄芩",
+    "pinyin": "Huangqin",
+    "aliases": [
+      "枯芩",
+      "条芩",
+      "酒黄芩"
+    ],
+    "category": "清热燥湿药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肺、胆、脾、大肠、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "清热燥湿，泻火解毒，止血，安胎",
+    "contraindications": "脾胃虚寒及少阳中风忌服",
+    "decoction_method": "清热多生用，安胎多炒用，止血多炒炭"
+  },
+  {
+    "herb_name": "黄连",
+    "pinyin": "Huanglian",
+    "aliases": [
+      "川黄连",
+      "雅连",
+      "姜黄连",
+      "酒黄连"
+    ],
+    "category": "清热燥湿药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归心、脾、胃、肝、胆、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 5.0,
+    "dosage_range": "2~5g",
+    "efficacy": "清热燥湿，泻火解毒",
+    "contraindications": "本品大苦大寒，过服久服损脾胃，脾胃虚寒者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "黄柏",
+    "pinyin": "Huangbai",
+    "aliases": [
+      "川黄柏",
+      "关黄柏",
+      "盐黄柏"
+    ],
+    "category": "清热燥湿药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "3~12g",
+    "efficacy": "清热燥湿，泻火除蒸，解毒疗疮",
+    "contraindications": "脾虚便溏者忌服",
+    "decoction_method": "常规水煎，泻相火多盐水炙"
+  },
+  {
+    "herb_name": "龙胆",
+    "pinyin": "Longdan",
+    "aliases": [
+      "龙胆草",
+      "酒龙胆"
+    ],
+    "category": "清热燥湿药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肝、胆经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "清热燥湿，泻肝胆火",
+    "contraindications": "脾胃虚弱及阴虚津伤者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "苦参",
+    "pinyin": "Kushen",
+    "aliases": [
+      "苦骨",
+      "野槐根"
+    ],
+    "category": "清热燥湿药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归心、肝、胃、大肠、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "4.5~10g",
+    "efficacy": "清热燥湿，杀虫，利尿",
+    "contraindications": "【十八反】反藜芦！脾胃虚寒者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "白鲜皮",
+    "pinyin": "Baixianpi",
+    "aliases": [
+      "白藓皮",
+      "八股牛"
+    ],
+    "category": "清热燥湿药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归脾、胃、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "清热燥湿，祛风解毒",
+    "contraindications": "虚寒证忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "金银花",
+    "pinyin": "Jinyinhua",
+    "aliases": [
+      "银花",
+      "双花",
+      "二宝花"
+    ],
+    "category": "清热解毒药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归肺、心、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "清热解毒，疏散风热",
+    "contraindications": "脾胃虚寒及气虚疮疡脓清者忌服",
+    "decoction_method": "常规水煎，外用适量"
+  },
+  {
+    "herb_name": "连翘",
+    "pinyin": "Lianqiao",
+    "aliases": [
+      "青翘",
+      "老翘"
+    ],
+    "category": "清热解毒药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归肺、心、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "清热解毒，消肿散结，疏散风热",
+    "contraindications": "脾胃虚弱、气虚便溏者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "蒲公英",
+    "pinyin": "Pugongying",
+    "aliases": [
+      "黄花地丁",
+      "婆婆丁"
+    ],
+    "category": "清热解毒药",
+    "nature": "寒",
+    "flavor": "苦、甘",
+    "meridians": "归肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "10~30g",
+    "efficacy": "清热解毒，消肿散结，利湿通淋",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "常规水煎，鲜品可大剂量"
+  },
+  {
+    "herb_name": "紫花地丁",
+    "pinyin": "Zihuadiding",
+    "aliases": [
+      "地丁草",
+      "铧头草"
+    ],
+    "category": "清热解毒药",
+    "nature": "寒",
+    "flavor": "苦、辛",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "清热解毒，凉血消肿",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "鱼腥草",
+    "pinyin": "Yuxingcao",
+    "aliases": [
+      "侧耳根",
+      "折耳根"
+    ],
+    "category": "清热解毒药",
+    "nature": "微寒",
+    "flavor": "辛",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "清热解毒，消痈排脓，利尿通淋",
+    "contraindications": "虚寒性病证忌服",
+    "decoction_method": "【特殊煎法】不宜久煎，鲜品绞汁服"
+  },
+  {
+    "herb_name": "板蓝根",
+    "pinyin": "Banlangen",
+    "aliases": [
+      "大青根",
+      "靛青根"
+    ],
+    "category": "清热解毒药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归心、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热解毒，凉血，利咽",
+    "contraindications": "体虚无实火者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "射干",
+    "pinyin": "Shegan",
+    "aliases": [
+      "乌扇",
+      "草姜"
+    ],
+    "category": "清热解毒药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "清热解毒，消痰，利咽",
+    "contraindications": "孕妇忌服，脾虚便溏者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "山豆根",
+    "pinyin": "Shandougen",
+    "aliases": [
+      "苦豆根"
+    ],
+    "category": "清热解毒药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "有毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "清热解毒，消肿利咽",
+    "contraindications": "【有毒药物】极量6g，超量易致神经中毒及恶心呕吐",
+    "decoction_method": "常规水煎不可过量"
+  },
+  {
+    "herb_name": "白头翁",
+    "pinyin": "Baitouweng",
+    "aliases": [
+      "毛姑朵花",
+      "野丈人"
+    ],
+    "category": "清热解毒药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热解毒，凉血止痢",
+    "contraindications": "虚寒阿米巴痢疾忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "败酱草",
+    "pinyin": "Baijiangcao",
+    "aliases": [
+      "黄花败酱",
+      "苦菜"
+    ],
+    "category": "清热解毒药",
+    "nature": "微寒",
+    "flavor": "辛、苦",
+    "meridians": "归胃、大肠、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "清热解毒，消痈排脓，祛瘀止痛",
+    "contraindications": "脾胃虚弱、食少便溏者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "生地黄",
+    "pinyin": "Shengdihuang",
+    "aliases": [
+      "生地",
+      "地黄"
+    ],
+    "category": "清热凉血药",
+    "nature": "寒",
+    "flavor": "甘、苦",
+    "meridians": "归心、肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "10~30g",
+    "efficacy": "清热凉血，养阴生津",
+    "contraindications": "脾虚泄泻及胃虚食少者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "牡丹皮",
+    "pinyin": "Mudanpi",
+    "aliases": [
+      "丹皮",
+      "炒丹皮"
+    ],
+    "category": "清热凉血药",
+    "nature": "微寒",
+    "flavor": "苦、辛",
+    "meridians": "归心、肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "清热凉血，活血化瘀",
+    "contraindications": "血虚发热、孕妇及月经过多者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "赤芍",
+    "pinyin": "Chishao",
+    "aliases": [
+      "草芍药"
+    ],
+    "category": "清热凉血药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "清热凉血，散瘀止痛",
+    "contraindications": "【十八反】反藜芦！血虚无瘀者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "玄参",
+    "pinyin": "Xuanshen",
+    "aliases": [
+      "元参",
+      "黑参"
+    ],
+    "category": "清热凉血药",
+    "nature": "微寒",
+    "flavor": "甘、苦、咸",
+    "meridians": "归肺、胃、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热凉血，滋阴降火，解毒散结",
+    "contraindications": "【十八反】反藜芦！脾胃虚寒便溏者禁服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "青蒿",
+    "pinyin": "Qinghao",
+    "aliases": [
+      "香青蒿",
+      "苦蒿"
+    ],
+    "category": "清虚热药",
+    "nature": "寒",
+    "flavor": "苦、辛",
+    "meridians": "归肝、胆经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "清虚热，除骨蒸，解暑热，截疟，退黄",
+    "contraindications": "产后血虚内寒泄泻者忌服",
+    "decoction_method": "【特殊煎法】青蒿素热敏，清热截疟不宜久煎，后下或生绞汁"
+  },
+  {
+    "herb_name": "地骨皮",
+    "pinyin": "Digupi",
+    "aliases": [
+      "枸杞根皮"
+    ],
+    "category": "清虚热药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归肺、肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "凉血除蒸，清肺降火",
+    "contraindications": "外感风寒及脾胃虚寒泄泻者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "大黄",
+    "pinyin": "Dahuang",
+    "aliases": [
+      "生大黄",
+      "酒大黄",
+      "熟大黄",
+      "大黄炭"
+    ],
+    "category": "攻下药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归脾、胃、大肠、肝、心包经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "5~15g",
+    "efficacy": "泻下攻积，清热泻火，凉血解毒，逐瘀通经",
+    "contraindications": "孕妇、月经期及哺乳期慎用；脾胃虚寒者忌服",
+    "decoction_method": "【特殊煎法】泻下宜生用且后下；活血宜酒炙；止血宜炒炭"
+  },
+  {
+    "herb_name": "芒硝",
+    "pinyin": "Mangxiao",
+    "aliases": [
+      "朴硝",
+      "玄明粉",
+      "皮硝"
+    ],
+    "category": "攻下药",
+    "nature": "大寒",
+    "flavor": "咸、苦",
+    "meridians": "归胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "泻下通便，润燥软坚，清火消肿",
+    "contraindications": "【十九畏】芒硝畏三棱！孕妇及脾胃虚寒者禁用",
+    "decoction_method": "【特殊煎法】不入煎剂，待汤剂煎成后冲入化服"
+  },
+  {
+    "herb_name": "番泻叶",
+    "pinyin": "Fanxieye",
+    "aliases": [
+      "泡番泻叶"
+    ],
+    "category": "攻下药",
+    "nature": "寒",
+    "flavor": "甘、苦",
+    "meridians": "归大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "2~6g",
+    "efficacy": "泻热行滞，通便，利水",
+    "contraindications": "孕妇、经期及哺乳期忌服",
+    "decoction_method": "沸水泡服，不可久煎"
+  },
+  {
+    "herb_name": "火麻仁",
+    "pinyin": "Huomaren",
+    "aliases": [
+      "麻子仁",
+      "炒麻仁"
+    ],
+    "category": "润下药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归脾、胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "10~15g",
+    "efficacy": "润肠通便",
+    "contraindications": "便溏滑泄者忌服",
+    "decoction_method": "常规水煎，需捣碎"
+  },
+  {
+    "herb_name": "郁李仁",
+    "pinyin": "Yuliren",
+    "aliases": [
+      "炒郁李仁"
+    ],
+    "category": "润下药",
+    "nature": "平",
+    "flavor": "辛、苦、甘",
+    "meridians": "归脾、大肠、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "润肠通便，下气利水",
+    "contraindications": "孕妇慎服",
+    "decoction_method": "常规水煎，捣碎"
+  },
+  {
+    "herb_name": "甘遂",
+    "pinyin": "Gansui",
+    "aliases": [
+      "醋甘遂",
+      "生甘遂"
+    ],
+    "category": "峻下逐水药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肺、肾、大肠经",
+    "toxicity_level": "有毒",
+    "max_dosage": 1.5,
+    "dosage_range": "0.5~1.5g",
+    "efficacy": "泻水逐饮，消肿散结",
+    "contraindications": "【十八反】反甘草！【剧毒药物】极量1.5g，孕妇及体虚者绝对禁用",
+    "decoction_method": "多入丸散，不宜入煎剂；醋炙可减低毒性"
+  },
+  {
+    "herb_name": "大戟",
+    "pinyin": "Daji",
+    "aliases": [
+      "京大戟",
+      "醋大戟"
+    ],
+    "category": "峻下逐水药",
+    "nature": "寒",
+    "flavor": "苦、辛",
+    "meridians": "归肺、脾、肾经",
+    "toxicity_level": "有毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1.5~3g",
+    "efficacy": "泻水逐饮，消肿散结",
+    "contraindications": "【十八反】反甘草！【剧毒药物】体虚及孕妇禁用",
+    "decoction_method": "多入丸散，醋炙减毒"
+  },
+  {
+    "herb_name": "芫花",
+    "pinyin": "Yuanhua",
+    "aliases": [
+      "醋芫花"
+    ],
+    "category": "峻下逐水药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归肺、脾、肾经",
+    "toxicity_level": "有毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1.5~3g",
+    "efficacy": "泻水逐饮，祛痰止咳，杀虫",
+    "contraindications": "【十八反】反甘草！孕妇禁用",
+    "decoction_method": "醋炙减毒，入丸散"
+  },
+  {
+    "herb_name": "牵牛子",
+    "pinyin": "Qianniuzi",
+    "aliases": [
+      "黑丑",
+      "白丑",
+      "二丑"
+    ],
+    "category": "峻下逐水药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肺、肾、大肠经",
+    "toxicity_level": "有毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "泻水逐饮，去积杀虫",
+    "contraindications": "【十九畏】牵牛畏巴豆！孕妇及胃弱者禁用",
+    "decoction_method": "入丸散研末每次1.5~3g"
+  },
+  {
+    "herb_name": "巴豆",
+    "pinyin": "Badou",
+    "aliases": [
+      "巴豆霜"
+    ],
+    "category": "峻下逐水药",
+    "nature": "大热",
+    "flavor": "辛",
+    "meridians": "归胃、大肠经",
+    "toxicity_level": "大毒",
+    "max_dosage": 0.3,
+    "dosage_range": "0.1~0.3g",
+    "efficacy": "峻下冷积，逐水退肿，祛痰利咽，外用蚀疮",
+    "contraindications": "【十九畏】巴豆畏牵牛！【大毒剧毒】孕妇及体弱者严禁服用",
+    "decoction_method": "多用巴豆霜，极量0.3g，不可入汤剂生煎"
+  },
+  {
+    "herb_name": "独活",
+    "pinyin": "Duhuo",
+    "aliases": [
+      "川独活",
+      "香独活"
+    ],
+    "category": "祛风寒湿药",
+    "nature": "微温",
+    "flavor": "辛、苦",
+    "meridians": "归肾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "祛风除湿，通痹止痛",
+    "contraindications": "阴虚血燥者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "威灵仙",
+    "pinyin": "Weilingxian",
+    "aliases": [
+      "铁脚威灵仙"
+    ],
+    "category": "祛风寒湿药",
+    "nature": "温",
+    "flavor": "辛、咸",
+    "meridians": "归膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "祛风湿，通经络，消骨鲠",
+    "contraindications": "气血亏虚者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "川芎",
+    "pinyin": "Chuanxiong",
+    "aliases": [
+      "抚芎",
+      "酒川芎"
+    ],
+    "category": "活血化瘀药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肝、胆、心包经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "活血行气，祛风止痛",
+    "contraindications": "阴虚火旺、月经过多及出血倾向者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "木瓜",
+    "pinyin": "Mugua",
+    "aliases": [
+      "宣木瓜",
+      "皱皮木瓜"
+    ],
+    "category": "祛风湿药",
+    "nature": "温",
+    "flavor": "酸",
+    "meridians": "归肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "舒筋活络，和胃化湿",
+    "contraindications": "内有积热、小便短赤者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "秦艽",
+    "pinyin": "Qinjiao",
+    "aliases": [
+      "秦胶",
+      "大秦艽"
+    ],
+    "category": "祛风湿热药",
+    "nature": "微寒",
+    "flavor": "苦、辛",
+    "meridians": "归胃、肝、胆经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "祛风湿，清湿热，止痹痛，退虚热",
+    "contraindications": "久病虚寒泄泻便溏者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "防己",
+    "pinyin": "Fangji",
+    "aliases": [
+      "粉防己",
+      "汉防己"
+    ],
+    "category": "祛风湿热药",
+    "nature": "寒",
+    "flavor": "苦、辛",
+    "meridians": "归膀胱、肺、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "4.5~10g",
+    "efficacy": "祛风止痛，利水消肿",
+    "contraindications": "【安全提示】药典已剔除含马兜铃酸之广防己，现用法定防己科粉防己",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "桑寄生",
+    "pinyin": "Sangjisheng",
+    "aliases": [
+      "广寄生"
+    ],
+    "category": "祛风湿强筋骨药",
+    "nature": "平",
+    "flavor": "苦、甘",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "祛风湿，补肝肾，强筋骨，安胎",
+    "contraindications": "常规水煎",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "牛膝",
+    "pinyin": "Niuxi",
+    "aliases": [
+      "怀牛膝",
+      "川牛膝",
+      "酒牛膝"
+    ],
+    "category": "活血化瘀药",
+    "nature": "平",
+    "flavor": "苦、酸",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "5~12g",
+    "efficacy": "补肝肾，强筋骨，逐瘀通经，引血下行，利尿通淋",
+    "contraindications": "中气下陷、月经过多及孕妇禁服",
+    "decoction_method": "引血下行、通利关节多生用，补肝肾多酒炙"
+  },
+  {
+    "herb_name": "苍术",
+    "pinyin": "Cangzhu",
+    "aliases": [
+      "茅苍术",
+      "焦苍术"
+    ],
+    "category": "化湿药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归脾、胃、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "燥湿健脾，祛风散寒，明目",
+    "contraindications": "阴虚内热及气虚多汗者忌服",
+    "decoction_method": "燥湿多生用，健脾多麸炒"
+  },
+  {
+    "herb_name": "厚朴",
+    "pinyin": "Houpo",
+    "aliases": [
+      "川厚朴",
+      "姜厚朴"
+    ],
+    "category": "化湿药",
+    "nature": "温",
+    "flavor": "苦、辛",
+    "meridians": "归脾、胃、肺、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "燥湿消痰，下气除满",
+    "contraindications": "孕妇慎用，气虚津伤者忌服",
+    "decoction_method": "常规水煎，姜炙减缓咽喉刺激"
+  },
+  {
+    "herb_name": "砂仁",
+    "pinyin": "Sharen",
+    "aliases": [
+      "春砂仁",
+      "阳春砂"
+    ],
+    "category": "化湿药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归脾、胃、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "化湿开胃，温脾止泻，理气安胎",
+    "contraindications": "阴虚有热者忌服",
+    "decoction_method": "【特殊煎法】芳香易挥发，需后下且捣碎"
+  },
+  {
+    "herb_name": "白豆蔻",
+    "pinyin": "Baidoukou",
+    "aliases": [
+      "蔻仁",
+      "白蔻"
+    ],
+    "category": "化湿药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肺、脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "化湿行气，温中止呕，开胃消食",
+    "contraindications": "阴虚血燥者慎用",
+    "decoction_method": "【特殊煎法】气味芳香，需打碎后下"
+  },
+  {
+    "herb_name": "佩兰",
+    "pinyin": "Peilan",
+    "aliases": [
+      "鲜佩兰",
+      "省头草"
+    ],
+    "category": "化湿药",
+    "nature": "平",
+    "flavor": "辛",
+    "meridians": "归脾、胃、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "芳香化浊，醒脾开胃，发表解暑",
+    "contraindications": "阴虚血亏者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "藿香",
+    "pinyin": "Guanghuoxiang",
+    "aliases": [
+      "广藿香",
+      "鲜藿香"
+    ],
+    "category": "化湿药",
+    "nature": "微温",
+    "flavor": "辛",
+    "meridians": "归脾、胃、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "芳香化湿，和中止呕，发表解暑",
+    "contraindications": "阴虚血燥、实火内炽者慎服",
+    "decoction_method": "常规水煎，不宜久煎"
+  },
+  {
+    "herb_name": "茯苓",
+    "pinyin": "Fuling",
+    "aliases": [
+      "茯苓块",
+      "白茯苓",
+      "赤茯苓",
+      "茯神"
+    ],
+    "category": "利水消肿药",
+    "nature": "平",
+    "flavor": "甘、淡",
+    "meridians": "归心、肺、脾、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "10~15g",
+    "efficacy": "利水渗湿，健脾，宁心",
+    "contraindications": "阴虚津亏及虚寒遗精滑泄者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "猪苓",
+    "pinyin": "Zhuling",
+    "aliases": [
+      "野猪苓"
+    ],
+    "category": "利水消肿药",
+    "nature": "平",
+    "flavor": "甘、淡",
+    "meridians": "归肾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "利水渗湿",
+    "contraindications": "无水湿者忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "泽泻",
+    "pinyin": "Zexie",
+    "aliases": [
+      "建泽泻",
+      "盐泽泻"
+    ],
+    "category": "利水消肿药",
+    "nature": "寒",
+    "flavor": "甘、淡",
+    "meridians": "归肾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "利水渗湿，泄热，化浊降脂",
+    "contraindications": "肾阳虚、滑精无湿热者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "薏苡仁",
+    "pinyin": "Yiyiren",
+    "aliases": [
+      "生薏仁",
+      "炒薏米"
+    ],
+    "category": "利水消肿药",
+    "nature": "微寒",
+    "flavor": "甘、淡",
+    "meridians": "归脾、胃、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "9~30g",
+    "efficacy": "利水渗湿，健脾止泻，除痹，排脓，解毒散结",
+    "contraindications": "孕妇慎用，津枯便秘者慎服",
+    "decoction_method": "利湿排脓宜生用，健脾止泻宜麸炒"
+  },
+  {
+    "herb_name": "车前子",
+    "pinyin": "Cheqianzi",
+    "aliases": [
+      "炒车前子"
+    ],
+    "category": "利尿通淋药",
+    "nature": "微寒",
+    "flavor": "甘",
+    "meridians": "归肝、肾、肺、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热利尿通淋，渗湿止泻，明目，祛痰",
+    "contraindications": "肾虚精滑及内无湿热者忌服",
+    "decoction_method": "【特殊煎法】黏性颗粒，需包煎"
+  },
+  {
+    "herb_name": "木通",
+    "pinyin": "Mutong",
+    "aliases": [
+      "川木通",
+      "关木通(禁用)"
+    ],
+    "category": "利尿通淋药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归心、小肠、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "利尿通淋，通经下乳",
+    "contraindications": "【安全红线】严禁使用含马兜铃酸之关木通！仅允许用毛茛科川木通或木通科白木通",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "茵陈",
+    "pinyin": "Yinchen",
+    "aliases": [
+      "绵茵陈",
+      "茵陈蒿"
+    ],
+    "category": "利湿退黄药",
+    "nature": "微寒",
+    "flavor": "苦、辛",
+    "meridians": "归脾、胃、肝、胆经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "6~30g",
+    "efficacy": "清热利湿退黄",
+    "contraindications": "蓄血发黄及无湿热者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "金钱草",
+    "pinyin": "Jinqiancao",
+    "aliases": [
+      "过路黄"
+    ],
+    "category": "利尿通淋药",
+    "nature": "微寒",
+    "flavor": "甘、咸",
+    "meridians": "归肝、胆、肾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "利湿退黄，利尿通淋，解毒消肿",
+    "contraindications": "脾胃虚寒泄泻者慎服",
+    "decoction_method": "常规水煎，排石重剂可用至60g"
+  },
+  {
+    "herb_name": "附子",
+    "pinyin": "Fuzi",
+    "aliases": [
+      "制附子",
+      "黑顺片",
+      "白附片",
+      "熟附子"
+    ],
+    "category": "温里药",
+    "nature": "大热",
+    "flavor": "辛、甘",
+    "meridians": "归心、肾、脾经",
+    "toxicity_level": "有毒",
+    "max_dosage": 15.0,
+    "dosage_range": "3~15g",
+    "efficacy": "回阳救逆，补火助阳，散寒止痛",
+    "contraindications": "【十八反】反半夏、瓜蒌、贝母、白蔹、白及！【特殊煎法】含乌头碱有毒，必须先煎 30~60 分钟至口尝无麻舌感",
+    "decoction_method": "孕妇严禁服用；阴虚阳亢及热证忌服"
+  },
+  {
+    "herb_name": "川乌",
+    "pinyin": "Chuanwu",
+    "aliases": [
+      "制川乌",
+      "生川乌"
+    ],
+    "category": "温里药",
+    "nature": "大热",
+    "flavor": "辛、苦",
+    "meridians": "归心、肝、肾、脾经",
+    "toxicity_level": "大毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1.5~3g",
+    "efficacy": "祛风除湿，温经止痛",
+    "contraindications": "【十八反】反半夏、瓜蒌、贝母、白蔹、白及！【大毒剧毒】极量3g，需先煎1~2小时",
+    "decoction_method": "孕妇禁用，不可生用"
+  },
+  {
+    "herb_name": "草乌",
+    "pinyin": "Caowu",
+    "aliases": [
+      "制草乌",
+      "生草乌"
+    ],
+    "category": "温里药",
+    "nature": "大热",
+    "flavor": "辛、苦",
+    "meridians": "归心、肝、肾、脾经",
+    "toxicity_level": "大毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1.5~3g",
+    "efficacy": "祛风除湿，温经止痛",
+    "contraindications": "【十八反】反诸贝、瓜蒌、半夏、白蔹、白及！极量3g，需先煎",
+    "decoction_method": "孕妇禁用"
+  },
+  {
+    "herb_name": "干姜",
+    "pinyin": "Ganjiang",
+    "aliases": [
+      "炮姜",
+      "干姜炭"
+    ],
+    "category": "温里药",
+    "nature": "热",
+    "flavor": "辛",
+    "meridians": "归脾、胃、肾、心、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "温中散寒，回阳通脉，温肺化饮",
+    "contraindications": "阴虚内热及血热妄行者禁服，孕妇慎用",
+    "decoction_method": "常规水煎，温中止血多用炮姜"
+  },
+  {
+    "herb_name": "肉桂",
+    "pinyin": "Rougui",
+    "aliases": [
+      "官桂",
+      "油肉桂",
+      "紫油桂"
+    ],
+    "category": "温里药",
+    "nature": "大热",
+    "flavor": "辛、甘",
+    "meridians": "归肾、脾、心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 5.0,
+    "dosage_range": "1~5g",
+    "efficacy": "补火助阳，引火归元，散寒止痛，温通经脉",
+    "contraindications": "【十九畏】肉桂畏赤石脂！阴虚火旺、血热妄行及孕妇忌服",
+    "decoction_method": "【特殊煎法】气味芳烈，易挥发，需后下或研末冲服每次1~2g"
+  },
+  {
+    "herb_name": "丁香",
+    "pinyin": "Dingxiang",
+    "aliases": [
+      "公丁香",
+      "母丁香"
+    ],
+    "category": "温里药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归脾、胃、肺、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 5.0,
+    "dosage_range": "1~5g",
+    "efficacy": "温中降逆，补肾助阳",
+    "contraindications": "【十九畏】丁香畏郁金！热病及阴虚内热者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "吴茱萸",
+    "pinyin": "Wuzhuyu",
+    "aliases": [
+      "制吴茱萸"
+    ],
+    "category": "温里药",
+    "nature": "热",
+    "flavor": "辛、苦",
+    "meridians": "归肝、脾、胃、肾经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 5.0,
+    "dosage_range": "2~5g",
+    "efficacy": "散寒止痛，降逆止呕，助阳止泻",
+    "contraindications": "阴虚火旺者忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "小茴香",
+    "pinyin": "Xiaohuixiang",
+    "aliases": [
+      "盐茴香",
+      "茴香"
+    ],
+    "category": "温里药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肝、肾、脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "散寒止痛，理气和胃",
+    "contraindications": "阴虚火旺者慎服",
+    "decoction_method": "常规水煎，盐炙入肾"
+  },
+  {
+    "herb_name": "陈皮",
+    "pinyin": "Chenpi",
+    "aliases": [
+      "广陈皮",
+      "新会皮"
+    ],
+    "category": "理气药",
+    "nature": "温",
+    "flavor": "苦、辛",
+    "meridians": "归肺、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "理气健脾，燥湿化痰",
+    "contraindications": "舌红少津、内热吐血及实热证忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "青皮",
+    "pinyin": "Qingpi",
+    "aliases": [
+      "醋青皮",
+      "四花青皮"
+    ],
+    "category": "理气药",
+    "nature": "温",
+    "flavor": "苦、辛",
+    "meridians": "归肝、胆、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "疏肝破气，消积化滞",
+    "contraindications": "气虚胃弱者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "枳实",
+    "pinyin": "Zhishi",
+    "aliases": [
+      "炒枳实",
+      "小枳实"
+    ],
+    "category": "理气药",
+    "nature": "微寒",
+    "flavor": "苦、辛、酸",
+    "meridians": "归脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "破气消积，化痰散痞",
+    "contraindications": "孕妇慎服，脾胃虚弱者忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "枳壳",
+    "pinyin": "Zhike",
+    "aliases": [
+      "麸炒枳壳",
+      "绿衣枳壳"
+    ],
+    "category": "理气药",
+    "nature": "微寒",
+    "flavor": "苦、辛、酸",
+    "meridians": "归肺、脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "理气宽中，行滞消胀",
+    "contraindications": "孕妇慎用，气虚无积者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "木香",
+    "pinyin": "Muxiang",
+    "aliases": [
+      "广木香",
+      "煨木香"
+    ],
+    "category": "理气药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归脾、胃、大肠、三焦、胆经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "行气止痛，健脾消食",
+    "contraindications": "阴虚津亏、真火内炽者禁用",
+    "decoction_method": "行气多生用，止泻多煨用"
+  },
+  {
+    "herb_name": "沉香",
+    "pinyin": "Chenxiang",
+    "aliases": [
+      "沉水香"
+    ],
+    "category": "理气药",
+    "nature": "微温",
+    "flavor": "辛、苦",
+    "meridians": "归脾、胃、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 5.0,
+    "dosage_range": "1~5g",
+    "efficacy": "行气止痛，温中止呕，纳气平喘",
+    "contraindications": "气虚下陷及阴虚火旺者忌服",
+    "decoction_method": "【特殊煎法】难溶且芳香，后下或研磨冲服"
+  },
+  {
+    "herb_name": "香附",
+    "pinyin": "Xiangfu",
+    "aliases": [
+      "醋香附",
+      "制香附"
+    ],
+    "category": "理气药",
+    "nature": "平",
+    "flavor": "辛、微苦、微甘",
+    "meridians": "归肝、脾、三焦经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "6~10g",
+    "efficacy": "疏肝解郁，理气宽中，调经止痛",
+    "contraindications": "气虚无滞、阴虚血热者忌服",
+    "decoction_method": "疏肝止痛多生用，调经多醋炙"
+  },
+  {
+    "herb_name": "郁金",
+    "pinyin": "Yujin",
+    "aliases": [
+      "广郁金",
+      "川郁金",
+      "醋郁金"
+    ],
+    "category": "活血行气药",
+    "nature": "寒",
+    "flavor": "辛、苦",
+    "meridians": "归心、肝、胆经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "5~12g",
+    "efficacy": "活血止痛，行气解郁，清心凉血，利胆退黄",
+    "contraindications": "【十九畏】郁金畏丁香！孕妇慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "山楂",
+    "pinyin": "Shanzha",
+    "aliases": [
+      "生山楂",
+      "焦山楂",
+      "炒山楂"
+    ],
+    "category": "消食药",
+    "nature": "微温",
+    "flavor": "酸、甘",
+    "meridians": "归脾、胃、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "消食健胃，行气散瘀，化浊降脂",
+    "contraindications": "脾胃虚弱无积滞及胃酸过多者慎用",
+    "decoction_method": "消肉积多生用或炒用，止泻多焦用"
+  },
+  {
+    "herb_name": "神曲",
+    "pinyin": "Shenqu",
+    "aliases": [
+      "六神曲",
+      "焦神曲"
+    ],
+    "category": "消食药",
+    "nature": "温",
+    "flavor": "甘、辛",
+    "meridians": "归脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "消食和胃，健脾",
+    "contraindications": "脾阴虚无积者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "麦芽",
+    "pinyin": "Maiya",
+    "aliases": [
+      "生麦芽",
+      "炒麦芽",
+      "焦麦芽"
+    ],
+    "category": "消食药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归脾、胃、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "10~15g",
+    "efficacy": "行气消食，健脾开胃，回乳消胀",
+    "contraindications": "哺乳期妇女禁用（回乳）",
+    "decoction_method": "消食宜炒用，回乳宜生麦芽大剂量60g煎服"
+  },
+  {
+    "herb_name": "莱菔子",
+    "pinyin": "Laifuzi",
+    "aliases": [
+      "萝卜子",
+      "炒莱菔子"
+    ],
+    "category": "消食药",
+    "nature": "平",
+    "flavor": "辛、甘",
+    "meridians": "归肺、脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "消食除胀，降气化痰",
+    "contraindications": "【中药配伍】莱菔子下气破气，消人参补力，服人参者忌服！气虚无积者忌服",
+    "decoction_method": "常规水煎，需捣碎"
+  },
+  {
+    "herb_name": "鸡内金",
+    "pinyin": "Jineijin",
+    "aliases": [
+      "炒鸡内金",
+      "焦鸡内金"
+    ],
+    "category": "消食药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归脾、胃、小肠、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "健胃消食，涩精止遗，通淋化石",
+    "contraindications": "脾虚无积者慎用",
+    "decoction_method": "研末冲服每次1.5~3g效果优于煎剂"
+  },
+  {
+    "herb_name": "三七",
+    "pinyin": "Sanqi",
+    "aliases": [
+      "田七",
+      "三七粉"
+    ],
+    "category": "化瘀止血药",
+    "nature": "温",
+    "flavor": "甘、微苦",
+    "meridians": "归肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "散瘀止血，消肿定痛",
+    "contraindications": "孕妇慎用",
+    "decoction_method": "入煎剂3~10g；研粉冲服每次1~3g"
+  },
+  {
+    "herb_name": "白及",
+    "pinyin": "Baiji",
+    "aliases": [
+      "白芨",
+      "白及粉"
+    ],
+    "category": "收敛止血药",
+    "nature": "微寒",
+    "flavor": "苦、甘、涩",
+    "meridians": "归肺、肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "6~10g",
+    "efficacy": "收敛止血，消肿生肌",
+    "contraindications": "【十八反】反乌头（川乌、草乌、附子）！外感咯血及肺痈初起者忌服",
+    "decoction_method": "研末冲服每次2~5g"
+  },
+  {
+    "herb_name": "白蔹",
+    "pinyin": "Bailian",
+    "aliases": [
+      "白蔹片"
+    ],
+    "category": "清热解毒消肿药",
+    "nature": "微寒",
+    "flavor": "苦、辛",
+    "meridians": "归心、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "4.5~10g",
+    "efficacy": "清热解毒，消痈散结，生肌止痛",
+    "contraindications": "【十八反】反乌头（川乌、草乌、附子）！脾胃虚寒者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "地榆",
+    "pinyin": "Diyu",
+    "aliases": [
+      "地榆炭"
+    ],
+    "category": "凉血止血药",
+    "nature": "微寒",
+    "flavor": "苦、酸、涩",
+    "meridians": "归肝、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "凉血止血，解毒敛疮",
+    "contraindications": "虚寒性出血忌用",
+    "decoction_method": "常规水煎，止血多炒炭"
+  },
+  {
+    "herb_name": "小蓟",
+    "pinyin": "Xiaoji",
+    "aliases": [
+      "刺儿菜"
+    ],
+    "category": "凉血止血药",
+    "nature": "凉",
+    "flavor": "甘、苦",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "5~15g",
+    "efficacy": "凉血止血，散瘀解毒消痈",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "大蓟",
+    "pinyin": "Daji_herba",
+    "aliases": [
+      "大蓟炭"
+    ],
+    "category": "凉血止血药",
+    "nature": "凉",
+    "flavor": "甘、苦",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "5~15g",
+    "efficacy": "凉血止血，祛瘀消肿",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "艾叶",
+    "pinyin": "Aiye",
+    "aliases": [
+      "艾叶炭",
+      "蕲艾"
+    ],
+    "category": "温经止血药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归肝、脾、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "温经止血，散寒止痛；外用祛湿止痒",
+    "contraindications": "阴虚血热者慎用",
+    "decoction_method": "常规水煎，调经宜生用，止血宜炒炭"
+  },
+  {
+    "herb_name": "丹参",
+    "pinyin": "Danshen",
+    "aliases": [
+      "紫丹参",
+      "酒丹参"
+    ],
+    "category": "活血化瘀药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "10~15g",
+    "efficacy": "活血祛瘀，通经止痛，清心除烦，凉血消痈",
+    "contraindications": "【十八反】反藜芦！月经过多及无瘀血者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "当归",
+    "pinyin": "Danggui",
+    "aliases": [
+      "当归头",
+      "当归身",
+      "当归尾",
+      "酒当归"
+    ],
+    "category": "补血活血药",
+    "nature": "温",
+    "flavor": "甘、辛",
+    "meridians": "归肝、心、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "补血活血，调经止痛，润肠通便",
+    "contraindications": "湿盛中满及大便溏泄者慎服",
+    "decoction_method": "补血多用归身，破血多用归尾，通经多酒炙"
+  },
+  {
+    "herb_name": "桃仁",
+    "pinyin": "Taoren",
+    "aliases": [
+      "炒桃仁"
+    ],
+    "category": "活血化瘀药",
+    "nature": "平",
+    "flavor": "苦、甘",
+    "meridians": "归心、肝、大肠经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "活血祛瘀，润肠通便，止咳平喘",
+    "contraindications": "孕妇禁服，便溏及出血倾向者忌用",
+    "decoction_method": "常规水煎，需捣碎"
+  },
+  {
+    "herb_name": "红花",
+    "pinyin": "Honghua",
+    "aliases": [
+      "草红花"
+    ],
+    "category": "活血化瘀药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "活血通经，散瘀止痛",
+    "contraindications": "孕妇禁用，出血倾向者禁服",
+    "decoction_method": "少用活血和血，多用破血通经"
+  },
+  {
+    "herb_name": "益母草",
+    "pinyin": "Yimucao",
+    "aliases": [
+      "坤草"
+    ],
+    "category": "活血化瘀药",
+    "nature": "微寒",
+    "flavor": "苦、辛",
+    "meridians": "归肝、心包、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "10~30g",
+    "efficacy": "活血调经，利尿消肿，清热解毒",
+    "contraindications": "孕妇禁用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "延胡索",
+    "pinyin": "Yanhusuo",
+    "aliases": [
+      "元胡",
+      "醋延胡索"
+    ],
+    "category": "活血止痛药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "活血，行气，止痛",
+    "contraindications": "孕妇忌用",
+    "decoction_method": "止痛多醋炙，可提高延胡索乙素水溶出率"
+  },
+  {
+    "herb_name": "五灵脂",
+    "pinyin": "Wulingzhi",
+    "aliases": [
+      "炒五灵脂",
+      "醋灵脂"
+    ],
+    "category": "活血化瘀药",
+    "nature": "温",
+    "flavor": "苦、咸",
+    "meridians": "归肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "活血止痛，化瘀止血",
+    "contraindications": "【十九畏】人参畏五灵脂！孕妇慎服",
+    "decoction_method": "【特殊煎法】有杂质黏液，需包煎"
+  },
+  {
+    "herb_name": "水蛭",
+    "pinyin": "Shuizhi",
+    "aliases": [
+      "蚂蟥",
+      "烫水蛭"
+    ],
+    "category": "破血消癥药",
+    "nature": "平",
+    "flavor": "咸、苦",
+    "meridians": "归肝经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 5.0,
+    "dosage_range": "1~5g",
+    "efficacy": "破血通经，逐瘀消癥",
+    "contraindications": "孕妇及无瘀血者禁用",
+    "decoction_method": "入汤剂或研末冲服每次0.3~1g"
+  },
+  {
+    "herb_name": "半夏",
+    "pinyin": "Banxia",
+    "aliases": [
+      "清半夏",
+      "姜半夏",
+      "法半夏",
+      "生半夏(大毒)"
+    ],
+    "category": "温化寒痰药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归脾、胃、肺经",
+    "toxicity_level": "有毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "燥湿化痰，降逆止呕，消痞散结",
+    "contraindications": "【十八反】反乌头（川乌、草乌、附子）！阴虚燥咳忌用，严禁生服",
+    "decoction_method": "【炮制与煎法】内服必须使用炮制品(姜/法/清半夏)，生半夏刺激黏膜大毒"
+  },
+  {
+    "herb_name": "旋覆花",
+    "pinyin": "Xuanfuhua",
+    "aliases": [
+      "金沸草花"
+    ],
+    "category": "降气化痰药",
+    "nature": "微温",
+    "flavor": "苦、辛、咸",
+    "meridians": "归肺、脾、胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "降气，化痰，行水，降逆止呕",
+    "contraindications": "阴虚劳嗽、津伤便秘忌服",
+    "decoction_method": "【特殊煎法】绒毛易脱落刺激咽喉，必须包煎"
+  },
+  {
+    "herb_name": "桔梗",
+    "pinyin": "Jiegeng",
+    "aliases": [
+      "苦桔梗"
+    ],
+    "category": "清化热痰药",
+    "nature": "平",
+    "flavor": "苦、辛",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "宣肺，利咽，祛痰，排脓",
+    "contraindications": "气机上逆、咯血及阴虚火旺忌服",
+    "decoction_method": "载药上行，多作使药"
+  },
+  {
+    "herb_name": "川贝母",
+    "pinyin": "Chuanbeimu",
+    "aliases": [
+      "松贝",
+      "青贝",
+      "炉贝"
+    ],
+    "category": "清化热痰药",
+    "nature": "微寒",
+    "flavor": "苦、甘",
+    "meridians": "归肺、心经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "清热润肺，化痰止咳，散结消痈",
+    "contraindications": "【十八反】诸贝反乌头！寒痰湿痰者忌服",
+    "decoction_method": "贵重药材多研粉冲服每次1~2g"
+  },
+  {
+    "herb_name": "浙贝母",
+    "pinyin": "Zhebeimu",
+    "aliases": [
+      "象贝",
+      "大贝"
+    ],
+    "category": "清化热痰药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肺、心经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "清热化痰止咳，解毒散结消痈",
+    "contraindications": "【十八反】诸贝反乌头！脾胃虚寒者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "瓜蒌",
+    "pinyin": "Gualou",
+    "aliases": [
+      "全瓜蒌",
+      "瓜蒌皮",
+      "瓜蒌仁"
+    ],
+    "category": "清化热痰药",
+    "nature": "寒",
+    "flavor": "甘、微苦",
+    "meridians": "归肺、胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热涤痰，宽胸散结，润燥滑肠",
+    "contraindications": "【十八反】瓜蒌反乌头（川乌、草乌、附子）！脾胃虚寒便溏者忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "苦杏仁",
+    "pinyin": "Kuxingren",
+    "aliases": [
+      "杏仁",
+      "炒杏仁"
+    ],
+    "category": "止咳平喘药",
+    "nature": "微温",
+    "flavor": "苦",
+    "meridians": "归肺、大肠经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "降气止咳平喘，润肠通便",
+    "contraindications": "【有小毒】含苦杏仁苷，过量易氢氰酸中毒；阴虚咳喘忌服",
+    "decoction_method": "入煎宜打碎后下"
+  },
+  {
+    "herb_name": "紫苏子",
+    "pinyin": "Zisuzi",
+    "aliases": [
+      "炒苏子",
+      "苏子"
+    ],
+    "category": "止咳平喘药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肺、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "降气化痰，止咳平喘，润肠通便",
+    "contraindications": "阴虚喘咳及大便溏泄者慎服",
+    "decoction_method": "常规水煎，需捣碎"
+  },
+  {
+    "herb_name": "百部",
+    "pinyin": "Baibu",
+    "aliases": [
+      "蜜百部"
+    ],
+    "category": "止咳平喘药",
+    "nature": "微温",
+    "flavor": "甘、苦",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "润肺下气止咳，杀虫灭虱",
+    "contraindications": "脾胃虚弱便溏者慎用",
+    "decoction_method": "外感初起咳嗽多生用，久咳多蜜炙"
+  },
+  {
+    "herb_name": "酸枣仁",
+    "pinyin": "Suanzaoren",
+    "aliases": [
+      "炒枣仁",
+      "生枣仁"
+    ],
+    "category": "养心安神药",
+    "nature": "平",
+    "flavor": "甘、酸",
+    "meridians": "归肝、胆、心经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "养心补肝，宁心安神，敛汗，生津",
+    "contraindications": "肝胆有实热者慎用",
+    "decoction_method": "安神宜炒用，需捣碎"
+  },
+  {
+    "herb_name": "柏子仁",
+    "pinyin": "Baiziren",
+    "aliases": [
+      "炒柏子仁"
+    ],
+    "category": "养心安神药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归心、肾、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "养心安神，润肠通便",
+    "contraindications": "便溏及多痰者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "远志",
+    "pinyin": "Yuanzhi",
+    "aliases": [
+      "制远志",
+      "蜜远志"
+    ],
+    "category": "安神益智药",
+    "nature": "微温",
+    "flavor": "苦、辛",
+    "meridians": "归心、肾、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "安神益智，交通心肾，祛痰，消痈",
+    "contraindications": "胃炎及胃溃疡患者慎用（刺激胃黏膜）",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "天麻",
+    "pinyin": "Tianma",
+    "aliases": [
+      "明日麻",
+      "定风草"
+    ],
+    "category": "平肝息风药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "息风止痉，平抑肝阳，祛风通络",
+    "contraindications": "血虚阴津亏耗者慎用",
+    "decoction_method": "入煎剂3~10g；研粉吞服每次1~1.5g"
+  },
+  {
+    "herb_name": "钩藤",
+    "pinyin": "Gouteng",
+    "aliases": [
+      "双钩藤"
+    ],
+    "category": "平肝息风药",
+    "nature": "微寒",
+    "flavor": "甘",
+    "meridians": "归肝、心包经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "息风定惊，清热平肝",
+    "contraindications": "脾胃虚寒者慎服",
+    "decoction_method": "【特殊煎法】有效成分钩藤碱不耐热，需后下"
+  },
+  {
+    "herb_name": "石决明",
+    "pinyin": "Shijueming",
+    "aliases": [
+      "生石决明",
+      "煅石决明"
+    ],
+    "category": "平抑肝阳药",
+    "nature": "微寒",
+    "flavor": "咸",
+    "meridians": "归肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "平肝潜阳，清肝明目",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "【特殊煎法】贝壳类质重，需打碎先煎 20~30 分钟"
+  },
+  {
+    "herb_name": "牡蛎",
+    "pinyin": "Muli",
+    "aliases": [
+      "生牡蛎",
+      "煅牡蛎"
+    ],
+    "category": "平肝潜阳收涩药",
+    "nature": "微寒",
+    "flavor": "咸、涩",
+    "meridians": "归肝、胆、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "潜阳补阴，重镇安神，软坚散结，收敛固涩",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "【特殊煎法】先煎 20~30 分钟"
+  },
+  {
+    "herb_name": "龙骨",
+    "pinyin": "Longgu",
+    "aliases": [
+      "生龙骨",
+      "煅龙骨"
+    ],
+    "category": "重镇安神收涩药",
+    "nature": "微寒",
+    "flavor": "甘、涩",
+    "meridians": "归心、肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "镇惊安神，平肝潜阳，收敛固涩",
+    "contraindications": "有湿热积滞者慎用",
+    "decoction_method": "【特殊煎法】矿物化石类，需打碎先煎"
+  },
+  {
+    "herb_name": "人参",
+    "pinyin": "Renshen",
+    "aliases": [
+      "生晒参",
+      "红参",
+      "白参",
+      "野山参"
+    ],
+    "category": "补气药",
+    "nature": "微温",
+    "flavor": "甘、微苦",
+    "meridians": "归脾、肺、心、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "大补元气，复脉固脱，补脾益肺，生津养血，安神益智",
+    "contraindications": "【十八反十九畏】反藜芦！畏五灵脂！恶莱菔子！实热证、湿热证忌服",
+    "decoction_method": "【特殊煎法】贵重药材宜另煎和兑；急救虚脱可单煎大剂量15~30g"
+  },
+  {
+    "herb_name": "党参",
+    "pinyin": "Dangshen",
+    "aliases": [
+      "潞党参",
+      "炒党参",
+      "米炒党参"
+    ],
+    "category": "补气药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归脾、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "健脾益肺，养血生津",
+    "contraindications": "【十八反】反藜芦！实证热证忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "黄芪",
+    "pinyin": "Huangqi",
+    "aliases": [
+      "生黄芪",
+      "炙黄芪",
+      "北芪"
+    ],
+    "category": "补气药",
+    "nature": "微温",
+    "flavor": "甘",
+    "meridians": "归肺、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 60.0,
+    "dosage_range": "9~60g",
+    "efficacy": "补气升阳，固表止汗，利水消肿，生津养血，托毒排脓，敛疮生肌",
+    "contraindications": "表实邪盛、内有积滞、阴虚阳亢者忌服",
+    "decoction_method": "补气升阳多炙用，利水托毒多生用"
+  },
+  {
+    "herb_name": "白术",
+    "pinyin": "Baizhu",
+    "aliases": [
+      "生白术",
+      "炒白术",
+      "焦白术"
+    ],
+    "category": "补气药",
+    "nature": "温",
+    "flavor": "苦、甘",
+    "meridians": "归脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "健脾益气，燥湿利水，止汗，安胎",
+    "contraindications": "阴虚内热津亏者慎用",
+    "decoction_method": "燥湿利水宜生用，健脾止泻宜麸炒"
+  },
+  {
+    "herb_name": "山药",
+    "pinyin": "Shanyao",
+    "aliases": [
+      "怀山药",
+      "炒山药"
+    ],
+    "category": "补气药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归脾、肺、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "补脾养胃，生津益肺，补肾涩精",
+    "contraindications": "湿盛中满及积滞者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "甘草",
+    "pinyin": "Gancao",
+    "aliases": [
+      "生甘草",
+      "炙甘草",
+      "粉甘草"
+    ],
+    "category": "补气药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归心、肺、脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "2~10g",
+    "efficacy": "补脾益气，清热解毒，祛痰止咳，缓急止痛，调和诸药",
+    "contraindications": "【十八反绝对禁忌】严禁与甘遂、大戟、海藻、芫花同用！湿盛中满者忌服",
+    "decoction_method": "常规水煎，调和诸药多生用，补气多蜜炙"
+  },
+  {
+    "herb_name": "熟地黄",
+    "pinyin": "Shudihuang",
+    "aliases": [
+      "熟地",
+      "熟地炭"
+    ],
+    "category": "补血药",
+    "nature": "微温",
+    "flavor": "甘",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "10~30g",
+    "efficacy": "补血滋阴，益精填髓",
+    "contraindications": "脾胃虚弱气滞食少及便溏者忌服",
+    "decoction_method": "滋腻碍胃，宜配砂仁、陈皮等同行"
+  },
+  {
+    "herb_name": "白芍",
+    "pinyin": "Baishao",
+    "aliases": [
+      "生白芍",
+      "炒白芍",
+      "酒白芍"
+    ],
+    "category": "补血药",
+    "nature": "微寒",
+    "flavor": "苦、酸",
+    "meridians": "归肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "养血调经，敛阴止汗，柔肝止痛，平抑肝阳",
+    "contraindications": "【十八反】反藜芦！虚寒泄泻者忌服",
+    "decoction_method": "养血敛阴多炒用，平肝柔肝多生用"
+  },
+  {
+    "herb_name": "阿胶",
+    "pinyin": "Ejiao",
+    "aliases": [
+      "驴皮胶",
+      "阿胶珠"
+    ],
+    "category": "补血滋阴药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归肺、肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "5~15g",
+    "efficacy": "补血滋阴，润燥，止血",
+    "contraindications": "脾胃虚弱便溏者忌服",
+    "decoction_method": "【特殊煎法】不能入汤剂同煎，必须烊化兑服"
+  },
+  {
+    "herb_name": "何首乌",
+    "pinyin": "Heshouwu",
+    "aliases": [
+      "制首乌",
+      "生首乌"
+    ],
+    "category": "补血补精药",
+    "nature": "微温",
+    "flavor": "苦、甘、涩",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "有毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "制首乌补肝肾，益精血，乌须发，强筋骨；生首乌解毒消痈截疟润肠通便",
+    "contraindications": "【安全提示】何首乌含蒽醌类及二苯乙烯苷，过量久服具肝毒性；内服必须制用",
+    "decoction_method": "补益须用黑豆汁蒸制首乌"
+  },
+  {
+    "herb_name": "龙眼肉",
+    "pinyin": "Longyanrou",
+    "aliases": [
+      "桂圆肉"
+    ],
+    "category": "补血药",
+    "nature": "温",
+    "flavor": "甘",
+    "meridians": "归心、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "5~15g",
+    "efficacy": "补益心脾，养血安神",
+    "contraindications": "内有痰火湿阻者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "肉苁蓉",
+    "pinyin": "Roucongrong",
+    "aliases": [
+      "荒漠肉苁蓉",
+      "管花肉苁蓉"
+    ],
+    "category": "补阳药",
+    "nature": "温",
+    "flavor": "甘、咸",
+    "meridians": "归肾、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "补肾阳，益精血，润肠通便",
+    "contraindications": "便溏泄泻及阴虚相火旺者忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "淫羊藿",
+    "pinyin": "Yinyanghuo",
+    "aliases": [
+      "仙灵脾",
+      "炙淫羊藿"
+    ],
+    "category": "补阳药",
+    "nature": "温",
+    "flavor": "辛、甘",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "6~10g",
+    "efficacy": "补肾阳，强筋骨，祛风湿",
+    "contraindications": "阴虚火旺者慎服",
+    "decoction_method": "补肾助阳宜羊脂油炙用"
+  },
+  {
+    "herb_name": "杜仲",
+    "pinyin": "Duzhong",
+    "aliases": [
+      "炒杜仲",
+      "盐杜仲"
+    ],
+    "category": "补阳药",
+    "nature": "温",
+    "flavor": "甘",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "补肝肾，强筋骨，安胎",
+    "contraindications": "阴虚火旺者慎用",
+    "decoction_method": "补肝肾降血压多盐水炒断丝用"
+  },
+  {
+    "herb_name": "续断",
+    "pinyin": "Xuduan",
+    "aliases": [
+      "川续断",
+      "盐续断"
+    ],
+    "category": "补阳药",
+    "nature": "微温",
+    "flavor": "苦、辛",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "补肝肾，强筋骨，续折伤，止崩漏",
+    "contraindications": "有风湿邪热者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "北沙参",
+    "pinyin": "Beishashen",
+    "aliases": [
+      "沙参",
+      "莱阳沙参"
+    ],
+    "category": "补阴药",
+    "nature": "微寒",
+    "flavor": "甘、微苦",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "养阴清肺，益胃生津",
+    "contraindications": "【十八反】反藜芦！风寒咳嗽忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "南沙参",
+    "pinyin": "Nanshashen",
+    "aliases": [
+      "泡沙参"
+    ],
+    "category": "补阴药",
+    "nature": "微寒",
+    "flavor": "甘",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "养阴清肺，益胃生津，化痰益气",
+    "contraindications": "【十八反】反藜芦！风寒咳嗽忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "麦冬",
+    "pinyin": "Maidong",
+    "aliases": [
+      "麦门冬",
+      "杭麦冬"
+    ],
+    "category": "补阴药",
+    "nature": "微寒",
+    "flavor": "甘、微苦",
+    "meridians": "归心、肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "养阴润肺，益胃生津，清心除烦",
+    "contraindications": "脾胃虚寒泄泻及风寒咳喘忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "天冬",
+    "pinyin": "Tiandong",
+    "aliases": [
+      "天门冬"
+    ],
+    "category": "补阴药",
+    "nature": "大寒",
+    "flavor": "甘、苦",
+    "meridians": "归肺、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "养阴润燥，清肺生津",
+    "contraindications": "脾胃虚寒泄泻者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "玉竹",
+    "pinyin": "Yuzhu",
+    "aliases": [
+      "尾参"
+    ],
+    "category": "补阴药",
+    "nature": "微寒",
+    "flavor": "甘",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "养阴润燥，生津止渴",
+    "contraindications": "阴盛湿阻者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "百合",
+    "pinyin": "Baihe",
+    "aliases": [
+      "蜜百合"
+    ],
+    "category": "补阴药",
+    "nature": "微寒",
+    "flavor": "甘",
+    "meridians": "归心、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "养阴润肺，清心安神",
+    "contraindications": "风寒咳嗽及便溏者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "枸杞子",
+    "pinyin": "Gouqizi",
+    "aliases": [
+      "宁夏枸杞"
+    ],
+    "category": "补阴药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "滋补肝肾，益精明目",
+    "contraindications": "外感实热及便溏者忌服",
+    "decoction_method": "常规水煎或嚼服"
+  },
+  {
+    "herb_name": "五味子",
+    "pinyin": "Wuweizi",
+    "aliases": [
+      "辽五味子",
+      "醋五味子"
+    ],
+    "category": "收涩药",
+    "nature": "温",
+    "flavor": "酸、甘",
+    "meridians": "归肺、心、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "2~6g",
+    "efficacy": "收敛固涩，益气生津，补肾宁心",
+    "contraindications": "外感咳初起、内有湿热实邪者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "山茱萸",
+    "pinyin": "Shanzhuyu",
+    "aliases": [
+      "山萸肉",
+      "酒茱萸"
+    ],
+    "category": "收涩药",
+    "nature": "微温",
+    "flavor": "酸、涩",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "补益肝肾，收敛固脱",
+    "contraindications": "小便不利及湿热内盛者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "乌梅",
+    "pinyin": "Wumei",
+    "aliases": [
+      "炙乌梅",
+      "乌梅炭"
+    ],
+    "category": "收涩药",
+    "nature": "平",
+    "flavor": "酸、涩",
+    "meridians": "归肝、脾、肺、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "敛肺，涩肠，生津，安蛔",
+    "contraindications": "外感初起及积滞内热忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "赤石脂",
+    "pinyin": "Chishizhi",
+    "aliases": [
+      "赤石脂炭"
+    ],
+    "category": "涩肠止泻止血药",
+    "nature": "温",
+    "flavor": "甘、酸、涩",
+    "meridians": "归胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 20.0,
+    "dosage_range": "9~20g",
+    "efficacy": "涩肠止泻，收敛止血，敛疮生肌",
+    "contraindications": "【十九畏】赤石脂畏肉桂！湿热泻痢忌服",
+    "decoction_method": "【特殊煎法】矿物类需先煎"
+  },
+  {
+    "herb_name": "海螵蛸",
+    "pinyin": "Haipiaoxiao",
+    "aliases": [
+      "乌贼骨"
+    ],
+    "category": "固精止带制酸药",
+    "nature": "微温",
+    "flavor": "咸、涩",
+    "meridians": "归脾、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "5~12g",
+    "efficacy": "收敛止血，涩精止带，制酸止痛，收湿敛疮",
+    "contraindications": "血热阴虚者多不宜用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "藜芦",
+    "pinyin": "Lilu",
+    "aliases": [
+      "黑藜芦",
+      "葱管藜芦"
+    ],
+    "category": "涌吐涌痰杀虫药",
+    "nature": "寒",
+    "flavor": "辛、苦",
+    "meridians": "归肺、胃、肝经",
+    "toxicity_level": "有毒",
+    "max_dosage": 0.6,
+    "dosage_range": "0.3~0.6g",
+    "efficacy": "涌吐风痰，杀虫",
+    "contraindications": "【十八反绝对红线】诸参辛芍叛藜芦（反人参、党参、沙参、丹参、玄参、细辛、芍药）！【剧毒药物】极量0.6g，孕妇及体虚者严禁内服",
+    "decoction_method": "多入丸散，慎勿轻投"
+  },
+  {
+    "herb_name": "海藻",
+    "pinyin": "Haizao",
+    "aliases": [
+      "大叶海藻",
+      "小叶海藻"
+    ],
+    "category": "化痰软坚药",
+    "nature": "寒",
+    "flavor": "苦、咸",
+    "meridians": "归肝、胃、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "消痰软坚，利水消肿",
+    "contraindications": "【十八反】反甘草！脾胃虚寒者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "麝香",
+    "pinyin": "Shexiang",
+    "aliases": [
+      "寸香",
+      "原寸",
+      "当门子"
+    ],
+    "category": "开窍药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归心、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 0.1,
+    "dosage_range": "0.03~0.1g",
+    "efficacy": "开窍醒神，活血通经，消肿止痛",
+    "contraindications": "【孕妇严禁禁用】强效子宫收缩，胎产大忌",
+    "decoction_method": "不宜入煎，多入丸散冲服"
+  },
+  {
+    "herb_name": "冰片",
+    "pinyin": "Bingpian",
+    "aliases": [
+      "龙脑",
+      "天然冰片",
+      "合成龙脑"
+    ],
+    "category": "开窍药",
+    "nature": "微寒",
+    "flavor": "辛、苦",
+    "meridians": "归心、脾、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 0.3,
+    "dosage_range": "0.15~0.3g",
+    "efficacy": "开窍醒神，清热止痛",
+    "contraindications": "孕妇慎用，气虚神昏者忌服",
+    "decoction_method": "不入煎剂，多入丸散或外用"
+  },
+  {
+    "herb_name": "石菖蒲",
+    "pinyin": "Shichangpu",
+    "aliases": [
+      "九节菖蒲",
+      "石菖"
+    ],
+    "category": "开窍宁神药",
+    "nature": "微温",
+    "flavor": "辛、苦",
+    "meridians": "归心、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "开窍豁痰，醒神益智，化湿开胃",
+    "contraindications": "阴虚阳亢、汗多精滑者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "苏合香",
+    "pinyin": "Suhexiang",
+    "aliases": [
+      "苏合香脂"
+    ],
+    "category": "开窍药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归心、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 1.0,
+    "dosage_range": "0.3~1g",
+    "efficacy": "开窍辟秽，止痛",
+    "contraindications": "孕妇慎用，热闭神昏忌用",
+    "decoction_method": "入丸散冲服，不入煎剂"
+  },
+  {
+    "herb_name": "重楼",
+    "pinyin": "Chonglou",
+    "aliases": [
+      "七叶一枝花",
+      "蚤休",
+      "草河车"
+    ],
+    "category": "清热解毒消肿药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归肝经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 9.0,
+    "dosage_range": "3~9g",
+    "efficacy": "清热解毒，消肿止痛，凉肝定惊",
+    "contraindications": "孕妇禁用，虚寒证及体弱者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "穿心莲",
+    "pinyin": "Chuanxinlian",
+    "aliases": [
+      "一见喜",
+      "苦胆草"
+    ],
+    "category": "清热解毒燥湿药",
+    "nature": "大寒",
+    "flavor": "苦",
+    "meridians": "归心、肺、大肠、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 9.0,
+    "dosage_range": "6~9g",
+    "efficacy": "清热解毒，凉血，消肿，燥湿",
+    "contraindications": "脾胃虚寒者忌服，本品大苦大寒，过服伤胃",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "白花蛇舌草",
+    "pinyin": "Baihuasheshecao",
+    "aliases": [
+      "蛇舌草",
+      "二叶苈"
+    ],
+    "category": "清热解毒利湿药",
+    "nature": "寒",
+    "flavor": "微苦、甘",
+    "meridians": "归胃、大肠、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 60.0,
+    "dosage_range": "15~60g",
+    "efficacy": "清热解毒，消痈散结，利尿消肿",
+    "contraindications": "脾胃虚寒者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "半枝莲",
+    "pinyin": "Banzhilian",
+    "aliases": [
+      "狭叶韩信草"
+    ],
+    "category": "清热解毒活血药",
+    "nature": "寒",
+    "flavor": "辛、苦",
+    "meridians": "归肺、肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "清热解毒，化瘀利水",
+    "contraindications": "孕妇慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "土茯苓",
+    "pinyin": "Tufuling",
+    "aliases": [
+      "冷饭团",
+      "硬饭头"
+    ],
+    "category": "清热解毒利湿药",
+    "nature": "平",
+    "flavor": "甘、淡",
+    "meridians": "归肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 60.0,
+    "dosage_range": "15~60g",
+    "efficacy": "解毒，除湿，通利关节",
+    "contraindications": "肝肾阴亏者慎服",
+    "decoction_method": "常规水煎，解梅毒重剂可用至60~120g"
+  },
+  {
+    "herb_name": "青黛",
+    "pinyin": "Qingdai",
+    "aliases": [
+      "靛花",
+      "蓝靛"
+    ],
+    "category": "清热解毒凉血药",
+    "nature": "寒",
+    "flavor": "咸",
+    "meridians": "归肝、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1.5~3g",
+    "efficacy": "清热解毒，凉血消斑，泻火定惊",
+    "contraindications": "脾胃虚寒者忌服",
+    "decoction_method": "不溶于水，多冲服或入丸散"
+  },
+  {
+    "herb_name": "大青叶",
+    "pinyin": "Daqingye",
+    "aliases": [
+      "板蓝根叶"
+    ],
+    "category": "清热解毒凉血药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归心、肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热解毒，凉血消斑",
+    "contraindications": "脾胃虚寒无实火者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "马齿苋",
+    "pinyin": "Machixian",
+    "aliases": [
+      "马齿菜",
+      "五行草"
+    ],
+    "category": "清热解毒凉血药",
+    "nature": "寒",
+    "flavor": "酸",
+    "meridians": "归肝、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 60.0,
+    "dosage_range": "30~60g",
+    "efficacy": "清热解毒，凉血止血，止痢",
+    "contraindications": "脾胃虚寒及便溏者忌服",
+    "decoction_method": "常规水煎，鲜品量加倍"
+  },
+  {
+    "herb_name": "鸭跖草",
+    "pinyin": "Yazhicao",
+    "aliases": [
+      "碧竹子",
+      "兰花草"
+    ],
+    "category": "清热解毒利尿药",
+    "nature": "寒",
+    "flavor": "甘、淡",
+    "meridians": "归肺、胃、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "清热解毒，利水消肿",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "滑石",
+    "pinyin": "Huashi",
+    "aliases": [
+      "飞滑石",
+      "滑石粉"
+    ],
+    "category": "利水通淋药",
+    "nature": "寒",
+    "flavor": "甘、淡",
+    "meridians": "归膀胱、肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 20.0,
+    "dosage_range": "10~20g",
+    "efficacy": "利尿通淋，清热解暑；外用祛湿敛疮",
+    "contraindications": "脾虚气弱、精滑便溏者忌服",
+    "decoction_method": "【特殊煎法】粉末质地，必须包煎"
+  },
+  {
+    "herb_name": "海金沙",
+    "pinyin": "Haijinsha",
+    "aliases": [
+      "海金砂草粉"
+    ],
+    "category": "利尿通淋止痛药",
+    "nature": "寒",
+    "flavor": "甘、淡",
+    "meridians": "归膀胱、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "清利湿热，通淋止痛",
+    "contraindications": "脾胃虚寒者慎服",
+    "decoction_method": "【特殊煎法】微细粉末易浮于水面，必须包煎"
+  },
+  {
+    "herb_name": "石韦",
+    "pinyin": "Shiwei",
+    "aliases": [
+      "石苇",
+      "庐山石韦"
+    ],
+    "category": "利尿通淋止血药",
+    "nature": "微寒",
+    "flavor": "苦、甘",
+    "meridians": "归肺、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "利尿通淋，清肺止咳，凉血止血",
+    "contraindications": "无湿热及虚寒者忌服",
+    "decoction_method": "【特殊煎法】表面有细绒毛，宜包煎"
+  },
+  {
+    "herb_name": "通草",
+    "pinyin": "Tongcao",
+    "aliases": [
+      "方通",
+      "大通草"
+    ],
+    "category": "利水通淋下乳药",
+    "nature": "微寒",
+    "flavor": "甘、淡",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 5.0,
+    "dosage_range": "3~5g",
+    "efficacy": "清热利尿，通气下乳",
+    "contraindications": "孕妇慎用，气虚无湿热者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "扁蓄",
+    "pinyin": "Bianxu",
+    "aliases": [
+      "萹蓄",
+      "扁竹"
+    ],
+    "category": "利水杀虫止痒药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "利尿通淋，杀虫，止痒",
+    "contraindications": "脾胃虚弱者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "瞿麦",
+    "pinyin": "Qumai",
+    "aliases": [
+      "巨麦",
+      "大兰"
+    ],
+    "category": "利尿通淋破血药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归心、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "5~12g",
+    "efficacy": "利尿通淋，破血通经",
+    "contraindications": "孕妇禁服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "地肤子",
+    "pinyin": "Difuzi",
+    "aliases": [
+      "地麦",
+      "扫帚子"
+    ],
+    "category": "清热利湿止痒药",
+    "nature": "寒",
+    "flavor": "辛、苦",
+    "meridians": "归肾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热利湿，祛风止痒",
+    "contraindications": "小便清长者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "冬葵子",
+    "pinyin": "Dongkuizi",
+    "aliases": [
+      "冬葵果"
+    ],
+    "category": "利水通淋润肠药",
+    "nature": "凉",
+    "flavor": "甘",
+    "meridians": "归小肠、大肠、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热利尿通淋，下乳，润肠通便",
+    "contraindications": "孕妇慎服，脾虚便溏者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "灯心草",
+    "pinyin": "Dengxincao",
+    "aliases": [
+      "虎须草"
+    ],
+    "category": "利水通淋除烦药",
+    "nature": "微寒",
+    "flavor": "甘、淡",
+    "meridians": "归心、肺、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1~3g",
+    "efficacy": "清心降火，利尿通淋",
+    "contraindications": "中寒便溏者禁服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "前胡",
+    "pinyin": "Qianhu",
+    "aliases": [
+      "白花前胡",
+      "蜜前胡"
+    ],
+    "category": "降气化痰药",
+    "nature": "微寒",
+    "flavor": "苦、辛",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "降气祛痰，宣散风热",
+    "contraindications": "阴虚咳嗽及气虚喘咳忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "白前",
+    "pinyin": "Baiqian",
+    "aliases": [
+      "蜜白前"
+    ],
+    "category": "降气化痰药",
+    "nature": "微温",
+    "flavor": "辛、苦",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "降气，消痰，止咳",
+    "contraindications": "咳喘由于气虚不能纳气者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "竹茹",
+    "pinyin": "Zhuru",
+    "aliases": [
+      "姜竹茹",
+      "淡竹茹"
+    ],
+    "category": "清热化痰药",
+    "nature": "微寒",
+    "flavor": "甘",
+    "meridians": "归肺、胃、心经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "4.5~10g",
+    "efficacy": "清热化痰，除烦，止呕",
+    "contraindications": "胃寒呕吐及寒痰咳喘者忌服",
+    "decoction_method": "常规水煎，姜炙止呕"
+  },
+  {
+    "herb_name": "天竺黄",
+    "pinyin": "Tianzhuhang",
+    "aliases": [
+      "竹黄",
+      "天竹黄"
+    ],
+    "category": "清热化痰定惊药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "清热豁痰，凉心定惊",
+    "contraindications": "寒痰虚喘者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "胆南星",
+    "pinyin": "Dannanxing",
+    "aliases": [
+      "制南星",
+      "胆星"
+    ],
+    "category": "清热化痰息风药",
+    "nature": "凉",
+    "flavor": "苦、微辛",
+    "meridians": "归肺、肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "清热化痰，息风定惊",
+    "contraindications": "脾胃虚寒便溏者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "昆布",
+    "pinyin": "Kunbu",
+    "aliases": [
+      "鹅掌菜",
+      "海带"
+    ],
+    "category": "消痰软坚药",
+    "nature": "寒",
+    "flavor": "咸",
+    "meridians": "归肝、胃、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "消痰软坚散结，利水消肿",
+    "contraindications": "脾胃虚寒蕴湿者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "枇杷叶",
+    "pinyin": "Pipaye",
+    "aliases": [
+      "蜜枇杷叶"
+    ],
+    "category": "清肺止咳和胃药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "4.5~10g",
+    "efficacy": "清肺止咳，降逆止呕",
+    "contraindications": "胃寒呕吐及肺感风寒咳嗽者忌服",
+    "decoction_method": "【特殊煎法】叶背密生绒毛，必须刷净包煎"
+  },
+  {
+    "herb_name": "桑白皮",
+    "pinyin": "Sangbaipi",
+    "aliases": [
+      "蜜桑皮"
+    ],
+    "category": "泻肺平喘行水药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "泻肺平喘，利水消肿",
+    "contraindications": "肺虚无火及风寒咳喘者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "葶苈子",
+    "pinyin": "Tinglizi",
+    "aliases": [
+      "炒葶苈子",
+      "大室葶苈"
+    ],
+    "category": "泻肺平喘行水药",
+    "nature": "大寒",
+    "flavor": "辛、苦",
+    "meridians": "归肺、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "泻肺平喘，行水消肿",
+    "contraindications": "肺虚喘咳、脾虚肿满者忌服",
+    "decoction_method": "【特殊煎法】颗粒黏滑，需包煎"
+  },
+  {
+    "herb_name": "款冬花",
+    "pinyin": "Kuandonghua",
+    "aliases": [
+      "冬花",
+      "蜜冬花"
+    ],
+    "category": "润肺下气止咳药",
+    "nature": "温",
+    "flavor": "辛、微苦",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "润肺下气，止咳化痰",
+    "contraindications": "肺热咯血及肺痈脓臭者忌服",
+    "decoction_method": "常规水煎，多蜜炙用"
+  },
+  {
+    "herb_name": "紫菀",
+    "pinyin": "Ziwan",
+    "aliases": [
+      "蜜紫菀"
+    ],
+    "category": "润肺下气消痰药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "润肺下气，消痰止咳",
+    "contraindications": "阴虚肺热及咳血者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "白果",
+    "pinyin": "Baiguo",
+    "aliases": [
+      "银杏",
+      "炒白果"
+    ],
+    "category": "敛肺定喘缩尿药",
+    "nature": "平",
+    "flavor": "甘、苦、涩",
+    "meridians": "归肺经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "敛肺定喘，止带缩尿",
+    "contraindications": "【有毒药物】含白果酸与氢氰酸毒素，不可生食多食；实邪痰热忌服",
+    "decoction_method": "常规水煎，需剥壳去芯"
+  },
+  {
+    "herb_name": "姜黄",
+    "pinyin": "Jianghuang",
+    "aliases": [
+      "片姜黄"
+    ],
+    "category": "活血行气止痛药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归脾、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "活血行气，通经止痛",
+    "contraindications": "血虚无气滞血瘀者忌服，孕妇慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "莪术",
+    "pinyin": "Ezhu",
+    "aliases": [
+      "醋莪术",
+      "生莪术"
+    ],
+    "category": "破血行气消积药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "破血行气，消积止痛",
+    "contraindications": "孕妇禁用，月经过多及无气滞血瘀者忌服",
+    "decoction_method": "破血宜生用，消积止痛多醋炙"
+  },
+  {
+    "herb_name": "三棱",
+    "pinyin": "Sanleng",
+    "aliases": [
+      "京三棱",
+      "醋三棱"
+    ],
+    "category": "破血行气消积药",
+    "nature": "平",
+    "flavor": "辛、苦",
+    "meridians": "归肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "破血行气，消积止痛",
+    "contraindications": "【十九畏】三棱畏芒硝！孕妇禁用，月经过多忌服",
+    "decoction_method": "常规水煎，多醋炙"
+  },
+  {
+    "herb_name": "鸡血藤",
+    "pinyin": "Jixueteng",
+    "aliases": [
+      "九层风"
+    ],
+    "category": "补血活血通络药",
+    "nature": "温",
+    "flavor": "苦、甘",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "9~30g",
+    "efficacy": "活血补血，调经止痛，舒筋活络",
+    "contraindications": "阴虚火旺及经量过多者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "骨碎补",
+    "pinyin": "Gusuibu",
+    "aliases": [
+      "猴姜",
+      "烫骨碎补"
+    ],
+    "category": "活血续伤补肾药",
+    "nature": "温",
+    "flavor": "苦",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "3~15g",
+    "efficacy": "疗伤止痛，补肾强骨；外用消风祛斑",
+    "contraindications": "无瘀血及肾虚火旺者慎服",
+    "decoction_method": "砂烫去绒毛"
+  },
+  {
+    "herb_name": "土鳖虫",
+    "pinyin": "Tubiechong",
+    "aliases": [
+      "䗪虫",
+      "地乌龟"
+    ],
+    "category": "破血逐瘀续伤药",
+    "nature": "寒",
+    "flavor": "咸",
+    "meridians": "归肝经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "破血逐瘀，续筋接骨",
+    "contraindications": "孕妇禁用，无瘀血者忌服",
+    "decoction_method": "入汤剂或研末吞服每次1~1.5g"
+  },
+  {
+    "herb_name": "乳香",
+    "pinyin": "Ruxiang",
+    "aliases": [
+      "醋乳香",
+      "生乳香"
+    ],
+    "category": "活血行气止痛药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归心、肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "活血定痛，消肿生肌",
+    "contraindications": "孕妇忌用，胃弱者慎用（刺激胃胃黏膜）",
+    "decoction_method": "止痛多醋炒，可减少吐逆胃部不适"
+  },
+  {
+    "herb_name": "没药",
+    "pinyin": "Moyao",
+    "aliases": [
+      "醋没药",
+      "生没药"
+    ],
+    "category": "活血行气消肿药",
+    "nature": "平",
+    "flavor": "辛、苦",
+    "meridians": "归心、肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "活血止痛，消肿生肌",
+    "contraindications": "孕妇忌用，胃弱者慎用",
+    "decoction_method": "多与乳香同用，醋炙减胃肠刺激"
+  },
+  {
+    "herb_name": "牛膝(川)",
+    "pinyin": "Chuanniuxi",
+    "aliases": [
+      "川牛膝",
+      "甜牛膝"
+    ],
+    "category": "逐瘀通经引血药",
+    "nature": "平",
+    "flavor": "甘、微苦",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "5~15g",
+    "efficacy": "逐瘀通经，通利关节，利尿通淋",
+    "contraindications": "月经过多及孕妇忌服",
+    "decoction_method": "活血通络宜酒炙"
+  },
+  {
+    "herb_name": "虎杖",
+    "pinyin": "Huzhang",
+    "aliases": [
+      "大茶药",
+      "阴阳莲"
+    ],
+    "category": "活血祛瘀清热药",
+    "nature": "微寒",
+    "flavor": "微苦",
+    "meridians": "归微、胆、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "微血散瘀，祛风通络，清热利湿，解毒消痈，化痰止咳",
+    "contraindications": "孕妇忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "珍珠母",
+    "pinyin": "Zhenzhumu",
+    "aliases": [
+      "煅珍珠母"
+    ],
+    "category": "平肝潜阳安神药",
+    "nature": "寒",
+    "flavor": "咸",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "平肝潜阳，定惊明目",
+    "contraindications": "胃寒胃弱者慎用",
+    "decoction_method": "【特殊煎法】贝壳类质重，需打碎先煎 30 分钟"
+  },
+  {
+    "herb_name": "赭石",
+    "pinyin": "Zheshi",
+    "aliases": [
+      "代赭石",
+      "煅赭石"
+    ],
+    "category": "平肝潜阳重镇降逆药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归肝、心、肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "10~30g",
+    "efficacy": "平肝潜阳，降逆止呕，凉血止血",
+    "contraindications": "下焦虚寒者忌服，孕妇慎用",
+    "decoction_method": "【特殊煎法】矿物类质重，打碎先煎"
+  },
+  {
+    "herb_name": "磁石",
+    "pinyin": "Cishi",
+    "aliases": [
+      "煅磁石",
+      "活磁石"
+    ],
+    "category": "镇惊安神潜阳药",
+    "nature": "寒",
+    "flavor": "辛、咸",
+    "meridians": "归心、肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "镇惊安神，平肝潜阳，聪耳明目，纳气平喘",
+    "contraindications": "脾胃虚弱者慎服",
+    "decoction_method": "【特殊煎法】打碎先煎"
+  },
+  {
+    "herb_name": "全蝎",
+    "pinyin": "Quanxie",
+    "aliases": [
+      "全虫",
+      "淡全蝎"
+    ],
+    "category": "息风止痉通络药",
+    "nature": "平",
+    "flavor": "辛",
+    "meridians": "归肝经",
+    "toxicity_level": "有毒",
+    "max_dosage": 5.0,
+    "dosage_range": "3~5g",
+    "efficacy": "息风镇痉，通络止痛，攻毒散结",
+    "contraindications": "【有毒药物】孕妇禁用，血虚生风忌服",
+    "decoction_method": "入汤剂3~5g，研末吞服每次0.6~1g"
+  },
+  {
+    "herb_name": "蜈蚣",
+    "pinyin": "Wugong",
+    "aliases": [
+      "金头蜈蚣"
+    ],
+    "category": "息风止痉解毒药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肝经",
+    "toxicity_level": "有毒",
+    "max_dosage": 5.0,
+    "dosage_range": "1~5g (1~2条)",
+    "efficacy": "息风镇痉，通络止痛，攻毒散结",
+    "contraindications": "【剧烈毒性】孕妇禁用，小儿慎用",
+    "decoction_method": "入汤剂1~2条，研末每次0.6~1g"
+  },
+  {
+    "herb_name": "白僵蚕",
+    "pinyin": "Jiangcan",
+    "aliases": [
+      "僵蚕",
+      "炒僵蚕"
+    ],
+    "category": "息风止痉祛风药",
+    "nature": "平",
+    "flavor": "咸、辛",
+    "meridians": "归肝、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "息风止痉，祛风止痛，化痰散结",
+    "contraindications": "血虚生风者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "地龙",
+    "pinyin": "Dilong",
+    "aliases": [
+      "广地龙",
+      "蚯蚓"
+    ],
+    "category": "清热息风通络药",
+    "nature": "寒",
+    "flavor": "咸",
+    "meridians": "归肝、脾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "5~12g",
+    "efficacy": "清热定惊，通络，平喘，利尿",
+    "contraindications": "脾胃虚寒及无实热者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "黄精",
+    "pinyin": "Huangjing",
+    "aliases": [
+      "制黄精",
+      "熟黄精",
+      "生黄精"
+    ],
+    "category": "补气养阴药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归脾、肺、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "9~30g",
+    "efficacy": "补气养阴，健脾，润肺，益肾",
+    "contraindications": "脾虚有湿、大便溏泄及中寒积滞者忌服",
+    "decoction_method": "滋补宜蒸晒黑透制黄精用，生用麻舌刺喉"
+  },
+  {
+    "herb_name": "石斛",
+    "pinyin": "Shihu",
+    "aliases": [
+      "铁皮石斛",
+      "霍山石斛",
+      "金钗石斛"
+    ],
+    "category": "养阴清热益胃药",
+    "nature": "微寒",
+    "flavor": "甘",
+    "meridians": "归胃、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "益胃生津，滋阴清热",
+    "contraindications": "温热病早期阴未伤者忌用",
+    "decoction_method": "【特殊煎法】难溶出，鲜品宜先煎久煎"
+  },
+  {
+    "herb_name": "巴戟天",
+    "pinyin": "Bajitian",
+    "aliases": [
+      "制巴戟",
+      "盐巴戟"
+    ],
+    "category": "补肾助阳强筋药",
+    "nature": "微温",
+    "flavor": "辛、甘",
+    "meridians": "归肾、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "补肾阳，强筋骨，祛风湿",
+    "contraindications": "阴虚火旺及湿热便溏者忌服",
+    "decoction_method": "抽去木心制用"
+  },
+  {
+    "herb_name": "补骨脂",
+    "pinyin": "Buguzhi",
+    "aliases": [
+      "破故纸",
+      "盐补骨脂"
+    ],
+    "category": "温肾助阳纳气药",
+    "nature": "温",
+    "flavor": "苦、辛",
+    "meridians": "归肾、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "温肾助阳，纳气平喘，温脾止泻",
+    "contraindications": "阴虚火旺、大便秘结及尿赤者忌服",
+    "decoction_method": "盐水炙可缓辛燥之性"
+  },
+  {
+    "herb_name": "益智仁",
+    "pinyin": "Yizhiren",
+    "aliases": [
+      "盐益智仁"
+    ],
+    "category": "温脾暖肾摄涎药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归脾、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "暖肾固精缩尿，温脾止泻摄涎",
+    "contraindications": "阴虚火旺或内热津亏者忌服",
+    "decoction_method": "盐水微炒"
+  },
+  {
+    "herb_name": "菟丝子",
+    "pinyin": "Tusizi",
+    "aliases": [
+      "炒菟丝子",
+      "盐菟丝子"
+    ],
+    "category": "补阳滋阴固精药",
+    "nature": "平",
+    "flavor": "辛、甘",
+    "meridians": "归肝、肾、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "补益肝肾，固精缩尿，安胎，明目，止泻",
+    "contraindications": "阴虚火旺、大便燥结者忌服",
+    "decoction_method": "盐水炙多捣饼入煎"
+  },
+  {
+    "herb_name": "沙苑子",
+    "pinyin": "Shayuanzi",
+    "aliases": [
+      "潼蒺藜",
+      "沙苑蒺藜"
+    ],
+    "category": "补肾固精养肝药",
+    "nature": "温",
+    "flavor": "甘",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "9~12g",
+    "efficacy": "补肾固精，养肝明目",
+    "contraindications": "阴虚火旺及小便不利者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "芡实",
+    "pinyin": "Qianshi",
+    "aliases": [
+      "鸡头米",
+      "麸炒芡实"
+    ],
+    "category": "益肾固精健脾药",
+    "nature": "平",
+    "flavor": "甘、涩",
+    "meridians": "归脾、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "10~30g",
+    "efficacy": "益肾固精，补脾止泻，除湿止带",
+    "contraindications": "便秘、尿赤及产后气滞者忌服",
+    "decoction_method": "常规水煎，需捣碎"
+  },
+  {
+    "herb_name": "桑螵蛸",
+    "pinyin": "Sangpiaoxiao",
+    "aliases": [
+      "炒桑螵蛸"
+    ],
+    "category": "固精缩尿止带药",
+    "nature": "平",
+    "flavor": "甘、咸",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "固精缩尿，补肾助阳",
+    "contraindications": "阴虚火旺及膀胱有热者忌服",
+    "decoction_method": "宜蒸熟或炒用"
+  },
+  {
+    "herb_name": "金樱子",
+    "pinyin": "Jinyingzi",
+    "aliases": [
+      "金樱子膏"
+    ],
+    "category": "固精缩尿涩肠药",
+    "nature": "平",
+    "flavor": "酸、涩",
+    "meridians": "归肾、膀胱、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "固精缩尿，固崩止带，涩肠止泻",
+    "contraindications": "有实热邪火者忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "肉豆蔻",
+    "pinyin": "Roudoukou",
+    "aliases": [
+      "煨肉蔻"
+    ],
+    "category": "涩肠止泻温中药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归脾、胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "涩肠止泻，温中行气",
+    "contraindications": "湿热下利及积滞泄泻忌服",
+    "decoction_method": "【炮制与煎法】生品含毒性挥发油刺激胃肠，必须煨用去油"
+  },
+  {
+    "herb_name": "诃子",
+    "pinyin": "Hezi",
+    "aliases": [
+      "诃子肉",
+      "煨诃子"
+    ],
+    "category": "涩肠止泻敛肺药",
+    "nature": "平",
+    "flavor": "苦、酸、涩",
+    "meridians": "归肺、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "涩肠止泻，敛肺止咳，降火利咽",
+    "contraindications": "外感风寒咳嗽及火热湿滞忌服",
+    "decoction_method": "敛肺利咽多生用，涩肠止泻多煨用"
+  },
+  {
+    "herb_name": "乌贼骨",
+    "pinyin": "Wuzeigu",
+    "aliases": [
+      "海螵蛸"
+    ],
+    "category": "收敛固涩制酸药",
+    "nature": "微温",
+    "flavor": "咸、涩",
+    "meridians": "归脾、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "5~12g",
+    "efficacy": "收敛止血，涩精止带，制酸止痛，收湿敛疮",
+    "contraindications": "阴虚多热者忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "薤白",
+    "pinyin": "Xiebai",
+    "aliases": [
+      "野蒜",
+      "小蒜"
+    ],
+    "category": "通阳散结理气药",
+    "nature": "温",
+    "flavor": "辛、苦",
+    "meridians": "归肺、胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "5~15g",
+    "efficacy": "通阳散结，行气导滞",
+    "contraindications": "气虚无滞及阴虚发热者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "乌药",
+    "pinyin": "Wuyao",
+    "aliases": [
+      "台乌药",
+      "天台乌药"
+    ],
+    "category": "行气止痛温肾药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肺、脾、肾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "行气止痛，温肾散寒",
+    "contraindications": "气虚及内热便秘者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "佛手",
+    "pinyin": "Foshou",
+    "aliases": [
+      "佛手柑",
+      "清佛手"
+    ],
+    "category": "疏肝理气和胃药",
+    "nature": "温",
+    "flavor": "辛、苦、酸",
+    "meridians": "归肝、脾、胃、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "疏肝理气，和胃止痛，燥湿化痰",
+    "contraindications": "阴虚有热及无气滞者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "香橼",
+    "pinyin": "Xiangyuan",
+    "aliases": [
+      "香圆",
+      "枸橼"
+    ],
+    "category": "疏肝理气和中药",
+    "nature": "温",
+    "flavor": "辛、苦、酸",
+    "meridians": "归肝、脾、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "疏肝理气，和中化痰",
+    "contraindications": "阴虚血燥及气虚便溏者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "柿蒂",
+    "pinyin": "Shidi",
+    "aliases": [
+      "柿子把"
+    ],
+    "category": "降气止呃药",
+    "nature": "平",
+    "flavor": "苦、涩",
+    "meridians": "归胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "4.5~12g",
+    "efficacy": "降逆止呃",
+    "contraindications": "胃寒呃逆宜配丁香生姜；胃热呃逆宜配竹茹柿蒂",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "荔枝核",
+    "pinyin": "Lizhihe",
+    "aliases": [
+      "炒荔核"
+    ],
+    "category": "行气散结祛寒药",
+    "nature": "温",
+    "flavor": "甘、微苦",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "4.5~15g",
+    "efficacy": "行气散结，祛寒止痛",
+    "contraindications": "孕妇慎用，气虚无滞者忌服",
+    "decoction_method": "打碎煎服"
+  },
+  {
+    "herb_name": "橘核",
+    "pinyin": "Juhe",
+    "aliases": [
+      "炒橘核",
+      "盐橘核"
+    ],
+    "category": "理气散结止痛药",
+    "nature": "平",
+    "flavor": "苦",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "理气散结，止痛",
+    "contraindications": "体虚无气滞者忌服",
+    "decoction_method": "常规水煎，需捣碎"
+  },
+  {
+    "herb_name": "鸡骨草",
+    "pinyin": "Jigucao",
+    "aliases": [
+      "广州相思子藤"
+    ],
+    "category": "清热利湿解毒药",
+    "nature": "凉",
+    "flavor": "甘、微苦",
+    "meridians": "归肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "利湿退黄，清热解毒，疏肝止痛",
+    "contraindications": "虚寒体弱者慎用",
+    "decoction_method": "常规水煎，注意其种子剧毒不可混入"
+  },
+  {
+    "herb_name": "垂盆草",
+    "pinyin": "Chuipencao",
+    "aliases": [
+      "地指甲",
+      "狗牙齿"
+    ],
+    "category": "清利湿热降酶药",
+    "nature": "凉",
+    "flavor": "甘、淡、微酸",
+    "meridians": "归肝、胆、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "利湿退黄，清热解毒，保肝降酶",
+    "contraindications": "脾胃虚寒泄泻者慎服",
+    "decoction_method": "常规水煎，鲜品量倍"
+  },
+  {
+    "herb_name": "金钱草(广)",
+    "pinyin": "Guangjinqiancao",
+    "aliases": [
+      "铜钱草"
+    ],
+    "category": "利湿退黄排石药",
+    "nature": "凉",
+    "flavor": "甘、淡",
+    "meridians": "归肝、肾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "清热除湿，利尿排石",
+    "contraindications": "脾胃虚弱者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "侧柏叶",
+    "pinyin": "Cebaiye",
+    "aliases": [
+      "生侧柏",
+      "柏叶炭"
+    ],
+    "category": "凉血止血化痰药",
+    "nature": "寒",
+    "flavor": "苦、涩",
+    "meridians": "归肺、肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "凉血止血，化痰止咳，生发乌发",
+    "contraindications": "多服损胃，虚寒失血忌用",
+    "decoction_method": "常规水煎，止血多炒炭"
+  },
+  {
+    "herb_name": "槐花",
+    "pinyin": "Huaihua",
+    "aliases": [
+      "槐米",
+      "槐花炭"
+    ],
+    "category": "凉血止血清肝药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归肝、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "5~15g",
+    "efficacy": "凉血止血，清肝泻火",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "清肝多生用，止血多炒炭"
+  },
+  {
+    "herb_name": "白茅根",
+    "pinyin": "Baimaogen",
+    "aliases": [
+      "茅根",
+      "鲜茅根"
+    ],
+    "category": "凉血止血清热药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归肺、胃、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "9~30g",
+    "efficacy": "凉血止血，清热利尿",
+    "contraindications": "脾胃虚寒、溲多不渴者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "苎麻根",
+    "pinyin": "Zhumagen",
+    "aliases": [
+      "野麻根"
+    ],
+    "category": "凉血止血安胎药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "10~30g",
+    "efficacy": "凉血止血，清热安胎，利尿解毒",
+    "contraindications": "无实热者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "茜草",
+    "pinyin": "Qiancao",
+    "aliases": [
+      "茜草根",
+      "茜草炭"
+    ],
+    "category": "凉血化瘀止血药",
+    "nature": "凉",
+    "flavor": "苦",
+    "meridians": "归肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "凉血，化瘀，止血，通经",
+    "contraindications": "脾胃虚寒及无瘀滞者慎用",
+    "decoction_method": "常规水煎，止血多炒炭"
+  },
+  {
+    "herb_name": "蒲黄",
+    "pinyin": "Puhuang",
+    "aliases": [
+      "生蒲黄",
+      "蒲黄炭"
+    ],
+    "category": "化瘀止血利尿药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归肝、心包经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "止血，化瘀，通淋",
+    "contraindications": "孕妇慎服",
+    "decoction_method": "【特殊煎法】细小花粉质轻，必须包煎"
+  },
+  {
+    "herb_name": "仙鹤草",
+    "pinyin": "Xianhecao",
+    "aliases": [
+      "龙芽草",
+      "脱力草"
+    ],
+    "category": "收敛止血截疟药",
+    "nature": "平",
+    "flavor": "苦、涩",
+    "meridians": "归肺、肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "9~30g",
+    "efficacy": "收敛止血，截疟，止痢，解毒，补虚",
+    "contraindications": "无瘀滞者慎用",
+    "decoction_method": "常规水煎，大剂量可用至60g"
+  },
+  {
+    "herb_name": "血余炭",
+    "pinyin": "Xueyutan",
+    "aliases": [
+      "人发炭",
+      "乱发炭"
+    ],
+    "category": "收敛止血化瘀药",
+    "nature": "平",
+    "flavor": "苦",
+    "meridians": "归肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "4.5~10g",
+    "efficacy": "收敛止血，化瘀利尿",
+    "contraindications": "无瘀滞者慎用",
+    "decoction_method": "研末冲服每次1.5~3g"
+  },
+  {
+    "herb_name": "藕节",
+    "pinyin": "Oujie",
+    "aliases": [
+      "藕节炭"
+    ],
+    "category": "收敛止血和胃药",
+    "nature": "平",
+    "flavor": "甘、涩",
+    "meridians": "归肝、肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "收敛止血，化瘀",
+    "contraindications": "常规水煎",
+    "decoction_method": "止血多炒炭"
+  },
+  {
+    "herb_name": "降香",
+    "pinyin": "Jiangxiang",
+    "aliases": [
+      "降真香"
+    ],
+    "category": "化瘀止血理气药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "化瘀止血，理气止痛",
+    "contraindications": "阴虚火旺及血热出血者忌服",
+    "decoction_method": "【特殊煎法】芳香易挥发，需后下"
+  },
+  {
+    "herb_name": "血竭",
+    "pinyin": "Xuejie",
+    "aliases": [
+      "麒麟竭"
+    ],
+    "category": "活血定痛生肌药",
+    "nature": "平",
+    "flavor": "甘、咸",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 1.5,
+    "dosage_range": "1~1.5g",
+    "efficacy": "活血定痛，化瘀止血，敛疮生肌",
+    "contraindications": "孕妇禁用，月经期及无瘀血者禁服",
+    "decoction_method": "不入煎剂，多研细粉冲服每次1~1.5g"
+  },
+  {
+    "herb_name": "虻虫",
+    "pinyin": "Mengchong",
+    "aliases": [
+      "牛虻",
+      "炒虻虫"
+    ],
+    "category": "破血逐瘀通经药",
+    "nature": "微寒",
+    "flavor": "苦",
+    "meridians": "归肝经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1~3g",
+    "efficacy": "破血逐瘀，通经消癥",
+    "contraindications": "孕妇绝对禁用，体虚气弱及无瘀者禁服",
+    "decoction_method": "入汤剂1.5~3g"
+  },
+  {
+    "herb_name": "穿山甲(法定严禁/代用品水蛭王不留行)",
+    "pinyin": "Chuanshanjia_daixie",
+    "aliases": [
+      "炮山甲(严禁流通代以王不留行)"
+    ],
+    "category": "活血通经消肿药",
+    "nature": "微寒",
+    "flavor": "咸",
+    "meridians": "归肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "【法规警示】国家一级保护动物严禁非法交易，现法定代以王不留行、皂角刺、地龙",
+    "contraindications": "孕妇禁用",
+    "decoction_method": "代用品常规水煎"
+  },
+  {
+    "herb_name": "王不留行",
+    "pinyin": "Wangbuliuxing",
+    "aliases": [
+      "炒王不留行"
+    ],
+    "category": "活血通经下乳药",
+    "nature": "平",
+    "flavor": "苦",
+    "meridians": "归肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "4.5~10g",
+    "efficacy": "活血通经，下乳消肿，利尿通淋",
+    "contraindications": "孕妇禁服",
+    "decoction_method": "爆开如花后煎服"
+  },
+  {
+    "herb_name": "泽兰",
+    "pinyin": "Zelan",
+    "aliases": [
+      "地瓜儿苗"
+    ],
+    "category": "活血化瘀利水药",
+    "nature": "微温",
+    "flavor": "苦、辛",
+    "meridians": "归肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "活血化瘀，通经，利尿消肿",
+    "contraindications": "无瘀血者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "高良姜",
+    "pinyin": "Gaoliangjiang",
+    "aliases": [
+      "良姜"
+    ],
+    "category": "温胃止痛散寒药",
+    "nature": "热",
+    "flavor": "辛",
+    "meridians": "归脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "温胃止痛，散寒化饮",
+    "contraindications": "阴虚有热及胃火牙痛者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "花椒",
+    "pinyin": "Huajiao",
+    "aliases": [
+      "蜀椒",
+      "川椒",
+      "炒花椒"
+    ],
+    "category": "温中止痛杀虫药",
+    "nature": "热",
+    "flavor": "辛",
+    "meridians": "归脾、胃、肾经",
+    "toxicity_level": "有小毒",
+    "max_dosage": 6.0,
+    "dosage_range": "2~6g",
+    "efficacy": "温中止痛，杀虫止痒",
+    "contraindications": "阴虚火旺及孕妇忌服",
+    "decoction_method": "常规水煎，外用适量"
+  },
+  {
+    "herb_name": "胡椒",
+    "pinyin": "Hujiao",
+    "aliases": [
+      "白胡椒",
+      "黑胡椒"
+    ],
+    "category": "温中降气消痰药",
+    "nature": "热",
+    "flavor": "辛",
+    "meridians": "归胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 4.0,
+    "dosage_range": "1.5~4g",
+    "efficacy": "温中下气，消痰解毒",
+    "contraindications": "阴虚火旺者忌用",
+    "decoction_method": "研粉调服每次0.6~1.5g"
+  },
+  {
+    "herb_name": "荜茇",
+    "pinyin": "Biba",
+    "aliases": [
+      "荜拨"
+    ],
+    "category": "温中散寒止痛药",
+    "nature": "热",
+    "flavor": "辛",
+    "meridians": "归胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1~3g",
+    "efficacy": "温中散寒，下气止痛",
+    "contraindications": "阴虚内热者忌服",
+    "decoction_method": "入煎剂1.5~3g，研粉每次0.6~1g"
+  },
+  {
+    "herb_name": "合欢皮",
+    "pinyin": "Hehuanpi",
+    "aliases": [
+      "夜合皮"
+    ],
+    "category": "解郁安神活血药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "解郁安神，活血消肿",
+    "contraindications": "阴虚津伤者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "合欢花",
+    "pinyin": "Hehuanhua",
+    "aliases": [
+      "夜合花"
+    ],
+    "category": "解郁安神理气药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "4.5~10g",
+    "efficacy": "解郁安神，理气开胃",
+    "contraindications": "常规水煎",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "首乌藤",
+    "pinyin": "Shouwuteng",
+    "aliases": [
+      "夜交藤"
+    ],
+    "category": "养心安神通络药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "9~30g",
+    "efficacy": "养血安神，祛风通络",
+    "contraindications": "燥热内盛者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "灵芝",
+    "pinyin": "Lingzhi",
+    "aliases": [
+      "赤芝",
+      "紫芝",
+      "灵芝孢子粉"
+    ],
+    "category": "补气安神止咳药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归心、肺、肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "补气安神，止咳平喘",
+    "contraindications": "实证忌服",
+    "decoction_method": "常规水煎或破壁冲服"
+  },
+  {
+    "herb_name": "刺五加",
+    "pinyin": "Ciwujia",
+    "aliases": [
+      "五加参"
+    ],
+    "category": "益气健脾补肾药",
+    "nature": "温",
+    "flavor": "辛、微苦",
+    "meridians": "归脾、肾、心经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "益气健脾，补肾安神",
+    "contraindications": "阴虚火旺者慎服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "绞股蓝",
+    "pinyin": "Jiaogulan",
+    "aliases": [
+      "七叶胆"
+    ],
+    "category": "益气健脾清热药",
+    "nature": "微寒",
+    "flavor": "苦、微甘",
+    "meridians": "归脾、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "益气健脾，化痰止咳，清热解毒",
+    "contraindications": "脾胃虚寒便溏者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "红景天",
+    "pinyin": "Hongjingtian",
+    "aliases": [
+      "高山红景天"
+    ],
+    "category": "益气活血通脉药",
+    "nature": "平",
+    "flavor": "甘、涩",
+    "meridians": "归脾、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "3~6g",
+    "efficacy": "益气活血，通脉平喘",
+    "contraindications": "实热证忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "沙棘",
+    "pinyin": "Shaji",
+    "aliases": [
+      "醋柳果"
+    ],
+    "category": "健脾消食止咳药",
+    "nature": "温",
+    "flavor": "酸、涩",
+    "meridians": "归脾、胃、肺、心经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "健脾消食，止咳祛痰，活血散瘀",
+    "contraindications": "体热口苦者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "锁阳",
+    "pinyin": "Suoyang",
+    "aliases": [
+      "锈铁棒"
+    ],
+    "category": "补肾助阳润肠药",
+    "nature": "温",
+    "flavor": "甘",
+    "meridians": "归脾、肾、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "补肾阳，益精血，润肠通便",
+    "contraindications": "便溏泄泻及阴虚火旺者忌服",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "淫羊藿(朝)",
+    "pinyin": "Chaoxianyinyanghuo",
+    "aliases": [
+      "仙灵脾"
+    ],
+    "category": "温肾壮阳祛风药",
+    "nature": "温",
+    "flavor": "辛、甘",
+    "meridians": "归肝、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "6~10g",
+    "efficacy": "补肾阳，强筋骨，祛风湿",
+    "contraindications": "阴虚相火旺盛者忌服",
+    "decoction_method": "羊脂油炙用"
+  },
+  {
+    "herb_name": "覆盆子",
+    "pinyin": "Fupenzi",
+    "aliases": [
+      "炒覆盆子"
+    ],
+    "category": "益肾固精缩尿药",
+    "nature": "微温",
+    "flavor": "甘、酸",
+    "meridians": "归肝、肾、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "益肾固精缩尿，养肝明目",
+    "contraindications": "小便不利及相火妄动者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "金樱子肉",
+    "pinyin": "Jinyingzirou",
+    "aliases": [
+      "金樱肉"
+    ],
+    "category": "固精缩尿止带药",
+    "nature": "平",
+    "flavor": "酸、涩",
+    "meridians": "归肾、膀胱、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "固精缩尿，固崩止带，涩肠止泻",
+    "contraindications": "有实火邪热者忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "肉豆蔻(煨)",
+    "pinyin": "Weiroudoukou",
+    "aliases": [
+      "煨肉蔻"
+    ],
+    "category": "涩肠止泻温中药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归脾、胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "涩肠止泻，温中行气",
+    "contraindications": "积滞泄泻忌服",
+    "decoction_method": "必须面裹煨熟去油用"
+  },
+  {
+    "herb_name": "补骨脂(盐)",
+    "pinyin": "Yanbuguzhi",
+    "aliases": [
+      "盐破故纸"
+    ],
+    "category": "温肾助阳纳气药",
+    "nature": "温",
+    "flavor": "苦、辛",
+    "meridians": "归肾、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "5~10g",
+    "efficacy": "温肾助阳，纳气平喘，温脾止泻",
+    "contraindications": "阴虚火旺忌服",
+    "decoction_method": "盐水微炒"
+  },
+  {
+    "herb_name": "白矾",
+    "pinyin": "Baifan",
+    "aliases": [
+      "明矾",
+      "枯矾"
+    ],
+    "category": "解毒杀虫燥湿止血药",
+    "nature": "寒",
+    "flavor": "酸、涩",
+    "meridians": "归肺、脾、肝、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 1.0,
+    "dosage_range": "0.6~1g",
+    "efficacy": "解毒杀虫，燥湿止痒，止血止泻，祛痰开窍",
+    "contraindications": "内服过量易恶心呕吐，虚寒者忌服",
+    "decoction_method": "研末冲服或外用，枯矾外用收湿敛疮"
+  },
+  {
+    "herb_name": "硼砂",
+    "pinyin": "Pengsha",
+    "aliases": [
+      "煅硼砂"
+    ],
+    "category": "清热解毒消肿防腐药",
+    "nature": "凉",
+    "flavor": "甘、咸",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "有毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1~3g",
+    "efficacy": "清热解毒，清肺化痰，消肿防腐",
+    "contraindications": "【有毒药物】只入丸散，严禁过量久服，多作外用喉科吹药",
+    "decoction_method": "外用适量，内服慎用"
+  },
+  {
+    "herb_name": "雄黄",
+    "pinyin": "Xionghuang",
+    "aliases": [
+      "明雄",
+      "飞雄黄"
+    ],
+    "category": "解毒杀虫燥湿药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肝、大肠经",
+    "toxicity_level": "有毒",
+    "max_dosage": 0.15,
+    "dosage_range": "0.05~0.15g",
+    "efficacy": "解毒杀虫，燥湿祛痰，截疟定惊",
+    "contraindications": "【含砷剧毒红线】严禁火煅加热（剧毒砒霜三氧化二砷）！孕妇禁用",
+    "decoction_method": "只入丸散外用，必须水飞极细粉入药"
+  },
+  {
+    "herb_name": "马勃",
+    "pinyin": "Mabo",
+    "aliases": [
+      "灰包"
+    ],
+    "category": "清肺解毒利咽药",
+    "nature": "平",
+    "flavor": "辛",
+    "meridians": "归肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 6.0,
+    "dosage_range": "1.5~6g",
+    "efficacy": "清肺，解热，利咽，止血",
+    "contraindications": "风寒失音忌服",
+    "decoction_method": "常规水煎，宜包煎"
+  },
+  {
+    "herb_name": "木蝴蝶",
+    "pinyin": "Muhudie",
+    "aliases": [
+      "千张纸",
+      "云故纸"
+    ],
+    "category": "清肺利咽疏肝药",
+    "nature": "凉",
+    "flavor": "微苦、甘",
+    "meridians": "归肺、肝、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1~3g",
+    "efficacy": "清肺利咽，疏肝和胃",
+    "contraindications": "虚寒者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "青果",
+    "pinyin": "Qingguo",
+    "aliases": [
+      "橄榄",
+      "白榄"
+    ],
+    "category": "清热生津解毒药",
+    "nature": "平",
+    "flavor": "甘、酸",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "4.5~9g",
+    "efficacy": "清热，利咽，生津，解毒",
+    "contraindications": "常规水煎",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "罗汉果",
+    "pinyin": "Luohanguo",
+    "aliases": [
+      "拉汗果"
+    ],
+    "category": "清热润肺通便药",
+    "nature": "凉",
+    "flavor": "甘",
+    "meridians": "归肺、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清热润肺，利咽开音，滑肠通便",
+    "contraindications": "脾胃虚寒者慎用",
+    "decoction_method": "煎服或沸水泡服"
+  },
+  {
+    "herb_name": "胖大海",
+    "pinyin": "Pangdahai",
+    "aliases": [
+      "通大海"
+    ],
+    "category": "清热润肺利咽药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归肺、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 5.0,
+    "dosage_range": "2~5g",
+    "efficacy": "清热润肺，利咽开音，润肠通便",
+    "contraindications": "风寒感冒咳嗽及脾胃虚寒泄泻者忌用",
+    "decoction_method": "沸水泡服或煎服"
+  },
+  {
+    "herb_name": "瓜蒌皮",
+    "pinyin": "Gualoupi",
+    "aliases": [
+      "栝楼皮"
+    ],
+    "category": "清肺化痰宽胸药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "6~12g",
+    "efficacy": "清肺化痰，行气宽胸",
+    "contraindications": "【十八反】反乌头！脾虚便溏者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "瓜蒌子",
+    "pinyin": "Gualouzi",
+    "aliases": [
+      "炒瓜蒌子"
+    ],
+    "category": "润肺化痰滑肠药",
+    "nature": "寒",
+    "flavor": "甘",
+    "meridians": "归肺、胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "润肺化痰，滑肠通便",
+    "contraindications": "【十八反】反乌头！脾虚便溏忌服",
+    "decoction_method": "常规水煎，需捣碎"
+  },
+  {
+    "herb_name": "矮地茶",
+    "pinyin": "Aidicha",
+    "aliases": [
+      "平地木"
+    ],
+    "category": "化痰止咳利湿药",
+    "nature": "平",
+    "flavor": "苦、辛",
+    "meridians": "归肺、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "化痰止咳，利湿，活血",
+    "contraindications": "常规水煎",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "洋金花",
+    "pinyin": "Yangjinhua",
+    "aliases": [
+      "曼陀罗花",
+      "风茄花"
+    ],
+    "category": "平喘止痛解痉药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归心、肺、肝经",
+    "toxicity_level": "有大毒",
+    "max_dosage": 0.6,
+    "dosage_range": "0.3~0.6g",
+    "efficacy": "平喘止咳，解痉定痛，麻醉止痛",
+    "contraindications": "【剧毒麻醉药物】极量0.6g！青光眼、高血压及严重心脏病禁用",
+    "decoction_method": "入丸散吞服每次0.15~0.3g"
+  },
+  {
+    "herb_name": "商陆",
+    "pinyin": "Shanglu",
+    "aliases": [
+      "见肿消",
+      "花商陆"
+    ],
+    "category": "逐水消肿解毒药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肺、脾、肾、大肠经",
+    "toxicity_level": "有毒",
+    "max_dosage": 9.0,
+    "dosage_range": "3~9g",
+    "efficacy": "逐水消肿，通利二便，解毒散结",
+    "contraindications": "【有毒药物】孕妇禁用，体虚水肿忌用",
+    "decoction_method": "多醋炙用减毒，常规水煎"
+  },
+  {
+    "herb_name": "狼毒",
+    "pinyin": "Langdu",
+    "aliases": [
+      "断肠草",
+      "绵大戟"
+    ],
+    "category": "破积逐水杀虫药",
+    "nature": "平",
+    "flavor": "苦、辛",
+    "meridians": "归肝、脾经",
+    "toxicity_level": "大毒",
+    "max_dosage": 1.5,
+    "dosage_range": "0.9~1.5g",
+    "efficacy": "逐水祛痰，破积杀虫",
+    "contraindications": "【大毒剧毒】孕妇及体虚羸弱者严禁服用",
+    "decoction_method": "入丸散，醋炒减毒"
+  },
+  {
+    "herb_name": "续随子",
+    "pinyin": "Xusuizi",
+    "aliases": [
+      "千金子",
+      "千金霜"
+    ],
+    "category": "逐水消肿破血药",
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "归肝、肾、大肠经",
+    "toxicity_level": "有毒",
+    "max_dosage": 2.0,
+    "dosage_range": "1~2g",
+    "efficacy": "逐水消肿，破血消癥",
+    "contraindications": "【剧毒泻下】孕妇禁用，多制成千金子霜用",
+    "decoction_method": "入丸散每次0.5~1g"
+  },
+  {
+    "herb_name": "芦荟",
+    "pinyin": "Luhui",
+    "aliases": [
+      "卢会"
+    ],
+    "category": "泻下通便清肝药",
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": "归肝、胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 2.0,
+    "dosage_range": "1~2g",
+    "efficacy": "泻下通便，清肝，杀虫",
+    "contraindications": "孕妇忌服，脾胃虚寒便溏者禁用",
+    "decoction_method": "多入丸散，不宜入煎剂"
+  },
+  {
+    "herb_name": "防己(木)",
+    "pinyin": "Mufangji",
+    "aliases": [
+      "广防己(禁用)"
+    ],
+    "category": "祛风止痛利水药",
+    "nature": "寒",
+    "flavor": "苦、辛",
+    "meridians": "归膀胱、肺经",
+    "toxicity_level": "无毒",
+    "max_dosage": 9.0,
+    "dosage_range": "4.5~9g",
+    "efficacy": "祛风止痛，利水退肿",
+    "contraindications": "【药典规范】严禁使用马兜铃科关防己，现规范为防己科木防己",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "寻骨风",
+    "pinyin": "Xungufeng",
+    "aliases": [
+      "清骨风"
+    ],
+    "category": "祛风通络止痛药",
+    "nature": "平",
+    "flavor": "苦",
+    "meridians": "归肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "祛风除湿，通络止痛",
+    "contraindications": "常规水煎",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "穿破石",
+    "pinyin": "Chuanposhi",
+    "aliases": [
+      "柘根"
+    ],
+    "category": "祛风通络活血药",
+    "nature": "凉",
+    "flavor": "淡、微苦",
+    "meridians": "归肝、脾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "15~30g",
+    "efficacy": "祛风通络，活血止血，清热解毒",
+    "contraindications": "孕妇慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "紫珠",
+    "pinyin": "Zizhu",
+    "aliases": [
+      "紫珠叶",
+      "大叶紫珠"
+    ],
+    "category": "收敛止血清热药",
+    "nature": "平",
+    "flavor": "苦、涩",
+    "meridians": "归肝、肺、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "收敛止血，清热解毒",
+    "contraindications": "出血无实热瘀滞者慎用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "棕榈炭",
+    "pinyin": "Zonglvtan",
+    "aliases": [
+      "棕榈皮炭"
+    ],
+    "category": "收敛止血药",
+    "nature": "平",
+    "flavor": "苦、涩",
+    "meridians": "归肺、肝、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "收敛止血",
+    "contraindications": "出血伴瘀血及湿热下痢者忌服",
+    "decoction_method": "常规水煎，止血必须煅炭"
+  },
+  {
+    "herb_name": "瓦楞子",
+    "pinyin": "Walengzi",
+    "aliases": [
+      "煅瓦楞子"
+    ],
+    "category": "消痰化瘀软坚制酸药",
+    "nature": "平",
+    "flavor": "咸",
+    "meridians": "归肺、胃、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "消痰软坚，化瘀散结，制酸止痛",
+    "contraindications": "无痰瘀积滞者慎用",
+    "decoction_method": "【特殊煎法】贝壳质重，打碎先煎"
+  },
+  {
+    "herb_name": "浮海石",
+    "pinyin": "Fuhaishi",
+    "aliases": [
+      "海浮石"
+    ],
+    "category": "清肺化痰软坚通淋药",
+    "nature": "寒",
+    "flavor": "咸",
+    "meridians": "归肺、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "清肺化痰，软坚散结，清热通淋",
+    "contraindications": "虚寒咳嗽者忌用",
+    "decoction_method": "【特殊煎法】打碎先煎"
+  },
+  {
+    "herb_name": "礞石",
+    "pinyin": "Mengshi",
+    "aliases": [
+      "青礞石",
+      "煅青礞石"
+    ],
+    "category": "下气消痰坠痰药",
+    "nature": "平",
+    "flavor": "甘、咸",
+    "meridians": "归肺、心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 12.0,
+    "dosage_range": "3~12g",
+    "efficacy": "坠痰下气，平肝定惊",
+    "contraindications": "脾胃虚弱及孕妇忌服",
+    "decoction_method": "【特殊煎法】需火煅醋淬，打碎包煎先煎"
+  },
+  {
+    "herb_name": "紫石英",
+    "pinyin": "Zishiying",
+    "aliases": [
+      "煅紫石英"
+    ],
+    "category": "镇心安神温肺暖宫药",
+    "nature": "温",
+    "flavor": "甘",
+    "meridians": "归心、肺、肾经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "镇心安神，温肺下气，暖宫止崩",
+    "contraindications": "阴虚火旺者忌服",
+    "decoction_method": "【特殊煎法】矿物类，打碎先煎"
+  },
+  {
+    "herb_name": "禹余粮",
+    "pinyin": "Yuyuliang",
+    "aliases": [
+      "煅余粮"
+    ],
+    "category": "涩肠止泻收敛止血药",
+    "nature": "微寒",
+    "flavor": "甘、涩",
+    "meridians": "归胃、大肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 20.0,
+    "dosage_range": "9~20g",
+    "efficacy": "涩肠止泻，收敛止血，止带",
+    "contraindications": "实热积滞及孕妇慎服",
+    "decoction_method": "【特殊煎法】打碎先煎"
+  },
+  {
+    "herb_name": "花蕊石",
+    "pinyin": "Huaruishi",
+    "aliases": [
+      "煅花蕊石"
+    ],
+    "category": "化瘀止血敛疮药",
+    "nature": "平",
+    "flavor": "酸、涩",
+    "meridians": "归肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "6~15g",
+    "efficacy": "化瘀止血",
+    "contraindications": "无瘀滞及孕妇忌用",
+    "decoction_method": "【特殊煎法】打碎先煎或研末冲服每次1~3g"
+  },
+  {
+    "herb_name": "龙齿",
+    "pinyin": "Longchi",
+    "aliases": [
+      "煅龙齿"
+    ],
+    "category": "镇惊安神平肝药",
+    "nature": "凉",
+    "flavor": "涩",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "10~15g",
+    "efficacy": "镇惊安神，清热除烦",
+    "contraindications": "湿热内蕴者慎用",
+    "decoction_method": "【特殊煎法】打碎先煎"
+  },
+  {
+    "herb_name": "琥珀",
+    "pinyin": "Hupo",
+    "aliases": [
+      "琥珀粉"
+    ],
+    "category": "镇惊安神活血利尿药",
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": "归心、肝、膀胱经",
+    "toxicity_level": "无毒",
+    "max_dosage": 3.0,
+    "dosage_range": "1.5~3g",
+    "efficacy": "镇惊安神，活血化瘀，利尿通淋",
+    "contraindications": "无瘀滞及阴虚火旺者慎用",
+    "decoction_method": "不入煎剂，研细末冲服每次1.5~3g"
+  },
+  {
+    "herb_name": "珍珠",
+    "pinyin": "Zhenzhu",
+    "aliases": [
+      "珍珠粉",
+      "水飞珍珠粉"
+    ],
+    "category": "镇惊安神解毒生肌药",
+    "nature": "寒",
+    "flavor": "甘、咸",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 1.0,
+    "dosage_range": "0.1~1g",
+    "efficacy": "镇惊安神，清肝明目，解毒生肌",
+    "contraindications": "孕妇慎用",
+    "decoction_method": "不入煎剂，研极细粉水飞冲服每次0.3~1g"
+  },
+  {
+    "herb_name": "缬草",
+    "pinyin": "Xiecao",
+    "aliases": [
+      "拔地麻"
+    ],
+    "category": "安神理气止痛药",
+    "nature": "温",
+    "flavor": "辛、微苦",
+    "meridians": "归心、肝经",
+    "toxicity_level": "无毒",
+    "max_dosage": 10.0,
+    "dosage_range": "3~10g",
+    "efficacy": "安神定惊，理气活血，止痛",
+    "contraindications": "阴虚内热者忌用",
+    "decoction_method": "常规水煎"
+  },
+  {
+    "herb_name": "白扁豆",
+    "pinyin": "Baibiandou",
+    "aliases": [
+      "炒白扁豆",
+      "生扁豆"
+    ],
+    "category": "健脾化湿解暑药",
+    "nature": "微温",
+    "flavor": "甘",
+    "meridians": "归脾、胃经",
+    "toxicity_level": "无毒",
+    "max_dosage": 15.0,
+    "dosage_range": "9~15g",
+    "efficacy": "健脾化湿，和中消暑",
+    "contraindications": "患疟疾或湿盛腹胀者忌服",
+    "decoction_method": "健脾宜炒用，消暑宜生用"
+  },
+  {
+    "herb_name": "赤小豆",
+    "pinyin": "Chixiaodou",
+    "aliases": [
+      "红小豆",
+      "红豆"
+    ],
+    "category": "利水消肿解毒排脓药",
+    "nature": "平",
+    "flavor": "甘、酸",
+    "meridians": "归心、脾、小肠经",
+    "toxicity_level": "无毒",
+    "max_dosage": 30.0,
+    "dosage_range": "10~30g",
+    "efficacy": "利水消肿，解毒排脓",
+    "contraindications": "阴虚津伤及小便过多者忌服",
+    "decoction_method": "常规水煎"
+  }
+]

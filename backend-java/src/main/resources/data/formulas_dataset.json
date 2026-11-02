@@ -1,0 +1,2901 @@
+[
+  {
+    "formula_name": "麻黄汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "解表剂",
+    "composition": [
+      {
+        "name": "麻黄",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "桂枝",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "苦杏仁",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "外感风寒表实证。症见恶寒发热、头痛身疼、无汗而喘、脉浮紧。",
+    "monarch_herb": "麻黄",
+    "minister_herb": "桂枝",
+    "assistant_herb": "苦杏仁",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "桂枝汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "解表剂",
+    "composition": [
+      {
+        "name": "桂枝",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "白芍",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "生姜",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "外感风寒表虚证。症见头痛发热、汗出恶风、鼻鸣干呕、脉浮缓。",
+    "monarch_herb": "桂枝",
+    "minister_herb": "白芍",
+    "assistant_herb": "生姜, 大枣",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "九味羌活汤",
+    "source_book": "张元素《此事难知》",
+    "author": "张元素",
+    "category": "解表剂",
+    "composition": [
+      {
+        "name": "羌活",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "防风",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "苍术",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "细辛",
+        "dose": 2.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "川芎",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "白芷",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生地黄",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "黄芩",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "外感风寒湿邪，内有蕴热证。恶寒发热、无汗、头痛项强、肢体酸楚疼痛、口苦微渴。",
+    "monarch_herb": "羌活",
+    "minister_herb": "防风, 苍术",
+    "assistant_herb": "细辛, 川芎, 白芷, 生地黄, 黄芩",
+    "guide_herb": "甘草"
+  },
+  {
+    "formula_name": "小青龙汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "解表剂",
+    "composition": [
+      {
+        "name": "麻黄",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "桂枝",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "干姜",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "细辛",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "半夏",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "五味子",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "白芍",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "风寒水饮证。恶寒发热、无汗、喘咳、痰多清稀、甚则不得平卧。",
+    "monarch_herb": "麻黄, 桂枝",
+    "minister_herb": "干姜, 细辛",
+    "assistant_herb": "半夏, 五味子, 白芍",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "银翘散",
+    "source_book": "吴鞠通《温病条辨》",
+    "author": "吴鞠通",
+    "category": "解表剂",
+    "composition": [
+      {
+        "name": "金银花",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "连翘",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "桔梗",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "薄荷",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "牛蒡子",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "竹叶",
+        "dose": 4.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "荆芥",
+        "dose": 5.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "淡豆豉",
+        "dose": 5.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "芦根",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生甘草",
+        "dose": 4.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "温病初起之表热证。发热无汗、或有汗不畅、微恶风寒、头痛口渴、咽痛咳嗽。",
+    "monarch_herb": "金银花, 连翘",
+    "minister_herb": "桔梗, 薄荷, 牛蒡子",
+    "assistant_herb": "竹叶, 荆芥, 淡豆豉, 芦根",
+    "guide_herb": "生甘草"
+  },
+  {
+    "formula_name": "桑菊饮",
+    "source_book": "吴鞠通《温病条辨》",
+    "author": "吴鞠通",
+    "category": "解表剂",
+    "composition": [
+      {
+        "name": "桑叶",
+        "dose": 7.5,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "菊花",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "杏仁",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "连翘",
+        "dose": 5.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "薄荷",
+        "dose": 2.5,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "桔梗",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "芦根",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "甘草",
+        "dose": 2.5,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "风温初起之表轻证。咳嗽、身微热、口微渴、脉浮数。",
+    "monarch_herb": "桑叶, 菊花",
+    "minister_herb": "杏仁, 连翘",
+    "assistant_herb": "薄荷, 桔梗, 芦根",
+    "guide_herb": "甘草"
+  },
+  {
+    "formula_name": "败毒散",
+    "source_book": "《太平惠民和剂局方》",
+    "author": "局方",
+    "category": "解表剂",
+    "composition": [
+      {
+        "name": "羌活",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "独活",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "柴胡",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "前胡",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "川芎",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "枳壳",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "茯苓",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "桔梗",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "人参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "气虚外感风寒湿表证。症见憎寒壮热、头项强痛、肢体酸痛、无汗、鼻塞声重、咳嗽有痰、苔白腻、脉浮按之无力。",
+    "monarch_herb": "羌活, 独活",
+    "minister_herb": "柴胡, 前胡",
+    "assistant_herb": "川芎, 枳壳, 茯苓, 桔梗, 人参",
+    "guide_herb": "甘草"
+  },
+  {
+    "formula_name": "大承气汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "泻下剂",
+    "composition": [
+      {
+        "name": "大黄",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "芒硝",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "枳实",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "厚朴",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "佐药"
+      }
+    ],
+    "indications": "阳明腑实证。大便不通、频转矢气、脘腹痞满、腹痛拒按、潮热谵语、手足濈然汗出、脉沉实。",
+    "monarch_herb": "大黄",
+    "minister_herb": "芒硝",
+    "assistant_herb": "枳实, 厚朴",
+    "guide_herb": "无使药(峻下急救)"
+  },
+  {
+    "formula_name": "小承气汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "泻下剂",
+    "composition": [
+      {
+        "name": "大黄",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "厚朴",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "枳实",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      }
+    ],
+    "indications": "阳明腑实轻证。谵语、潮热、大便秘结、胸腹痞满、脉滑而疾。",
+    "monarch_herb": "大黄",
+    "minister_herb": "厚朴",
+    "assistant_herb": "枳实",
+    "guide_herb": "无使药"
+  },
+  {
+    "formula_name": "调胃承气汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "泻下剂",
+    "composition": [
+      {
+        "name": "大黄",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "芒硝",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "阳明病谵语、发热、口渴、腹胀满、便秘、苔黄燥、脉滑数。",
+    "monarch_herb": "大黄",
+    "minister_herb": "芒硝",
+    "assistant_herb": "无佐药",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "温脾汤",
+    "source_book": "孙思邈《备急千金要方》",
+    "author": "孙思邈",
+    "category": "泻下剂",
+    "composition": [
+      {
+        "name": "大黄",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "附子",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "干姜",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "人参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "脾阳不足，冷积便秘。大便秘结、脘腹冷痛、喜温喜按、手足不温、脉沉弦。",
+    "monarch_herb": "大黄",
+    "minister_herb": "附子, 干姜",
+    "assistant_herb": "人参",
+    "guide_herb": "甘草"
+  },
+  {
+    "formula_name": "麻子仁丸",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "泻下剂",
+    "composition": [
+      {
+        "name": "火麻仁",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "大黄",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "枳实",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "厚朴",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "芍药",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "苦杏仁",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      }
+    ],
+    "indications": "肠胃燥热，津液不足之脾约证。大便干结、小便频数、舌红少津。",
+    "monarch_herb": "火麻仁",
+    "minister_herb": "大黄",
+    "assistant_herb": "枳实, 厚朴, 芍药, 苦杏仁",
+    "guide_herb": "白蜜为使"
+  },
+  {
+    "formula_name": "小柴胡汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "和解剂",
+    "composition": [
+      {
+        "name": "柴胡",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "黄芩",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "半夏",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生姜",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "人参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "伤寒少阳病证。往来寒热、胸胁苦满、嘿嘿不欲饮食、心烦喜呕、口苦咽干目眩。",
+    "monarch_herb": "柴胡",
+    "minister_herb": "黄芩",
+    "assistant_herb": "半夏, 生姜, 人参, 大枣",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "大柴胡汤",
+    "source_book": "张仲景《金匮要略》",
+    "author": "张仲景",
+    "category": "和解剂",
+    "composition": [
+      {
+        "name": "柴胡",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "黄芩",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "大黄",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "枳实",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "芍药",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "半夏",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生姜",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "少阳阳明合病。往来寒热、胸胁苦满、呕不止、郁郁微烦、心下痞硬、便秘黄疸。",
+    "monarch_herb": "柴胡",
+    "minister_herb": "黄芩",
+    "assistant_herb": "大黄, 枳实, 芍药, 半夏, 生姜",
+    "guide_herb": "大枣"
+  },
+  {
+    "formula_name": "逍遥散",
+    "source_book": "《太平惠民和剂局方》",
+    "author": "局方",
+    "category": "和解剂",
+    "composition": [
+      {
+        "name": "柴胡",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "当归",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白芍",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白术",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "茯苓",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "薄荷",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "煨生姜",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 4.5,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "肝郁血虚脾弱证。两胁作痛、头痛目眩、神疲食少、月经不调、乳房胀痛、脉弦而虚。",
+    "monarch_herb": "柴胡",
+    "minister_herb": "当归, 白芍",
+    "assistant_herb": "白术, 茯苓, 薄荷, 煨生姜",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "痛泻要方",
+    "source_book": "朱丹溪《丹溪心法》",
+    "author": "朱丹溪",
+    "category": "和解剂",
+    "composition": [
+      {
+        "name": "白术",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "白芍",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "陈皮",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "防风",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "脾虚肝旺之痛泻。肠鸣腹痛、大便泄泻、泻必腹痛、泻后痛不减、脉弦缓。",
+    "monarch_herb": "白术",
+    "minister_herb": "白芍",
+    "assistant_herb": "陈皮",
+    "guide_herb": "防风"
+  },
+  {
+    "formula_name": "半夏泻心汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "和解剂",
+    "composition": [
+      {
+        "name": "半夏",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "干姜",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "黄芩",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "黄连",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "人参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "寒热互结之痞证。心下痞满而不痛、干呕或呕吐、肠鸣下利、舌苔薄黄而腻。",
+    "monarch_herb": "半夏",
+    "minister_herb": "干姜, 黄芩, 黄连",
+    "assistant_herb": "人参, 大枣",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "白虎汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "清热剂",
+    "composition": [
+      {
+        "name": "石膏",
+        "dose": 30.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "知母",
+        "dose": 18.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "粳米",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "阳明气分热盛证。大热、大汗、大渴、脉洪大（四大症）。",
+    "monarch_herb": "石膏",
+    "minister_herb": "知母",
+    "assistant_herb": "粳米",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "黄连解毒汤",
+    "source_book": "王焘《外台秘要》",
+    "author": "王焘",
+    "category": "清热剂",
+    "composition": [
+      {
+        "name": "黄连",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "黄芩",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "黄柏",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "栀子",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "三焦火毒充斥证。大热烦躁、口燥咽干、目赤口疮、吐血衄血、热毒发斑、舌红苔黄、脉数有力。",
+    "monarch_herb": "黄连",
+    "minister_herb": "黄芩",
+    "assistant_herb": "黄柏",
+    "guide_herb": "栀子"
+  },
+  {
+    "formula_name": "龙胆泻肝汤",
+    "source_book": "李东垣《兰室秘藏》",
+    "author": "李东垣",
+    "category": "清热剂",
+    "composition": [
+      {
+        "name": "龙胆",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "黄芩",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "栀子",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "泽泻",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "木通",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "车前子",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生地黄",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "当归",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "柴胡",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      },
+      {
+        "name": "生甘草",
+        "dose": 4.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "肝胆实火上炎，或肝经湿热下注证。头痛目赤、胁痛口苦、耳聋耳肿；阴肿阴痒、带下黄臭、小便淋浊。",
+    "monarch_herb": "龙胆",
+    "minister_herb": "黄芩, 栀子",
+    "assistant_herb": "泽泻, 木通, 车前子, 生地黄, 当归",
+    "guide_herb": "柴胡, 生甘草"
+  },
+  {
+    "formula_name": "仙方活命饮",
+    "source_book": "陈自明《妇人大全良方》",
+    "author": "陈自明",
+    "category": "清热剂",
+    "composition": [
+      {
+        "name": "金银花",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "陈皮",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "当归",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "防风",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "白芷",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "赤芍",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "贝母",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "天花粉",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "乳香",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "没药",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "痈疡肿毒初起。热毒壅结，气滞血瘀所致之乳痈、疔疮。红肿焮痛、身热凛寒。",
+    "monarch_herb": "金银花",
+    "minister_herb": "陈皮, 当归",
+    "assistant_herb": "防风, 白芷, 赤芍, 贝母, 天花粉, 乳香, 没药",
+    "guide_herb": "甘草"
+  },
+  {
+    "formula_name": "清营汤",
+    "source_book": "吴鞠通《温病条辨》",
+    "author": "吴鞠通",
+    "category": "清热剂",
+    "composition": [
+      {
+        "name": "水牛角",
+        "dose": 30.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "生地黄",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "玄参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "麦冬",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "金银花",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "连翘",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "黄连",
+        "dose": 4.5,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "竹叶",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "丹参",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "邪热传营证。身热夜甚、神烦少寐、时有谵语、斑疹隐隐、舌绛而干、脉细数。",
+    "monarch_herb": "水牛角",
+    "minister_herb": "生地黄, 玄参",
+    "assistant_herb": "麦冬, 金银花, 连翘, 黄连, 竹叶",
+    "guide_herb": "丹参"
+  },
+  {
+    "formula_name": "导赤散",
+    "source_book": "钱乙《小儿药证直诀》",
+    "author": "钱乙",
+    "category": "清热剂",
+    "composition": [
+      {
+        "name": "生地黄",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "木通",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "竹叶",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生甘草梢",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "心经火热证。心胸烦热、口渴面赤、口舌生疮、小便赤涩刺痛、舌红脉数。",
+    "monarch_herb": "生地黄",
+    "minister_herb": "木通",
+    "assistant_herb": "竹叶",
+    "guide_herb": "生甘草梢"
+  },
+  {
+    "formula_name": "四逆汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "温里剂",
+    "composition": [
+      {
+        "name": "附子",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "干姜",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "心肾阳衰寒厥证。四肢厥逆、神衰欲寐、恶寒蜷卧、下利清谷、舌淡苔白滑、脉微细欲绝。",
+    "monarch_herb": "附子",
+    "minister_herb": "干姜",
+    "assistant_herb": "无佐药",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "当归四逆汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "温里剂",
+    "composition": [
+      {
+        "name": "当归",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "桂枝",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "芍药",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "细辛",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "通草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 8.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "血虚寒厥证。手足厥寒、口不渴、舌淡苔白、脉细欲绝。",
+    "monarch_herb": "当归",
+    "minister_herb": "桂枝, 芍药",
+    "assistant_herb": "细辛, 通草, 大枣",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "理中丸",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "温里剂",
+    "composition": [
+      {
+        "name": "干姜",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "人参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白术",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "脾胃虚寒证。自利不渴、呕吐腹痛、腹满不欲食、手足不温、口多涎唾、舌淡苔白、脉沉细。",
+    "monarch_herb": "干姜",
+    "minister_herb": "人参",
+    "assistant_herb": "白术",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "吴茱萸汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "温里剂",
+    "composition": [
+      {
+        "name": "吴茱萸",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "人参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "生姜",
+        "dose": 18.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "肝胃虚寒、浊阴上逆证。食后泛泛欲吐、干呕吐涎沫、头痛巅顶、吐利转筋。",
+    "monarch_herb": "吴茱萸",
+    "minister_herb": "人参",
+    "assistant_herb": "生姜",
+    "guide_herb": "大枣"
+  },
+  {
+    "formula_name": "四君子汤",
+    "source_book": "《太平惠民和剂局方》",
+    "author": "局方",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "人参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "白术",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "茯苓",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "脾胃气虚证。面色萎黄、语声低微、四肢乏力、食少便溏、舌淡苔白、脉虚数。",
+    "monarch_herb": "人参",
+    "minister_herb": "白术",
+    "assistant_herb": "茯苓",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "参苓白术散",
+    "source_book": "《太平惠民和剂局方》",
+    "author": "局方",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "莲子肉",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "薏苡仁",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "砂仁",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "桔梗",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      },
+      {
+        "name": "白扁豆",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白茯苓",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "人参",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "生甘草",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "使药"
+      },
+      {
+        "name": "白术",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "山药",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "臣药"
+      }
+    ],
+    "indications": "脾虚湿盛证。饮食不消、大便溏泄、胸脘痞闷、四肢无力、形体消瘦、舌淡苔白腻、脉虚缓。",
+    "monarch_herb": "人参, 白术",
+    "minister_herb": "白茯苓, 山药, 白扁豆",
+    "assistant_herb": "莲子肉, 薏苡仁, 砂仁",
+    "guide_herb": "桔梗, 生甘草"
+  },
+  {
+    "formula_name": "补中益气汤",
+    "source_book": "李东垣《脾胃论》",
+    "author": "李东垣",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "黄芪",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "人参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白术",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      },
+      {
+        "name": "当归",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "陈皮",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "升麻",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "柴胡",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      }
+    ],
+    "indications": "脾虚气陷证。体倦乏力、食少腹胀、久泻脱肛、子宫脱垂、气虚发热。",
+    "monarch_herb": "黄芪",
+    "minister_herb": "人参, 白术",
+    "assistant_herb": "当归, 陈皮, 升麻, 柴胡",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "生脉散",
+    "source_book": "李东垣《内外伤辨惑论》",
+    "author": "李东垣",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "人参",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "麦冬",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "五味子",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐使药"
+      }
+    ],
+    "indications": "温热气阴两伤，或久咳伤肺气阴证。汗多神疲、体倦少气、咽干口渴、干咳少痰、脉虚细数。",
+    "monarch_herb": "人参",
+    "minister_herb": "麦冬",
+    "assistant_herb": "五味子",
+    "guide_herb": "五味子"
+  },
+  {
+    "formula_name": "玉屏风散",
+    "source_book": "朱丹溪《丹溪心法》",
+    "author": "朱丹溪",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "黄芪",
+        "dose": 30.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "白术",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "防风",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "佐使药"
+      }
+    ],
+    "indications": "表虚自汗。自汗恶风、面色㿠白、体虚易感风邪、舌淡苔白、脉浮虚。",
+    "monarch_herb": "黄芪",
+    "minister_herb": "白术",
+    "assistant_herb": "防风",
+    "guide_herb": "防风"
+  },
+  {
+    "formula_name": "四物汤",
+    "source_book": "《太平惠民和剂局方》",
+    "author": "局方",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "熟地黄",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "当归",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白芍",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "川芎",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "营血虚滞证。面色无华、头晕目眩、心悸失眠、唇爪无华、妇人月经不调、量少或经闭、舌淡脉细。",
+    "monarch_herb": "熟地黄",
+    "minister_herb": "当归",
+    "assistant_herb": "白芍",
+    "guide_herb": "川芎"
+  },
+  {
+    "formula_name": "当归补血汤",
+    "source_book": "李东垣《内外伤辨惑论》",
+    "author": "李东垣",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "黄芪",
+        "dose": 30.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "当归",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      }
+    ],
+    "indications": "血虚发热证。肌热面赤、烦渴引饮、脉大而虚、重按无力。妇人经期及产后发热。",
+    "monarch_herb": "黄芪",
+    "minister_herb": "当归",
+    "assistant_herb": "无佐药",
+    "guide_herb": "无使药"
+  },
+  {
+    "formula_name": "归脾汤",
+    "source_book": "严用和《济生方》",
+    "author": "严用和",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "黄芪",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "龙眼肉",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "白术",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "茯神",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "酸枣仁",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "人参",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "当归",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "远志",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "木香",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生姜",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "心脾两虚，气血不足，或脾不统血证。心悸怔忡、失眠健忘、食少神疲、面色萎黄、便血崩漏、月经超前。",
+    "monarch_herb": "黄芪, 龙眼肉",
+    "minister_herb": "白术, 茯神, 酸枣仁, 人参",
+    "assistant_herb": "当归, 远志, 木香, 生姜, 大枣",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "六味地黄丸",
+    "source_book": "钱乙《小儿药证直诀》",
+    "author": "钱乙",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "熟地黄",
+        "dose": 24.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "山茱萸",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "山药",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "茯苓",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "泽泻",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "牡丹皮",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      }
+    ],
+    "indications": "肝肾阴虚证。腰膝酸软、头晕目眩、耳鸣耳聋、盗汗遗精、骨蒸潮热、消渴、小儿囟开不合、舌红少苔、脉沉细数。",
+    "monarch_herb": "熟地黄",
+    "minister_herb": "山茱萸, 山药",
+    "assistant_herb": "茯苓, 泽泻, 牡丹皮",
+    "guide_herb": "无使药(三补三泻)"
+  },
+  {
+    "formula_name": "左归丸",
+    "source_book": "张景岳《景岳全书》",
+    "author": "张景岳",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "熟地黄",
+        "dose": 24.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "山药",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "枸杞子",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "山茱萸",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "菟丝子",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "鹿角胶",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "龟甲胶",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "牛膝",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "真阴不足证。头晕目眩、耳鸣耳聋、腰膝酸软、盗汗自汗、神疲口燥、遗精滑泄、舌光少苔、脉细数。",
+    "monarch_herb": "熟地黄",
+    "minister_herb": "山药, 枸杞子, 山茱萸",
+    "assistant_herb": "菟丝子, 鹿角胶, 龟甲胶",
+    "guide_herb": "牛膝"
+  },
+  {
+    "formula_name": "右归丸",
+    "source_book": "张景岳《景岳全书》",
+    "author": "张景岳",
+    "category": "补益剂",
+    "composition": [
+      {
+        "name": "熟地黄",
+        "dose": 24.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "山药",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "山茱萸",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "枸杞子",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "菟丝子",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "杜仲",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "鹿角胶",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "当归",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "肉桂",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "制附子",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      }
+    ],
+    "indications": "肾阳不足，命门火衰证。气怯神疲、畏寒肢冷、腰膝软弱、阳痿遗精、大便溏薄、小便清长。",
+    "monarch_herb": "熟地黄",
+    "minister_herb": "山药, 山茱萸, 枸杞子",
+    "assistant_herb": "菟丝子, 杜仲, 鹿角胶, 当归, 肉桂, 制附子",
+    "guide_herb": "无使药"
+  },
+  {
+    "formula_name": "柴胡疏肝散",
+    "source_book": "张景岳《景岳全书》",
+    "author": "张景岳",
+    "category": "理气剂",
+    "composition": [
+      {
+        "name": "柴胡",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "陈皮",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "川芎",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "香附",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "枳壳",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "芍药",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "肝气郁结证。胁肋疼痛、胸闷善太息、寒热往来、脉弦。",
+    "monarch_herb": "柴胡",
+    "minister_herb": "陈皮, 川芎, 香附",
+    "assistant_herb": "枳壳, 芍药",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "越鞠丸",
+    "source_book": "朱丹溪《丹溪心法》",
+    "author": "朱丹溪",
+    "category": "理气剂",
+    "composition": [
+      {
+        "name": "香附",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "川芎",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "苍术",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "栀子",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "神曲",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "六郁证（气、血、痰、火、湿、食郁）。胸膈痞闷、脘腹胀痛、嗳气吞酸、恶心呕吐、饮食不消。",
+    "monarch_herb": "香附",
+    "minister_herb": "川芎, 苍术",
+    "assistant_herb": "栀子",
+    "guide_herb": "神曲"
+  },
+  {
+    "formula_name": "血府逐瘀汤",
+    "source_book": "王清任《医林改错》",
+    "author": "王清任",
+    "category": "活血祛瘀剂",
+    "composition": [
+      {
+        "name": "桃仁",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "红花",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "当归",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "生地黄",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "川芎",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "赤芍",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "牛膝",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "柴胡",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "枳壳",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "桔梗",
+        "dose": 4.5,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "胸中血瘀证。胸痛、头痛日久不愈、痛如针刺、内热瞀闷、心悸怔忡、夜不能寐、急躁易怒、舌紫暗或有瘀斑、脉涩。",
+    "monarch_herb": "桃仁, 红花",
+    "minister_herb": "当归, 生地黄, 川芎, 赤芍",
+    "assistant_herb": "牛膝, 柴胡, 枳壳, 桔梗",
+    "guide_herb": "甘草"
+  },
+  {
+    "formula_name": "补阳还五汤",
+    "source_book": "王清任《医林改错》",
+    "author": "王清任",
+    "category": "活血祛瘀剂",
+    "composition": [
+      {
+        "name": "生黄芪",
+        "dose": 60.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "当归尾",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "赤芍",
+        "dose": 4.5,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "地龙",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "川芎",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "红花",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "桃仁",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      }
+    ],
+    "indications": "中风气虚血瘀证。半身不遂、口眼㖞斜、语言謇涩、口角流涎、小便频数或遗尿不禁、苔白脉缓。",
+    "monarch_herb": "生黄芪",
+    "minister_herb": "当归尾",
+    "assistant_herb": "赤芍, 地龙, 川芎, 红花, 桃仁",
+    "guide_herb": "无使药"
+  },
+  {
+    "formula_name": "温经汤",
+    "source_book": "张仲景《金匮要略》",
+    "author": "张仲景",
+    "category": "活血祛瘀剂",
+    "composition": [
+      {
+        "name": "吴茱萸",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "桂枝",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "当归",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "川芎",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "芍药",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "丹皮",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "阿胶",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "麦冬",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "人参",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "半夏",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生姜",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "甘草",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "冲任虚寒，瘀血阻滞证。漏下不止、月经不调、傍晚发热、手心烦热、唇口干燥、少腹里急腹痛、久不受孕。",
+    "monarch_herb": "吴茱萸, 桂枝",
+    "minister_herb": "当归, 川芎, 芍药",
+    "assistant_herb": "丹皮, 阿胶, 麦冬, 人参, 半夏, 生姜",
+    "guide_herb": "甘草"
+  },
+  {
+    "formula_name": "生化汤",
+    "source_book": "傅山《傅青主女科》",
+    "author": "傅山",
+    "category": "活血祛瘀剂",
+    "composition": [
+      {
+        "name": "全当归",
+        "dose": 24.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "川芎",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "桃仁",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炮姜",
+        "dose": 2.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 2.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "产后血虚受寒，瘀阻胞宫证。恶露不行或下之不畅、小腹冷痛、舌质紫暗、脉细涩。",
+    "monarch_herb": "全当归",
+    "minister_herb": "川芎",
+    "assistant_herb": "桃仁, 炮姜",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "平胃散",
+    "source_book": "《太平惠民和剂局方》",
+    "author": "局方",
+    "category": "祛湿剂",
+    "composition": [
+      {
+        "name": "苍术",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "厚朴",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "陈皮",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生姜",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "湿滞脾胃证。脘腹胀满、不思饮食、口淡无味、恶心呕吐、肢体沉重、大便溏泄、舌苔白腻而厚、脉缓。",
+    "monarch_herb": "苍术",
+    "minister_herb": "厚朴",
+    "assistant_herb": "陈皮, 生姜, 大枣",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "藿香正气散",
+    "source_book": "《太平惠民和剂局方》",
+    "author": "局方",
+    "category": "祛湿剂",
+    "composition": [
+      {
+        "name": "广藿香",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "紫苏叶",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白芷",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白术",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "茯苓",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "半夏",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "陈皮",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "厚朴",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大腹皮",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "桔梗",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      },
+      {
+        "name": "甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "外感风寒，内伤湿滞证。恶寒发热、头痛昏重、胸膈痞闷、脘腹胀痛、呕吐泄泻、舌苔白腻。",
+    "monarch_herb": "广藿香",
+    "minister_herb": "紫苏叶, 白芷",
+    "assistant_herb": "白术, 茯苓, 半夏, 陈皮, 厚朴, 大腹皮",
+    "guide_herb": "桔梗, 甘草"
+  },
+  {
+    "formula_name": "五苓散",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "祛湿剂",
+    "composition": [
+      {
+        "name": "泽泻",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "茯苓",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "猪苓",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白术",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "桂枝",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "蓄水证。小便不利、头痛微热、烦渴欲饮、水入即吐（水逆）；水湿内停之水肿泄泻。",
+    "monarch_herb": "泽泻",
+    "minister_herb": "茯苓, 猪苓",
+    "assistant_herb": "白术",
+    "guide_herb": "桂枝"
+  },
+  {
+    "formula_name": "二陈汤",
+    "source_book": "《太平惠民和剂局方》",
+    "author": "局方",
+    "category": "祛痰剂",
+    "composition": [
+      {
+        "name": "半夏",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "橘红",
+        "dose": 15.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白茯苓",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生姜",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炙甘草",
+        "dose": 4.5,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "湿痰证。咳嗽痰多、色白易咯、恶心呕吐、胸膈痞闷、头晕心悸、舌苔白润或白腻、脉滑。",
+    "monarch_herb": "半夏",
+    "minister_herb": "橘红",
+    "assistant_herb": "白茯苓, 生姜",
+    "guide_herb": "炙甘草"
+  },
+  {
+    "formula_name": "温胆汤",
+    "source_book": "孙思邈《备急千金要方》",
+    "author": "孙思邈",
+    "category": "祛痰剂",
+    "composition": [
+      {
+        "name": "半夏",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "竹茹",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "枳实",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "陈皮",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "茯苓",
+        "dose": 5.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生姜",
+        "dose": 5.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 4.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "胆郁痰扰证。虚烦不寐、惊悸不宁、触事易惊、胸闷吐涎、舌苔白腻或微黄、脉弦滑。",
+    "monarch_herb": "半夏",
+    "minister_herb": "竹茹, 枳实",
+    "assistant_herb": "陈皮, 茯苓, 生姜, 大枣",
+    "guide_herb": "甘草"
+  },
+  {
+    "formula_name": "炙甘草汤",
+    "source_book": "张仲景《伤寒论》",
+    "author": "张仲景",
+    "category": "补益剂 · 气血双补",
+    "composition": [
+      {
+        "name": "炙甘草",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "人参",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "生地黄",
+        "dose": 30.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "麦冬",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "阿胶",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "麻仁",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生姜",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "桂枝",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "大枣",
+        "dose": 10.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "阴血阳气虚弱，心脉失养证。脉结代、心动悸、虚劳肺痿、干咳无痰、舌光少苔。",
+    "monarch_herb": "炙甘草",
+    "minister_herb": "人参, 生地黄, 麦冬",
+    "assistant_herb": "阿胶, 麻仁, 生姜, 桂枝",
+    "guide_herb": "大枣"
+  },
+  {
+    "formula_name": "保和丸",
+    "source_book": "朱丹溪《丹溪心法》",
+    "author": "朱丹溪",
+    "category": "消食剂",
+    "composition": [
+      {
+        "name": "山楂",
+        "dose": 18.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "神曲",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "莱菔子",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "半夏",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "陈皮",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "茯苓",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "连翘",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "食积内停证。脘腹痞满胀痛、嗳腐吞酸、恶食呕逆、大便泄泻、舌苔厚腻、脉滑。",
+    "monarch_herb": "山楂",
+    "minister_herb": "神曲, 莱菔子",
+    "assistant_herb": "半夏, 陈皮, 茯苓",
+    "guide_herb": "连翘"
+  },
+  {
+    "formula_name": "止嗽散",
+    "source_book": "程国彭《医学心悟》",
+    "author": "程国彭",
+    "category": "止咳化痰剂",
+    "composition": [
+      {
+        "name": "桔梗",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "荆芥",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "紫菀",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "百部",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "白前",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "陈皮",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "风邪犯肺之咳嗽证。咳急喉痒、咯痰不爽、微恶风发热、舌苔薄白、脉浮缓。",
+    "monarch_herb": "桔梗, 荆芥",
+    "minister_herb": "紫菀, 百部, 白前",
+    "assistant_herb": "陈皮",
+    "guide_herb": "甘草"
+  },
+  {
+    "formula_name": "清胃散",
+    "source_book": "李东垣《兰室秘藏》",
+    "author": "李东垣",
+    "category": "清热剂 · 清热泻火",
+    "composition": [
+      {
+        "name": "黄连",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "生地黄",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "牡丹皮",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "当归",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "升麻",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "胃火上攻牙痛证。牙齿疼痛、齿龈红肿溃烂溃脓、唇舌颊腮肿痛、口热口臭、舌红苔黄、脉滑数。",
+    "monarch_herb": "黄连",
+    "minister_herb": "生地黄, 牡丹皮",
+    "assistant_herb": "当归",
+    "guide_herb": "升麻"
+  },
+  {
+    "formula_name": "阳和汤",
+    "source_book": "王洪绪《外科证治全生集》",
+    "author": "王洪绪",
+    "category": "温里剂 · 温阳散寒",
+    "composition": [
+      {
+        "name": "熟地黄",
+        "dose": 30.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "鹿角胶",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "肉桂",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "麻黄",
+        "dose": 2.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "白芥子",
+        "dose": 6.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "炮姜炭",
+        "dose": 2.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "生甘草",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "阴疽。贴骨疽、流注、鹤膝风等。漫肿无头、皮色不变、酸痛无热、口中不渴、舌淡苔白、脉沉细。",
+    "monarch_herb": "熟地黄",
+    "minister_herb": "鹿角胶",
+    "assistant_herb": "肉桂, 麻黄, 白芥子, 炮姜炭",
+    "guide_herb": "生甘草"
+  },
+  {
+    "formula_name": "金匮肾气丸",
+    "source_book": "张仲景《金匮要略》",
+    "author": "张仲景",
+    "category": "补益剂 · 补阳",
+    "composition": [
+      {
+        "name": "干地黄",
+        "dose": 24.0,
+        "unit": "g",
+        "role": "君药"
+      },
+      {
+        "name": "山药",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "山茱萸",
+        "dose": 12.0,
+        "unit": "g",
+        "role": "臣药"
+      },
+      {
+        "name": "茯苓",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "泽泻",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "牡丹皮",
+        "dose": 9.0,
+        "unit": "g",
+        "role": "佐药"
+      },
+      {
+        "name": "桂枝",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      },
+      {
+        "name": "附子",
+        "dose": 3.0,
+        "unit": "g",
+        "role": "使药"
+      }
+    ],
+    "indications": "肾阳不足证。腰痛脚软、下半身常有冷感、少腹拘急、小便不利或小便反多、舌淡而胖、脉沉细。",
+    "monarch_herb": "干地黄",
+    "minister_herb": "山药, 山茱萸",
+    "assistant_herb": "茯苓, 泽泻, 牡丹皮",
+    "guide_herb": "桂枝, 附子"
+  }
+]

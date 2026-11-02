@@ -1,7 +1,8 @@
-# 开发环境配置 (支持本地零外部依赖启动，模拟 PostgreSQL 语法)
+# 开发环境配置 (支持本地轻量文件级持久化存储，模拟 PostgreSQL 语法)
 spring:
   datasource:
-    url: jdbc:h2:mem:qihuang_shield;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1
+    # 使用本地文件持久化模式，重启不丢数据，同时兼容 PostgreSQL 语法
+    url: jdbc:h2:file:./data/qihuang_shield_db;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;AUTO_SERVER=TRUE
     driver-class-name: org.h2.Driver
     username: sa
     password: 

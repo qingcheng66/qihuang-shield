@@ -19,3 +19,9 @@ venv/
 .idea/
 .vscode/
 *.swp
+
+# Local Database & Virtualenvs
+backend-java/data/
+*.mv.db
+*.trace.db
+backend-python/venv/

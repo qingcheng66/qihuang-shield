@@ -4,23 +4,41 @@
 内存常驻 < 50MB，纯 CPU 余弦与语义召回 < 5ms，专为 2 核 4G 云服务器优化。
 """
 
+import os
+import json
 import math
 import re
 from typing import List, Dict, Any
 
 class ClassicalRAGService:
     def __init__(self):
-        # 初始化权威中医药古籍与药理切片语料库 (Corpus Chunks)
-        self.corpus: List[Dict[str, Any]] = [
-            {
-                "id": "kb_shibafan_01",
-                "source": "《本草纲目》· 草部 · 十八反",
-                "keywords": ["甘草", "甘遂", "大戟", "海藻", "芫花", "十八反", "相反", "剧毒"],
-                "title": "甘草反甘遂、大戟、海藻、芫花考证",
-                "content": "《本草纲目》草部载：甘草反甘遂、大戟、海藻、芫花。相反者，激而生变，力相抗掣，毒性由是而生。同用致剧烈水样泄泻、肠坏死与心律失常。凡水肿腹满、逐饮之剂，用甘遂切忌投以甘草。",
-                "modern_mechanism": "现代分子药理研究证实：甘草主要活性成分甘草酸（Glycyrrhizic acid）对小肠上皮细胞 P-糖蛋白（P-gp）外排泵具有显著抑制作用；甘遂中含有强烈毒性二萜类成分（甘遂三萜），正常单用时被 P-gp 泵出胞外限制吸收，与甘草配伍后，二萜毒素生物利用度激增 3~5 倍，诱发剧烈消化道黏膜充血剥脱与早搏心毒性。",
-                "substitute_advice": "若需攻逐水饮且处方中有甘草，严禁使用甘遂、芫花；建议以淡渗利湿之茯苓、泽泻、猪苓，或行气利水之大腹皮、防己替代甘遂，既保甘草补脾和胃之功，又杜相反生变之剧毒。"
-            },
+        # 优先读取 data/classics_rag_corpus.json，若不存在则回退至内置权威语料
+        self.corpus: List[Dict[str, Any]] = []
+        possible_paths = [
+            os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data", "classics_rag_corpus.json"),
+            os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), "data", "classics_rag_corpus.json"),
+            "data/classics_rag_corpus.json"
+        ]
+        for p in possible_paths:
+            if os.path.exists(p):
+                try:
+                    with open(p, "r", encoding="utf-8") as f:
+                        self.corpus = json.load(f)
+                    break
+                except Exception:
+                    pass
+
+        if not self.corpus:
+            self.corpus = [
+                {
+                    "id": "kb_shibafan_01",
+                    "source": "《本草纲目》· 草部 · 十八反",
+                    "keywords": ["甘草", "甘遂", "大戟", "海藻", "芫花", "十八反", "相反", "剧毒"],
+                    "title": "甘草反甘遂、大戟、海藻、芫花考证",
+                    "content": "《本草纲目》草部载：甘草反甘遂、大戟、海藻、芫花。相反者，激而生变，力相抗掣，毒性由是而生。同用致剧烈水样泄泻、肠坏死与心律失常。凡水肿腹满、逐饮之剂，用甘遂切忌投以甘草。",
+                    "modern_mechanism": "现代分子药理研究证实：甘草主要活性成分甘草酸（Glycyrrhizic acid）对小肠上皮细胞 P-糖蛋白（P-gp）外排泵具有显著抑制作用；甘遂中含有强烈毒性二萜类成分（甘遂三萜），正常单用时被 P-gp 泵出胞外限制吸收，与甘草配伍后，二萜毒素生物利用度激增 3~5 倍，诱发剧烈消化道黏膜充血剥脱与早搏心毒性。",
+                    "substitute_advice": "若需攻逐水饮且处方中有甘草，严禁使用甘遂、芫花；建议以淡渗利湿之茯苓、泽泻、猪苓，或行气利水之大腹皮、防己替代甘遂，既保甘草补脾和胃之功，又杜相反生变之剧毒。"
+                },
             {
                 "id": "kb_shibafan_02",
                 "source": "《金匮要略》· 乌头类十八反",

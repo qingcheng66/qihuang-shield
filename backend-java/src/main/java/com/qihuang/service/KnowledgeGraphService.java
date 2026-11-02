@@ -1,20 +1,32 @@
 package com.qihuang.service;
 
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.JSONArray;
+import com.alibaba.fastjson2.JSONObject;
+import com.qihuang.entity.FormulaCatalogEntity;
+import com.qihuang.entity.HerbDictEntity;
 import com.qihuang.model.HerbDetail;
 import com.qihuang.model.KnowledgeGraphData;
+import com.qihuang.repository.FormulaCatalogRepository;
+import com.qihuang.repository.HerbDictRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
 
 /**
  * 中医药知识图谱与古籍本草专论服务
+ * 优先基于数据库 (PostgreSQL / H2) 300+ 药材与 50+ 名方动态生成力导向图谱，同时具备离线内存兜底
  */
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class KnowledgeGraphService {
 
     private final HerbNormalizer herbNormalizer;
+    private final HerbDictRepository herbDictRepository;
+    private final FormulaCatalogRepository formulaCatalogRepository;
 
     private static final Map<String, HerbDetail> HERB_DATABASE = new HashMap<>();
 
@@ -58,203 +70,123 @@ public class KnowledgeGraphService {
                 .contraindications("表实邪盛、内有积滞、阴虚阳亢者慎服")
                 .decoctionMethod("常规水煎")
                 .classicFormulas(List.of("补中益气汤", "当归补血汤", "玉屏风散", "防己黄芪汤"))
-                .pharmacopoeiaExcerpt("《本草纲目》：黄芪为补药之长，故名。黄芪多糖具有增强机体免疫力、抗衰老、抗疲劳及调节心血管血压作用。")
-                .build());
-
-        HERB_DATABASE.put("当归", HerbDetail.builder()
-                .name("当归")
-                .pinyin("Danggui")
-                .natureFlavor("甘、辛，温")
-                .meridian("归肝、心、脾经")
-                .efficacy("补血活血，调经止痛，润肠通便")
-                .dosageRange("6~12g")
-                .maxDosage(15.0)
-                .contraindications("湿盛中满、大便溏泄者慎服")
-                .decoctionMethod("常规水煎")
-                .classicFormulas(List.of("当归补血汤", "四物汤", "补中益气汤", "生化汤"))
-                .pharmacopoeiaExcerpt("《本草备要》：血虚能补，血枯能润，血滞能通。主要活性成分为藁本内酯、阿魏酸，具有促进造血、抑制血小板聚集与抗血栓功效。")
-                .build());
-
-        HERB_DATABASE.put("细辛", HerbDetail.builder()
-                .name("细辛")
-                .pinyin("Xixin")
-                .natureFlavor("辛，温；有小毒")
-                .meridian("归心、肺、肾经")
-                .efficacy("祛风散寒，通窍止痛，温肺化饮")
-                .dosageRange("1~3g (严格遵守《中国药典》)")
-                .maxDosage(3.0)
-                .contraindications("十八反：严禁与藜芦配伍！气虚多汗、阴虚阳亢头痛者禁用。“细辛不过钱”。")
-                .decoctionMethod("严格控制煎煮剂量，不可超 3g")
-                .classicFormulas(List.of("小青龙汤", "麻黄附子细辛汤", "九味羌活汤"))
-                .pharmacopoeiaExcerpt("《中国药典》：根和根茎。挥发油含黄樟醚、甲基丁香酚。超量黄樟醚对中枢神经先兴奋后麻痹，且含痕量马兜铃酸成分，具有蓄积性肾毒性。")
-                .build());
-
-        HERB_DATABASE.put("附子", HerbDetail.builder()
-                .name("附子")
-                .pinyin("Fuzi")
-                .natureFlavor("辛、甘，大热；有毒")
-                .meridian("归心、肾、脾经")
-                .efficacy("回阳救逆，补火助阳，散寒止痛")
-                .dosageRange("3~15g")
-                .maxDosage(15.0)
-                .contraindications("十八反：严禁与半夏、瓜蒌、贝母、白蔹、白及配伍！孕妇禁用，阴虚阳盛者忌服")
-                .decoctionMethod("【先煎】文火单独先煎 30~60 分钟至口尝无麻舌麻唇感，破坏剧毒双酯型乌头碱")
-                .classicFormulas(List.of("四逆汤", "真武汤", "附子理中汤", "麻黄附子细辛汤"))
-                .pharmacopoeiaExcerpt("《本草汇言》：附子，回阳气，散阴寒之第一品也。乌头碱毒性强烈，长时间文火先煎可使其水解为毒性极低的单酯型乌头原碱。")
-                .build());
-
-        HERB_DATABASE.put("半夏", HerbDetail.builder()
-                .name("半夏")
-                .pinyin("Banxia")
-                .natureFlavor("辛，温；有毒")
-                .meridian("归脾、胃、肺经")
-                .efficacy("燥湿化痰，降逆止呕，消痞散结")
-                .dosageRange("3~9g")
-                .maxDosage(9.0)
-                .contraindications("十八反：反乌头类（附子、川乌、草乌）。阴虚燥咳、津伤口渴、出血者忌服")
-                .decoctionMethod("药用多为姜半夏、法半夏，消减刺激性针晶毒性")
-                .classicFormulas(List.of("二陈汤", "小半夏汤", "半夏泻心汤", "温胆汤"))
-                .pharmacopoeiaExcerpt("《中国药典》：草酸钙针晶及凝集素为主要刺激性致毒成分，现代炮制结合生姜与明矾浸煮可显著解毒。")
-                .build());
-
-        HERB_DATABASE.put("人参", HerbDetail.builder()
-                .name("人参")
-                .pinyin("Renshen")
-                .natureFlavor("甘、微苦，微温")
-                .meridian("归脾、肺、心、肾经")
-                .efficacy("大补元气，复脉固脱，补脾益肺，生津养血，安神益智")
-                .dosageRange("3~9g (急救脱证可至15~30g)")
-                .maxDosage(10.0)
-                .contraindications("十八反：反藜芦！十九畏：畏五灵脂！不宜与茶、萝卜同服")
-                .decoctionMethod("【另煎】单味文火另煎 2~3 小时兑服")
-                .classicFormulas(List.of("四君子汤", "补中益气汤", "生脉饮", "独参汤"))
-                .pharmacopoeiaExcerpt("《神农本草经》列为上品。人参总皂苷（Rg1, Rb1）显著增强中枢抗疲劳与心肌收缩力。")
-                .build());
-
-        HERB_DATABASE.put("藜芦", HerbDetail.builder()
-                .name("藜芦")
-                .pinyin("Lilu")
-                .natureFlavor("辛、苦，寒；有毒")
-                .meridian("归肺、胃、肝经")
-                .efficacy("涌吐风痰，杀虫")
-                .dosageRange("0.3~0.6g (入丸散)")
-                .maxDosage(0.6)
-                .contraindications("十八反：反诸参（人参、党参、沙参、丹参、玄参、苦参）、细辛、芍药！体虚失血者禁用")
-                .decoctionMethod("外用为主，内服极慎")
-                .classicFormulas(List.of("三圣散"))
-                .pharmacopoeiaExcerpt("《中国药典》：含甾体生物碱，易诱发剧烈恶心呕吐与心律失常降压。")
-                .build());
-
-        HERB_DATABASE.put("白芍", HerbDetail.builder()
-                .name("白芍")
-                .pinyin("Baishao")
-                .natureFlavor("苦、酸，微寒")
-                .meridian("归肝、脾经")
-                .efficacy("养血调经，敛阴止汗，柔肝止痛，平抑肝阳")
-                .dosageRange("6~15g")
-                .maxDosage(15.0)
-                .contraindications("十八反：反藜芦！虚寒腹泻者慎服")
-                .decoctionMethod("常规水煎")
-                .classicFormulas(List.of("四物汤", "芍药甘草汤", "痛泻要方"))
-                .pharmacopoeiaExcerpt("《日华子本草》：主治胁肋疼痛、泻痢腹痛。芍药苷具有镇痛解痉抗炎保护肝细胞活性。")
-                .build());
-
-        HERB_DATABASE.put("丁香", HerbDetail.builder()
-                .name("丁香")
-                .pinyin("Dingxiang")
-                .natureFlavor("辛，温")
-                .meridian("归脾、胃、肺、肾经")
-                .efficacy("温中降逆，补肾助阳")
-                .dosageRange("1~3g")
-                .maxDosage(3.0)
-                .contraindications("十九畏：畏郁金！热病及阴虚内热者忌服")
-                .decoctionMethod("常规水煎")
-                .classicFormulas(List.of("丁香柿蒂汤"))
-                .pharmacopoeiaExcerpt("《本草纲目》：丁香辛烈，暖脾胃而行气。所含丁香酚具广谱抑菌与健胃驱气功效。")
-                .build());
-
-        HERB_DATABASE.put("郁金", HerbDetail.builder()
-                .name("郁金")
-                .pinyin("Yujin")
-                .natureFlavor("辛、苦，寒")
-                .meridian("归肝、心、肺经")
-                .efficacy("活血止痛，行气解郁，清心凉血，利胆退黄")
-                .dosageRange("5~12g")
-                .maxDosage(12.0)
-                .contraindications("十九畏：畏丁香！孕妇慎用")
-                .decoctionMethod("常规水煎")
-                .classicFormulas(List.of("菖蒲郁金汤", "白金丸"))
-                .pharmacopoeiaExcerpt("《药性论》：主女人宿血气块，结癖疼痛。姜黄素类成分具保肝利胆与调脂抗氧化作用。")
+                .pharmacopoeiaExcerpt("《神农本草经》列为上品：主痈疽久败疮，排脓止痛，补虚，小儿百病。增强网状内皮系统吞噬功能，促进抗体形成。")
                 .build());
     }
 
     /**
-     * 获取全景知识图谱数据
+     * 生成力导向知识图谱全貌数据 (优先从数据库动态装配，若空则优雅降级)
      */
     public KnowledgeGraphData getOverviewGraph() {
         List<KnowledgeGraphData.CategoryItem> categories = List.of(
                 KnowledgeGraphData.CategoryItem.builder().name("中药材").itemStyle(Map.of("color", "#10b981")).build(),
                 KnowledgeGraphData.CategoryItem.builder().name("经典名方").itemStyle(Map.of("color", "#f43f5e")).build(),
                 KnowledgeGraphData.CategoryItem.builder().name("性味归经").itemStyle(Map.of("color", "#f59e0b")).build(),
-                KnowledgeGraphData.CategoryItem.builder().name("功效分类").itemStyle(Map.of("color", "#06b6d4")).build()
+                KnowledgeGraphData.CategoryItem.builder().name("治法分类").itemStyle(Map.of("color", "#8b5cf6")).build(),
+                KnowledgeGraphData.CategoryItem.builder().name("禁忌红线").itemStyle(Map.of("color", "#ef4444")).build()
         );
 
         List<KnowledgeGraphData.NodeItem> nodes = new ArrayList<>();
         List<KnowledgeGraphData.LinkItem> links = new ArrayList<>();
+        Set<String> addedNodeIds = new HashSet<>();
 
-        // 节点列表
-        nodes.add(createNode("1", "黄芪", 48, 0, "《中国药典》甘，微温。归肺、脾经。功效：补气升阳，固表止汗，利水消肿。"));
-        nodes.add(createNode("2", "当归", 42, 0, "《中国药典》甘、辛，温。归肝、心、脾经。补血活血，调经止痛。"));
-        nodes.add(createNode("3", "甘草", 48, 0, "《中国药典》甘，平。归心、肺、脾、胃经。调和诸药。反甘遂、大戟、海藻、芫花！"));
-        nodes.add(createNode("4", "甘遂", 34, 0, "《中国药典》苦，寒；有毒。泻水逐饮。十八反：严禁与甘草配伍！"));
-        nodes.add(createNode("5", "细辛", 34, 0, "辛，温；有小毒。祛风散寒，通窍止痛。常用极量不超3g。“细辛不过钱”。"));
-        nodes.add(createNode("6", "制附子", 40, 0, "辛、甘，大热；有毒。回阳救逆，散寒止痛。【先煎30~60分钟】。反半夏、瓜蒌、贝母。"));
-        nodes.add(createNode("7", "半夏", 36, 0, "辛，温；有毒。燥湿化痰，降逆止呕。十八反：反乌头、附子！"));
-        nodes.add(createNode("8", "人参", 46, 0, "大补元气，复脉固脱。反藜芦，畏五灵脂。宜文火另煎兑服。"));
-        nodes.add(createNode("9", "藜芦", 34, 0, "辛、苦，寒；有毒。涌吐风痰。十八反：反人参、细辛、芍药等诸参！"));
-        nodes.add(createNode("10", "白芍", 38, 0, "养血调经，敛阴止汗，柔肝止痛。十八反：反藜芦。"));
-        nodes.add(createNode("11", "丁香", 34, 0, "温中降逆，补肾助阳。十九畏：丁香畏郁金。"));
-        nodes.add(createNode("12", "郁金", 34, 0, "活血止痛，行气解郁。十九畏：郁金畏丁香。"));
+        // 尝试从数据库动态装载名方与药材构型
+        List<FormulaCatalogEntity> formulas = formulaCatalogRepository.findAll();
 
-        // 方剂节点
-        nodes.add(createNode("20", "补中益气汤", 56, 1, "李东垣《脾胃论》名方。主治脾虚气陷证。君药黄芪，臣以当归、白术，使以甘草。"));
-        nodes.add(createNode("21", "当归补血汤", 50, 1, "李东垣名方。黄芪一两、当归二钱 (5:1)，气旺生血经典名方。"));
-        nodes.add(createNode("22", "四君子汤", 52, 1, "《太平惠民和剂局方》治脾胃气虚基础方。人参、白术、茯苓、甘草。"));
-        nodes.add(createNode("23", "四逆汤", 50, 1, "张仲景《伤寒论》回阳救逆第一方。附子、干姜、炙甘草。"));
+        if (formulas != null && !formulas.isEmpty()) {
+            // 1. 挂载治法分类节点 (Category 3)
+            Map<String, String> categoryNodeMap = new HashMap<>();
+            for (FormulaCatalogEntity f : formulas) {
+                String cat = f.getCategory();
+                if (cat != null && !cat.isBlank() && !categoryNodeMap.containsKey(cat)) {
+                    String catId = "cat_" + cat;
+                    categoryNodeMap.put(cat, catId);
+                    nodes.add(createNode(catId, cat, 32.0, 3, "治法分类：" + cat));
+                    addedNodeIds.add(catId);
+                }
+            }
 
-        // 归经/功效节点
-        nodes.add(createNode("30", "归肺、脾经", 36, 2, "定向调节肺主气与脾统血运化系统。"));
-        nodes.add(createNode("31", "归肝、肾经", 36, 2, "定向调节肝藏血疏泄与肾藏精元阴元阳。"));
-        nodes.add(createNode("32", "归心、胃经", 36, 2, "定向调节心主血脉与胃受纳水谷。"));
-        nodes.add(createNode("40", "补气升阳", 36, 3, "益气固表、提托中气。"));
-        nodes.add(createNode("41", "补血活血", 36, 3, "滋养阴血、化瘀止痛。"));
+            // 2. 挂载方剂节点 (Category 1) 并与治法分类连线
+            int formulaLimit = Math.min(formulas.size(), 35);
+            for (int i = 0; i < formulaLimit; i++) {
+                FormulaCatalogEntity f = formulas.get(i);
+                String fId = "f_" + f.getId();
+                String desc = f.getFormulaName() + " (" + f.getSourceBook() + ") - " + (f.getIndications() != null ? f.getIndications() : "");
+                nodes.add(createNode(fId, f.getFormulaName(), 42.0, 1, desc));
+                addedNodeIds.add(fId);
 
-        // 关系连线
-        links.add(createLink("1", "20", "君药", null, null));
-        links.add(createLink("2", "20", "佐药", null, null));
-        links.add(createLink("3", "20", "使药", null, null));
+                // 连线到治法分类
+                if (f.getCategory() != null && categoryNodeMap.containsKey(f.getCategory())) {
+                    links.add(createLink(categoryNodeMap.get(f.getCategory()), fId, null,
+                            Map.of("color", "#8b5cf6", "width", 1.5), null));
+                }
 
-        links.add(createLink("1", "21", "主药(5:1)", null, null));
-        links.add(createLink("2", "21", "辅药", null, null));
+                // 解析方剂组成 (JSON)，连线到药材节点
+                try {
+                    JSONArray compArr = JSON.parseArray(f.getComposition());
+                    if (compArr != null) {
+                        for (int j = 0; j < compArr.size(); j++) {
+                            JSONObject cObj = compArr.getJSONObject(j);
+                            String hName = cObj.getString("name");
+                            String role = cObj.getString("role");
+                            Double dose = cObj.getDouble("dose");
+                            String hCanonical = herbNormalizer.normalize(hName);
+                            String hId = "herb_" + hCanonical;
 
-        links.add(createLink("8", "22", "君药", null, null));
-        links.add(createLink("3", "22", "使药", null, null));
+                            if (!addedNodeIds.contains(hId)) {
+                                nodes.add(createNode(hId, hCanonical, 28.0, 0, "中药正名: " + hCanonical));
+                                addedNodeIds.add(hId);
+                            }
 
-        links.add(createLink("6", "23", "君药(先煎)", null, null));
-        links.add(createLink("3", "23", "使药", null, null));
+                            // 连线：方剂 -> 药材
+                            String edgeLabel = role != null ? role : "配伍";
+                            if (dose != null) edgeLabel += " " + dose + "g";
+                            links.add(createLink(fId, hId, edgeLabel,
+                                    Map.of("color", "#10b981", "width", 1.8),
+                                    Map.of("color", "#047857")));
+                        }
+                    }
+                } catch (Exception ignored) {}
+            }
 
-        links.add(createLink("1", "30", "归经", null, null));
-        links.add(createLink("1", "40", "功效", null, null));
-        links.add(createLink("2", "31", "归经", null, null));
-        links.add(createLink("2", "41", "功效", null, null));
+            // 3. 补充重点相克药材节点以确保十八反/十九畏高亮连线存在
+            List<String> coreConflictHerbs = List.of("甘草", "甘遂", "大戟", "芫花", "附子", "半夏", "瓜蒌", "贝母", "白及", "白蔹", "人参", "细辛", "芍药", "藜芦", "丁香", "郁金");
+            for (String ch : coreConflictHerbs) {
+                String chId = "herb_" + ch;
+                if (!addedNodeIds.contains(chId)) {
+                    nodes.add(createNode(chId, ch, 30.0, 0, "配伍审查核心药材: " + ch));
+                    addedNodeIds.add(chId);
+                }
+            }
 
-        // 🚨 严禁配伍冲突红线 (十八反 / 十九畏)
+            // 4. 严禁配伍冲突红线 (十八反 / 十九畏) 动态连线
+            addConflictEdgeIfExists(links, addedNodeIds, "甘草", "甘遂", "【十八反】甘草反甘遂");
+            addConflictEdgeIfExists(links, addedNodeIds, "甘草", "大戟", "【十八反】甘草反大戟");
+            addConflictEdgeIfExists(links, addedNodeIds, "甘草", "芫花", "【十八反】甘草反芫花");
+            addConflictEdgeIfExists(links, addedNodeIds, "附子", "半夏", "【十八反】附子反半夏");
+            addConflictEdgeIfExists(links, addedNodeIds, "附子", "瓜蒌", "【十八反】附子反瓜蒌");
+            addConflictEdgeIfExists(links, addedNodeIds, "附子", "贝母", "【十八反】附子反贝母");
+            addConflictEdgeIfExists(links, addedNodeIds, "附子", "白及", "【十八反】附子反白及");
+            addConflictEdgeIfExists(links, addedNodeIds, "人参", "藜芦", "【十八反】诸参反藜芦");
+            addConflictEdgeIfExists(links, addedNodeIds, "细辛", "藜芦", "【十八反】细辛反藜芦");
+            addConflictEdgeIfExists(links, addedNodeIds, "芍药", "藜芦", "【十八反】芍药反藜芦");
+            addConflictEdgeIfExists(links, addedNodeIds, "丁香", "郁金", "【十九畏】丁香畏郁金");
+
+            return KnowledgeGraphData.builder()
+                    .categories(categories)
+                    .nodes(nodes)
+                    .links(links)
+                    .build();
+        }
+
+        // 若数据库为空（兜底防御），返回默认精炼图谱
+        nodes.add(createNode("1", "补中益气汤", 45.0, 1, "李东垣《脾胃论》：甘温除热，补中益气，升阳举陷。"));
+        nodes.add(createNode("2", "黄芪", 32.0, 0, "补气升阳，固表止汗。为君药。"));
+        nodes.add(createNode("3", "甘草", 28.0, 0, "调和诸药，补脾益气。使药。"));
+        nodes.add(createNode("4", "甘遂", 26.0, 0, "泻水逐饮，消肿散结。大毒。"));
+        links.add(createLink("1", "2", "君药 15g", Map.of("color", "#10b981", "width", 2), null));
+        links.add(createLink("1", "3", "使药 6g", Map.of("color", "#10b981", "width", 2), null));
         links.add(createConflictLink("3", "4", "【十八反】甘草反甘遂"));
-        links.add(createConflictLink("6", "7", "【十八反】附子反半夏"));
-        links.add(createConflictLink("8", "9", "【十八反】诸参反藜芦"));
-        links.add(createConflictLink("5", "9", "【十八反】细辛反藜芦"));
-        links.add(createConflictLink("10", "9", "【十八反】芍药反藜芦"));
-        links.add(createConflictLink("11", "12", "【十九畏】丁香畏郁金"));
 
         return KnowledgeGraphData.builder()
                 .categories(categories)
@@ -263,14 +195,45 @@ public class KnowledgeGraphService {
                 .build();
     }
 
+    private void addConflictEdgeIfExists(List<KnowledgeGraphData.LinkItem> links, Set<String> nodeIds, String h1, String h2, String label) {
+        String id1 = "herb_" + h1;
+        String id2 = "herb_" + h2;
+        if (nodeIds.contains(id1) && nodeIds.contains(id2)) {
+            links.add(createConflictLink(id1, id2, label));
+        }
+    }
+
     /**
-     * 根据中药名称考据药典明细
+     * 根据中药名称考据药典明细 (优先查询数据库，无缝对接 307 味药典词典)
      */
     public HerbDetail getHerbDetail(String herbName) {
         if (herbName == null || herbName.isBlank()) {
             return null;
         }
         String canonical = herbNormalizer.normalize(herbName);
+
+        // 优先从数据库中获取《中国药典》官方元数据
+        Optional<HerbDictEntity> entityOpt = herbDictRepository.findByHerbName(canonical);
+        if (entityOpt.isPresent()) {
+            HerbDictEntity e = entityOpt.get();
+            String natureFlavor = (e.getNature() != null ? e.getNature() : "") + "，" + (e.getFlavor() != null ? e.getFlavor() : "");
+            double maxDose = e.getMaxDosage() != null ? e.getMaxDosage().doubleValue() : 15.0;
+
+            return HerbDetail.builder()
+                    .name(e.getHerbName())
+                    .pinyin(e.getPinyin() != null ? e.getPinyin() : "")
+                    .natureFlavor(natureFlavor)
+                    .meridian(e.getMeridians() != null ? e.getMeridians() : "暂无记载")
+                    .efficacy(e.getEfficacy() != null ? e.getEfficacy() : "详见《中国药典》")
+                    .dosageRange(e.getDosageRange() != null ? e.getDosageRange() : "3~10g")
+                    .maxDosage(maxDose)
+                    .contraindications(e.getContraindications() != null ? e.getContraindications() : "遵医嘱配伍")
+                    .decoctionMethod(e.getDecoctionMethod() != null ? e.getDecoctionMethod() : "常规水煎")
+                    .classicFormulas(findFormulasForHerb(canonical))
+                    .pharmacopoeiaExcerpt("《中华人民共和国药典》(2020年版 一部) 权威收载：" + e.getEfficacy() + "。毒性级别：" + e.getToxicityLevel() + "，推荐用量：" + e.getDosageRange())
+                    .build();
+        }
+
         return HERB_DATABASE.getOrDefault(canonical, HerbDetail.builder()
                 .name(canonical)
                 .natureFlavor("详见《中国药典》")
@@ -283,6 +246,20 @@ public class KnowledgeGraphService {
                 .classicFormulas(List.of("经典名方收录"))
                 .pharmacopoeiaExcerpt("中药安全哨兵知识图谱持续扩充收录中。")
                 .build());
+    }
+
+    private List<String> findFormulasForHerb(String herbName) {
+        List<String> list = new ArrayList<>();
+        try {
+            List<FormulaCatalogEntity> all = formulaCatalogRepository.findAll();
+            for (FormulaCatalogEntity f : all) {
+                if (f.getComposition() != null && f.getComposition().contains(herbName)) {
+                    list.add(f.getFormulaName());
+                    if (list.size() >= 5) break;
+                }
+            }
+        } catch (Exception ignored) {}
+        return list.isEmpty() ? List.of("经方配伍收载") : list;
     }
 
     /**
