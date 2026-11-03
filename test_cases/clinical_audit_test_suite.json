@@ -1,0 +1,237 @@
+[
+  {
+    "id": "TC_SHIBAFAN_01",
+    "name": "十八反违规测试：甘草反甘遂（水肿逐饮方）",
+    "category": "配伍禁忌红线 (十八反)",
+    "description": "模拟民间偏方或误开处方，同时出现甘草与甘遂。应触发最高级别红线拦截（DANGER），提示甘草酸抑制P-gp导致甘遂二萜毒素吸收激增致肠坏死。",
+    "raw_input_text": "生甘草6g，甘遂1.5g，白术10g，茯苓15g，泽泻12g",
+    "herbs": [
+      { "name": "生甘草", "dose": 6.0, "decoctionMethod": "常规水煎" },
+      { "name": "甘遂", "dose": 1.5, "decoctionMethod": "冲服" },
+      { "name": "白术", "dose": 10.0, "decoctionMethod": "常规水煎" },
+      { "name": "茯苓", "dose": 15.0, "decoctionMethod": "常规水煎" },
+      { "name": "泽泻", "dose": 12.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "DANGER",
+      "fatal_warning_contains": ["甘草", "甘遂"],
+      "modern_mechanism_focus": "P-糖蛋白外排泵抑制",
+      "substitute_advice": "去掉甘遂，改用大腹皮或车前子利水消肿"
+    }
+  },
+  {
+    "id": "TC_SHIBAFAN_02",
+    "name": "十八反违规测试：制附子反半夏（温阳化痰方误配）",
+    "category": "配伍禁忌红线 (十八反)",
+    "description": "临床常见误配（乌头反半夏）。处方拟回阳温经且化痰，但附子与法半夏同用，抑制乌头碱水解，显著增加恶性室性心律失常与心脏停搏风险。",
+    "raw_input_text": "制附子10g (先煎)，法半夏9g，干姜6g，炙甘草6g",
+    "herbs": [
+      { "name": "制附子", "dose": 10.0, "decoctionMethod": "先煎" },
+      { "name": "法半夏", "dose": 9.0, "decoctionMethod": "常规水煎" },
+      { "name": "干姜", "dose": 6.0, "decoctionMethod": "常规水煎" },
+      { "name": "炙甘草", "dose": 6.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "DANGER",
+      "fatal_warning_contains": ["附子", "半夏"],
+      "modern_mechanism_focus": "乌头碱水解阻滞与心肌钠通道毒性",
+      "substitute_advice": "保留温阳四逆，化痰去半夏改用陈皮、旋覆花或紫菀"
+    }
+  },
+  {
+    "id": "TC_SHIBAFAN_03",
+    "name": "十八反违规测试：藜芦反人参及白芍（涌吐风痰杂合补虚）",
+    "category": "配伍禁忌红线 (十八反)",
+    "description": "诸参辛芍叛藜芦。处方中出现藜芦，同时配伍人参、白芍，激化中枢毒性，导致严重迷走神经兴奋及急性低血压休克。",
+    "raw_input_text": "藜芦0.5g，人参6g，白芍10g，茯苓12g",
+    "herbs": [
+      { "name": "藜芦", "dose": 0.5, "decoctionMethod": "冲服" },
+      { "name": "人参", "dose": 6.0, "decoctionMethod": "另煎" },
+      { "name": "白芍", "dose": 10.0, "decoctionMethod": "常规水煎" },
+      { "name": "茯苓", "dose": 12.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "DANGER",
+      "fatal_warning_contains": ["藜芦", "人参", "芍药"],
+      "modern_mechanism_focus": "甾体生物碱中枢抑制与延髓毒性"
+    }
+  },
+  {
+    "id": "TC_SHIJIUWEI_01",
+    "name": "十九畏违规测试：丁香莫与郁金见（胃痛理气方）",
+    "category": "配伍禁忌红线 (十九畏)",
+    "description": "丁香温中降逆，郁金活血行气，两药相恶，共煎导致丁香酚溶出量急剧下降，挥发油沉淀失效，属于经典相恶削效配伍。",
+    "raw_input_text": "公丁香3g，广郁金10g，陈皮6g，木香6g，砂仁3g",
+    "herbs": [
+      { "name": "公丁香", "dose": 3.0, "decoctionMethod": "常规水煎" },
+      { "name": "广郁金", "dose": 10.0, "decoctionMethod": "常规水煎" },
+      { "name": "陈皮", "dose": 6.0, "decoctionMethod": "常规水煎" },
+      { "name": "木香", "dose": 6.0, "decoctionMethod": "常规水煎" },
+      { "name": "砂仁", "dose": 3.0, "decoctionMethod": "后下" }
+    ],
+    "expected_result": {
+      "status": "DANGER",
+      "fatal_warning_contains": ["丁香", "郁金"],
+      "modern_mechanism_focus": "丁香酚溶出受阻与沉淀析出减效"
+    }
+  },
+  {
+    "id": "TC_SHIJIUWEI_02",
+    "name": "十九畏违规测试：人参畏五灵脂（益气化瘀胃痛方）",
+    "category": "配伍禁忌红线 (十九畏)",
+    "description": "经典相恶配伍。补虚之人参与活血之五灵脂同用，相生相制减弱补气益脾功效。",
+    "raw_input_text": "红参6g，五灵脂10g (包煎)，延胡索9g，白术10g",
+    "herbs": [
+      { "name": "红参", "dose": 6.0, "decoctionMethod": "另煎" },
+      { "name": "五灵脂", "dose": 10.0, "decoctionMethod": "包煎" },
+      { "name": "延胡索", "dose": 9.0, "decoctionMethod": "常规水煎" },
+      { "name": "白术", "dose": 10.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "DANGER",
+      "fatal_warning_contains": ["人参", "五灵脂"]
+    }
+  },
+  {
+    "id": "TC_OVERDOSE_01",
+    "name": "药典极量超标测试：细辛过钱超量（风寒顽固偏头痛方）",
+    "category": "药典极量超标预警",
+    "description": "“细辛不过钱”。《中国药典》规定细辛单剂极量为 3g。本用例处方剂量为 8g，严重超标，存在黄樟醚中枢神经先兴奋后麻痹及马兜铃酸蓄积肾损伤隐患。",
+    "raw_input_text": "辽细辛8g，白芷10g，川芎15g，防风10g，羌活9g",
+    "herbs": [
+      { "name": "辽细辛", "dose": 8.0, "decoctionMethod": "常规水煎" },
+      { "name": "白芷", "dose": 10.0, "decoctionMethod": "常规水煎" },
+      { "name": "川芎", "dose": 15.0, "decoctionMethod": "常规水煎" },
+      { "name": "防风", "dose": 10.0, "decoctionMethod": "常规水煎" },
+      { "name": "羌活", "dose": 9.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "WARNING",
+      "overdose_warnings": ["细辛 8.0g > 药典规定极量 3.0g"],
+      "risk_analysis": "细辛芳香走窜，单剂超3g易引起呼吸急促转麻痹，必须严格限控"
+    }
+  },
+  {
+    "id": "TC_OVERDOSE_02",
+    "name": "药典极量超标测试：附子超量（超常规大剂量回阳）",
+    "category": "药典极量超标预警",
+    "description": "附子药典常规极量为 15g。本用例开出 30g，虽民间火神派有用法，但药典法定标准必须亮黄/红标提醒，并强制要求长时间文火先煎。",
+    "raw_input_text": "制附子30g，干姜15g，生甘草10g",
+    "herbs": [
+      { "name": "制附子", "dose": 30.0, "decoctionMethod": "先煎" },
+      { "name": "干姜", "dose": 15.0, "decoctionMethod": "常规水煎" },
+      { "name": "生甘草", "dose": 10.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "WARNING",
+      "overdose_warnings": ["制附子 30.0g > 药典常规极量 15.0g"],
+      "decoction_notes": ["制附子必须文火单煎 60 分钟以上，至口尝无麻感"]
+    }
+  },
+  {
+    "id": "TC_DECOCTION_01",
+    "name": "特殊煎服法合规测试：先煎、后下、包煎、烊化全景覆盖",
+    "category": "特殊煎服法操作规范",
+    "description": "检验系统对中药特殊煎煮规范的感知与提示能力：附子/生石膏先煎、薄荷/砂仁后下、旋覆花包煎、阿胶烊化冲服。",
+    "raw_input_text": "制附片12g (先煎)，生石膏30g，薄荷6g (后下)，砂仁5g (后下)，旋覆花9g (包煎)，阿胶9g (烊化)，熟地黄15g",
+    "herbs": [
+      { "name": "制附片", "dose": 12.0, "decoctionMethod": "先煎" },
+      { "name": "生石膏", "dose": 30.0, "decoctionMethod": "先煎" },
+      { "name": "薄荷", "dose": 6.0, "decoctionMethod": "后下" },
+      { "name": "砂仁", "dose": 5.0, "decoctionMethod": "后下" },
+      { "name": "旋覆花", "dose": 9.0, "decoctionMethod": "包煎" },
+      { "name": "阿胶", "dose": 9.0, "decoctionMethod": "烊化" },
+      { "name": "熟地黄", "dose": 15.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "SAFE",
+      "decoction_items_count": 6,
+      "contains_methods": ["先煎", "后下", "包煎", "烊化"]
+    }
+  },
+  {
+    "id": "TC_CLASSIC_SAFE_01",
+    "name": "标准名方合规审查：补中益气汤（李东垣脾胃论名方）",
+    "category": "经典名方安全通过",
+    "description": "验证国家经典名方的安全通过评级（SAFE 🟢）。触发大模型深层方解，推演黄芪为君、升阳举陷、甘温除热的君臣佐使构型。",
+    "raw_input_text": "炙黄芪15g，党参10g，炒白术10g，炙甘草6g，当归9g，陈皮6g，升麻3g，柴胡3g",
+    "herbs": [
+      { "name": "炙黄芪", "dose": 15.0, "decoctionMethod": "常规水煎" },
+      { "name": "党参", "dose": 10.0, "decoctionMethod": "常规水煎" },
+      { "name": "炒白术", "dose": 10.0, "decoctionMethod": "常规水煎" },
+      { "name": "炙甘草", "dose": 6.0, "decoctionMethod": "常规水煎" },
+      { "name": "当归", "dose": 9.0, "decoctionMethod": "常规水煎" },
+      { "name": "陈皮", "dose": 6.0, "decoctionMethod": "常规水煎" },
+      { "name": "升麻", "dose": 3.0, "decoctionMethod": "常规水煎" },
+      { "name": "柴胡", "dose": 3.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "SAFE",
+      "matched_formula": "补中益气汤",
+      "monarch": "黄芪",
+      "ai_analysis_contains": ["补中益气", "升阳举陷", "脾胃虚弱"]
+    }
+  },
+  {
+    "id": "TC_CLASSIC_SAFE_02",
+    "name": "标准名方合规审查：当归补血汤（气旺生血5:1配伍）",
+    "category": "经典名方安全通过",
+    "description": "验证李东垣当归补血汤。黄芪30g、当归6g，配比恰好为 5:1，验证君臣佐使推演与大剂量黄芪的合理性识别。",
+    "raw_input_text": "绵黄芪30g，当归身6g",
+    "herbs": [
+      { "name": "绵黄芪", "dose": 30.0, "decoctionMethod": "常规水煎" },
+      { "name": "当归身", "dose": 6.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "SAFE",
+      "matched_formula": "当归补血汤",
+      "monarch": "黄芪",
+      "ai_analysis_contains": ["5:1", "气旺生血", "血虚发热"]
+    }
+  },
+  {
+    "id": "TC_CLASSIC_SAFE_03",
+    "name": "标准名方合规审查：血府逐瘀汤（活血化瘀第一方）",
+    "category": "经典名方安全通过",
+    "description": "王清任《医林改错》名方，桃仁红花配四逆散与四物汤化裁。测试多达 11 味药的大方剂识别与分析性能。",
+    "raw_input_text": "桃仁12g，红花9g，当归9g，生地黄9g，川芎5g，赤芍6g，牛膝9g，桔梗5g，柴胡3g，枳壳6g，甘草3g",
+    "herbs": [
+      { "name": "桃仁", "dose": 12.0, "decoctionMethod": "常规水煎" },
+      { "name": "红花", "dose": 9.0, "decoctionMethod": "常规水煎" },
+      { "name": "当归", "dose": 9.0, "decoctionMethod": "常规水煎" },
+      { "name": "生地黄", "dose": 9.0, "decoctionMethod": "常规水煎" },
+      { "name": "川芎", "dose": 5.0, "decoctionMethod": "常规水煎" },
+      { "name": "赤芍", "dose": 6.0, "decoctionMethod": "常规水煎" },
+      { "name": "牛膝", "dose": 9.0, "decoctionMethod": "常规水煎" },
+      { "name": "桔梗", "dose": 5.0, "decoctionMethod": "常规水煎" },
+      { "name": "柴胡", "dose": 3.0, "decoctionMethod": "常规水煎" },
+      { "name": "枳壳", "dose": 6.0, "decoctionMethod": "常规水煎" },
+      { "name": "甘草", "dose": 3.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "SAFE",
+      "matched_formula": "血府逐瘀汤",
+      "ai_analysis_contains": ["活血祛瘀", "行气止痛", "胸中血瘀"]
+    }
+  },
+  {
+    "id": "TC_COMBINED_COMPLEX_01",
+    "name": "复合极端边界测试：多重炮制别名 + 十八反 + 细辛超量",
+    "category": "复合极端压力测试",
+    "description": "同时包含：别名归一化（黑顺片->附子、天花粉->瓜蒌，构成乌头反瓜蒌）；同时细辛开出 6g（超药典 3g 极量）；同时包含常规合法药。检验系统级联告警能力。",
+    "raw_input_text": "黑顺片12g，天花粉15g，北细辛6g，生白术10g，茯苓12g",
+    "herbs": [
+      { "name": "黑顺片", "dose": 12.0, "decoctionMethod": "常规水煎" },
+      { "name": "天花粉", "dose": 15.0, "decoctionMethod": "常规水煎" },
+      { "name": "北细辛", "dose": 6.0, "decoctionMethod": "常规水煎" },
+      { "name": "生白术", "dose": 10.0, "decoctionMethod": "常规水煎" },
+      { "name": "茯苓", "dose": 12.0, "decoctionMethod": "常规水煎" }
+    ],
+    "expected_result": {
+      "status": "DANGER",
+      "fatal_warning_contains": ["附子", "瓜蒌"],
+      "overdose_warnings": ["细辛 6.0g > 3.0g"],
+      "normalized_names": ["附子", "瓜蒌", "细辛", "白术", "茯苓"]
+    }
+  }
+]
