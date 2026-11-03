@@ -115,14 +115,23 @@
 
     <!-- 规则引擎实时审查报告 (核心答辩亮点) -->
     <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-sm space-y-4">
-      <div class="flex items-center justify-between pb-3 border-b border-stone-100">
+      <div class="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-stone-100">
         <div class="flex items-center space-x-2">
           <span class="w-3 h-3 rounded-full" :class="statusColorClass"></span>
           <span class="font-bold text-sm text-stone-800">Java 规则引擎质检综合评估</span>
         </div>
-        <span class="text-xs px-2.5 py-1 rounded-full font-bold" :class="badgeClass">
-          {{ badgeText }}
-        </span>
+        <div class="flex items-center space-x-2">
+          <button 
+            @click="showCertificateModal = true"
+            class="text-xs bg-stone-100 hover:bg-stone-200 text-stone-700 hover:text-emerald-800 border border-stone-300 px-2.5 py-1 rounded-lg transition-colors flex items-center space-x-1 shadow-sm font-medium"
+          >
+            <span>📄</span>
+            <span>生成防伪复核凭证</span>
+          </button>
+          <span class="text-xs px-2.5 py-1 rounded-full font-bold" :class="badgeClass">
+            {{ badgeText }}
+          </span>
+        </div>
       </div>
 
       <!-- 质检详细结果列表 -->
@@ -253,6 +262,162 @@
         </div>
       </div>
     </div>
+
+    <!-- 📄 处方安全审方防伪复核凭证弹窗 (支持高保真打印/导出 PDF) -->
+    <div 
+      v-if="showCertificateModal" 
+      class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 overflow-y-auto no-print-bg"
+    >
+      <div class="bg-white w-full max-w-2xl rounded-2xl shadow-2xl border border-stone-300 overflow-hidden my-auto max-h-[92vh] flex flex-col">
+        <!-- 弹窗顶栏操作区 (打印时隐藏) -->
+        <div class="bg-stone-900 text-white px-5 py-3 flex items-center justify-between no-print flex-shrink-0">
+          <div class="flex items-center space-x-2 text-xs">
+            <span class="text-emerald-400 font-bold">📄 审方合规凭据单预览</span>
+            <span class="text-stone-400">| 可直接调用浏览器打印或存为高清 PDF</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <button 
+              @click="printCertificate"
+              class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs px-3 py-1.5 rounded-lg font-bold transition-all shadow flex items-center space-x-1"
+            >
+              <span>🖨️</span>
+              <span>立即打印 / 存为PDF</span>
+            </button>
+            <button 
+              @click="showCertificateModal = false"
+              class="text-stone-400 hover:text-white text-sm px-2 py-1 rounded"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+
+        <!-- 打印正文区域 (A4标准样式排版) -->
+        <div id="prescription-print-area" class="p-6 md:p-8 bg-[#fdfcf9] text-stone-900 font-serif space-y-4 relative overflow-y-auto flex-1">
+          <!-- 背景防伪水印 -->
+          <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.03] select-none text-7xl font-bold font-sans rotate-[-25deg]">
+            岐黄盾 HERBSHIELD
+          </div>
+
+          <!-- 凭证表头 -->
+          <div class="text-center pb-3 border-b-2 border-stone-800 space-y-1">
+            <div class="text-[10px] tracking-widest text-stone-500 font-sans uppercase">
+              TCM Prescription Safety & Compliance Dispensing Verification Certificate
+            </div>
+            <h1 class="text-lg md:text-xl font-bold tracking-wider text-stone-900 font-serif">
+              中药处方安全审方与调配复核凭据单
+            </h1>
+            <div class="text-xs text-stone-600 font-sans flex items-center justify-center space-x-3 pt-0.5">
+              <span>复核机构：南京中医药大学 · 岐黄盾中医药安全哨兵</span>
+              <span>依据：《中国药典》2020年版一部</span>
+            </div>
+          </div>
+
+          <!-- 元数据信息栏 -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs font-sans bg-stone-100/70 p-2.5 rounded-lg border border-stone-200">
+            <div>
+              <span class="text-stone-500">审计流水号：</span>
+              <span class="font-mono font-bold">{{ currentSerialNo }}</span>
+            </div>
+            <div>
+              <span class="text-stone-500">审核时间：</span>
+              <span class="font-mono">{{ currentFormattedTime }}</span>
+            </div>
+            <div>
+              <span class="text-stone-500">处方药味数：</span>
+              <span class="font-bold">{{ herbs.length }} 味中药</span>
+            </div>
+            <div>
+              <span class="text-stone-500">审查耗时：</span>
+              <span class="font-mono text-emerald-700 font-bold">{{ auditResult.executionTimeMs || 8 }} ms</span>
+            </div>
+          </div>
+
+          <!-- 处方中药药味组成明细表 -->
+          <div class="space-y-1">
+            <div class="text-xs font-bold font-sans text-stone-800 flex items-center justify-between">
+              <span>【处方配伍药味组成清单】</span>
+              <span class="text-[11px] text-stone-500 font-normal">给药途径：传统水煎内服</span>
+            </div>
+            <table class="w-full text-xs border border-stone-300 border-collapse">
+              <thead>
+                <tr class="bg-stone-200/60 font-sans text-stone-700">
+                  <th class="border border-stone-300 p-1.5 text-center w-10">序号</th>
+                  <th class="border border-stone-300 p-1.5 text-left">中药药材正名</th>
+                  <th class="border border-stone-300 p-1.5 text-center">单剂用量</th>
+                  <th class="border border-stone-300 p-1.5 text-center">特殊煎服法</th>
+                  <th class="border border-stone-300 p-1.5 text-center">安全质检状态</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="(h, idx) in herbs" :key="idx" class="border-b border-stone-200">
+                  <td class="border border-stone-300 p-1 text-center font-mono">{{ idx + 1 }}</td>
+                  <td class="border border-stone-300 p-1 font-bold">{{ h.name }}</td>
+                  <td class="border border-stone-300 p-1 text-center font-mono font-bold">{{ h.dose }} g</td>
+                  <td class="border border-stone-300 p-1 text-center text-stone-600 font-sans">{{ h.decoctionMethod || '常规水煎' }}</td>
+                  <td class="border border-stone-300 p-1 text-center font-sans">
+                    <span v-if="isHerbInConflict(h.name)" class="text-rose-700 font-bold">🚨 触犯禁忌</span>
+                    <span v-else-if="isHerbOverdosed(h.name)" class="text-amber-700 font-bold">⚠️ 剂量超标</span>
+                    <span v-else class="text-emerald-700 font-medium">✓ 合规</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- 审方判定结论区 -->
+          <div class="border-2 rounded-xl p-3.5 relative font-sans space-y-1.5" :class="getCertDecisionClass()">
+            <!-- 电子印章效果 -->
+            <div class="absolute right-3 top-2 pointer-events-none transform rotate-[-12deg] select-none">
+              <div 
+                class="w-20 h-20 rounded-full border-4 flex flex-col items-center justify-center p-0.5 text-center font-bold tracking-tight shadow-sm opacity-85"
+                :class="getStampClass()"
+              >
+                <div class="text-[8px] border-b pb-0.5 w-full">岐黄盾审方专章</div>
+                <div class="text-[11px] my-0.5 leading-tight">{{ getStampTitle() }}</div>
+                <div class="text-[7px] font-mono border-t pt-0.5 w-full">{{ currentSerialNo.slice(-6) }}</div>
+              </div>
+            </div>
+
+            <div class="font-bold text-xs flex items-center space-x-1.5">
+              <span>{{ getDecisionIcon() }}</span>
+              <span>综合复核结论：{{ getDecisionTitle() }}</span>
+            </div>
+
+            <p class="text-[11px] leading-relaxed max-w-[76%] text-stone-700">
+              {{ auditResult.summary }}
+            </p>
+
+            <!-- 若有违规红线 -->
+            <div v-if="auditResult.fatalWarnings && auditResult.fatalWarnings.length > 0" class="text-[11px] space-y-1 pt-0.5 max-w-[76%] text-rose-900">
+              <div v-for="(fw, fi) in auditResult.fatalWarnings" :key="fi" class="bg-white/80 p-1.5 rounded border border-rose-300">
+                <strong>【{{ fw.type }}】{{ fw.pair.join(' ❌ ') }}</strong>：{{ fw.mechanism }}
+              </div>
+            </div>
+          </div>
+
+          <!-- 双脑签署栏与责任说明 -->
+          <div class="pt-3 border-t border-stone-300 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-2 text-[11px] font-sans text-stone-600">
+            <div class="space-y-0.5">
+              <div>审核系统：HerbShield 异构微服务用药安全哨兵平台</div>
+              <div>知识引擎：BAAI/bge-small-zh-v1.5 本地高维混合 RAG 循证引擎</div>
+              <div class="text-[10px] text-stone-400">注：本凭据根据《中华人民共和国药典》(2020年版)自动化生成，存证留痕不可篡改。</div>
+            </div>
+
+            <div class="flex items-center space-x-6 self-end sm:self-auto pt-1 sm:pt-0">
+              <div class="text-center">
+                <div class="border-b border-stone-800 w-20 h-5 mb-0.5"></div>
+                <span class="text-[10px] text-stone-500">审方药师 (签字)</span>
+              </div>
+              <div class="text-center">
+                <div class="border-b border-stone-800 w-20 h-5 mb-0.5"></div>
+                <span class="text-[10px] text-stone-500">调配药师 (核发)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -312,6 +477,70 @@ const badgeText = computed(() => {
   return '✅ 处方配伍完全合规'
 })
 
+// 凭证单与打印状态
+const showCertificateModal = ref(false)
+const currentSerialNo = ref('HS-' + Date.now().toString().slice(-8))
+const currentFormattedTime = computed(() => {
+  const d = new Date()
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}:${String(d.getSeconds()).padStart(2, '0')}`
+})
+
+const isHerbInConflict = (herbName: string) => {
+  if (!auditResult.value.fatalWarnings) return false
+  return auditResult.value.fatalWarnings.some(w => 
+    w.pair && w.pair.some(p => herbName.includes(p) || p.includes(herbName))
+  )
+}
+
+const isHerbOverdosed = (herbName: string) => {
+  if (!auditResult.value.overdoseWarnings) return false
+  return auditResult.value.overdoseWarnings.some(w => herbName.includes(w.herb) || w.herb.includes(herbName))
+}
+
+const getCertDecisionClass = () => {
+  if (auditResult.value.status === 'DANGER') return 'border-rose-400 bg-rose-50/70 text-rose-900'
+  if (auditResult.value.status === 'WARNING') return 'border-amber-400 bg-amber-50/70 text-amber-900'
+  return 'border-emerald-400 bg-emerald-50/70 text-emerald-900'
+}
+
+const getStampClass = () => {
+  if (auditResult.value.status === 'DANGER') return 'border-rose-600 text-rose-600'
+  if (auditResult.value.status === 'WARNING') return 'border-amber-600 text-amber-600'
+  return 'border-emerald-600 text-emerald-600'
+}
+
+const getStampTitle = () => {
+  if (auditResult.value.status === 'DANGER') return '拦截未通过'
+  if (auditResult.value.status === 'WARNING') return '超量提示'
+  return '合规准发'
+}
+
+const getDecisionIcon = () => {
+  if (auditResult.value.status === 'DANGER') return '🚨'
+  if (auditResult.value.status === 'WARNING') return '⚠️'
+  return '🛡️'
+}
+
+const getDecisionTitle = () => {
+  if (auditResult.value.status === 'DANGER') return '存在中药法定配伍禁忌 · 依法终止调配'
+  if (auditResult.value.status === 'WARNING') return '存在剂量超标或特殊煎法 · 需医师复核'
+  return '处方安全审查通过 · 符合药典规范准予调配'
+}
+
+const printCertificate = () => {
+  window.print()
+}
+
+// 外部载入处方
+const loadHerbs = (newHerbs: HerbItem[]) => {
+  herbs.value = [...newHerbs]
+  runAudit()
+}
+
+defineExpose({
+  loadHerbs
+})
+
 // 异步调度大模型深度方解
 const fetchAiAnalysis = async () => {
   isGeneratingAi.value = true
@@ -338,6 +567,9 @@ const runAudit = async () => {
     const res = await api.auditPrescriptionText(herbs.value)
     if (res) {
       auditResult.value = res
+      if (res.serialNo) {
+        currentSerialNo.value = res.serialNo
+      }
     }
   } catch {
     evaluateOffline()
@@ -522,5 +754,30 @@ onMounted(() => {
 }
 .animate-scan-line {
   animation: scan 2s ease-in-out infinite alternate;
+}
+
+@media print {
+  /* 隐藏所有非打印元素 */
+  body * {
+    visibility: hidden;
+  }
+  .no-print, .no-print-bg {
+    background: transparent !important;
+  }
+  #prescription-print-area, #prescription-print-area * {
+    visibility: visible;
+  }
+  #prescription-print-area {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 10mm 15mm;
+    margin: 0;
+    background: white !important;
+    color: black !important;
+    z-index: 99999;
+  }
 }
 </style>

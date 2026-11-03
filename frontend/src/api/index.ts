@@ -43,6 +43,20 @@ export interface AuditResult {
   decoctionNotes: DecoctionNote[]
   executionTimeMs?: number
   auditTimestamp?: number
+  serialNo?: string
+}
+
+export interface AuditRecordItem {
+  id: number
+  auditSerialNo: string
+  rawText: string
+  detectedHerbs: string
+  safetyStatus: 'SAFE' | 'WARNING' | 'DANGER'
+  contraindications?: string
+  aiAnalysis?: string
+  ragCitations?: string
+  clientIp?: string
+  createdAt: string
 }
 
 export interface TongueAnalysisResult {
@@ -95,7 +109,11 @@ export const api = {
   // 处方文本质检
   auditPrescriptionText: async (herbs: HerbItem[]): Promise<AuditResult> => {
     const res = await apiClient.post('/audit/prescription-text', { herbs })
-    return res.data.data
+    const data = res.data.data
+    if (res.data.serialNo) {
+      data.serialNo = res.data.serialNo
+    }
+    return data
   },
 
   // 处方图像全流程质检
@@ -146,6 +164,15 @@ export const api = {
   chatWithAi: async (question: string, contextHerbs?: string[]): Promise<string> => {
     const res = await apiClient.post('/ai/chat', { question, contextHerbs })
     return res.data.data.reply
+  },
+
+  // 历史处方安全质检记录查询 (合规审计存证)
+  getAuditHistory: async (limit: number = 20): Promise<{ total: number; data: AuditRecordItem[] }> => {
+    const res = await apiClient.get('/audit/history', { params: { limit } })
+    return {
+      total: res.data.total || 0,
+      data: res.data.data || []
+    }
   },
 
   // 服务心跳状态探活

@@ -117,14 +117,23 @@
             <span>📖</span>
             <span>内置禁忌字典库</span>
           </button>
+          <button 
+            @click="switchTab('history')"
+            :class="activeTab === 'history' ? 'border-b-2 border-emerald-600 text-emerald-800 font-bold bg-emerald-50/40' : 'text-stone-500 hover:text-stone-800'"
+            class="py-3 px-3 transition-colors flex items-center space-x-1.5 whitespace-nowrap rounded-t-lg"
+          >
+            <span>📜</span>
+            <span>审计留痕存证 (合规溯源)</span>
+          </button>
         </div>
 
         <!-- 页面主工作区 -->
         <div class="p-4 md:p-6 flex-1 overflow-y-auto">
-          <PrescriptionAudit v-if="activeTab === 'audit'" />
+          <PrescriptionAudit ref="prescriptionAuditComp" v-if="activeTab === 'audit'" />
           <TongueDiagnosis ref="tongueComp" v-if="activeTab === 'tongue'" />
           <KnowledgeGraph ref="graphComp" v-if="activeTab === 'graph'" />
           <RuleDictionary v-if="activeTab === 'dictionary'" />
+          <AuditHistory v-if="activeTab === 'history'" @load-prescription="onLoadPrescription" />
         </div>
 
         <!-- 移动端底部虚拟 Home Bar -->
@@ -150,13 +159,15 @@ import PrescriptionAudit from '@/components/PrescriptionAudit.vue'
 import TongueDiagnosis from '@/components/TongueDiagnosis.vue'
 import KnowledgeGraph from '@/components/KnowledgeGraph.vue'
 import RuleDictionary from '@/components/RuleDictionary.vue'
+import AuditHistory from '@/components/AuditHistory.vue'
 import AiChatDrawer from '@/components/AiChatDrawer.vue'
-import { api } from '@/api'
+import { api, HerbItem } from '@/api'
 
 const viewMode = ref<'desktop' | 'mobile'>('desktop')
-const activeTab = ref<'audit' | 'tongue' | 'graph' | 'dictionary'>('audit')
+const activeTab = ref<'audit' | 'tongue' | 'graph' | 'dictionary' | 'history'>('audit')
 const isJavaAlive = ref(true)
 
+const prescriptionAuditComp = ref<any>(null)
 const tongueComp = ref<any>(null)
 const graphComp = ref<any>(null)
 
@@ -165,9 +176,21 @@ const setMode = (mode: 'desktop' | 'mobile') => {
   triggerResize()
 }
 
-const switchTab = (tab: 'audit' | 'tongue' | 'graph' | 'dictionary') => {
+const switchTab = (tab: 'audit' | 'tongue' | 'graph' | 'dictionary' | 'history') => {
   activeTab.value = tab
   triggerResize()
+}
+
+const onLoadPrescription = (herbs: HerbItem[]) => {
+  activeTab.value = 'audit'
+  triggerResize()
+  setTimeout(() => {
+    nextTick(() => {
+      if (prescriptionAuditComp.value && prescriptionAuditComp.value.loadHerbs) {
+        prescriptionAuditComp.value.loadHerbs(herbs)
+      }
+    })
+  }, 100)
 }
 
 const triggerResize = () => {
