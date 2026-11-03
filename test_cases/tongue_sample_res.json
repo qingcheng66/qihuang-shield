@@ -1,0 +1,44 @@
+{
+  "code": 200,
+  "data": {
+    "tongue_detected": true,
+    "confidence": 0.965,
+    "tongue_color": {
+      "label": "淡红舌",
+      "scores": {
+        "淡白": 0.15,
+        "淡红": 0.75,
+        "红": 0.1,
+        "绛红": 0.0
+      },
+      "lab_metrics": {
+        "L": 158.3,
+        "a": 146.0,
+        "b": 134.7
+      }
+    },
+    "moss_thickness": {
+      "label": "白厚苔",
+      "coverage_ratio": 0.714
+    },
+    "has_tooth_marks": false,
+    "tooth_mark_score": 0.1,
+    "main_constitution": "痰湿质",
+    "radar_values": [
+      35,
+      45,
+      30,
+      20,
+      85,
+      40,
+      30,
+      35,
+      20
+    ],
+    "advice": "痰湿凝聚体内，体态偏丰满、胸闷多痰、头身困重。调养宜健脾祛湿、化痰理气。",
+    "diet": "陈皮茯苓粥、山药薏米糊。穴位推荐按揉丰隆、脾俞穴。",
+    "inference_time_ms": 2.46
+  },
+  "message": "success",
+  "latencyMs": 7
+}
