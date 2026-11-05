@@ -4,6 +4,7 @@
 直接调用公网已部署服务或本地微服务，对 12 个核心临床用例进行逐一真实验证
 """
 
+import os
 import urllib.request
 import json
 import time
@@ -11,7 +12,8 @@ import time
 TARGET_URL = "https://tcm.084623224.xyz"
 AUDIT_ENDPOINT = f"{TARGET_URL}/api/audit/prescription-text"
 AI_ANALYSIS_ENDPOINT = f"{TARGET_URL}/api/audit/ai-formula-analysis"
-TEST_SUITE_PATH = r"d:\work\ai\qihuang-shield\test_cases\clinical_audit_test_suite.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+TEST_SUITE_PATH = os.path.join(BASE_DIR, "clinical_audit_test_suite.json")
 
 def post_json(url, data):
     req = urllib.request.Request(
